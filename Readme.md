@@ -1,7 +1,7 @@
 # Личный проект «Техномарт»
 
 * Студент: [Dmitriy Baskakov](https://up.htmlacademy.ru/htmlcss/26/user/976823).
-* Наставник: `Неизвестно`.
+* Наставник: <a href="https://htmlacademy.ru/profile/id116959">Вашкевич Дмитрий.</a>
 
 ---
 
