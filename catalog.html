@@ -69,51 +69,72 @@
       <h2>Перфораторы</h2>
 
       <section> <!--Блок фильтров товара-->
-        <h2>Фильтр</h2>
+        <h2>Фильтр</h2> 
         <form action="https://echo.htmlacademy.ru" method="POST">
-          <h3>Цена:</h3>
-          <input type="range" min="0" max="30000">
-            <fieldset>
-              <legend>Производители:</legend>
-              <ul>
-                <li>
-                  <input type="checkbox" name="BOSCH" id="BOSCH" checked>
-                  <label for="BOSCH">BOSCH</label>
-                </li>
-                <li>
-                  <input type="checkbox" id="Интерскол" name="Интерскол">
-                  <label for="Интерскол">Интерскол</label>
-                </li>
-                <li>
-                  <input type="checkbox" name="Makita" id="Makita" checked>
-                  <label for="Makita">Makita</label>
-                </li>
-                <li>
-                  <input type="checkbox" name="De-Walt" id="De-Walt">
-                  <label for="De-Walt">De-Walt</label>
-                </li>
-                <li>
-                  <input type="checkbox" name="Hitachi" id="Hitachi">
-                  <label for="Hitachi">Hitachi</label>
-                </li>
-              </ul>
-            </fieldset>
+          <fieldset>
+            <legend>Цена:</legend>
+            <div> <!--Контейнер фильтра товаров по цене-->
+              <div> <!--Ползунок-->
+                <div> <!--Ширина шкалы-->
+                  <div> <!--Выбраный диапозон-->
 
-            <fieldset>
-              <legend>Питание:</legend>
-              <ul>
-                <li>
-                  <input type="radio" name="power-type" id="Аккумуляторные" checked>
-                  <label for="Аккумуляторные">Аккумуляторные</label>
-                </li>
-                <li>
-                  <input type="radio" name="Сетевые" id="Сетевые">
-                  <label for="Сетевые">Сетевые</label>
-                </li>
-              </ul>
+                  </div>
+                </div>
+                <div> <!--Минимальное значение ползунка-->
+
+                </div>
+                <div> <!--Максимальное значение ползунка-->
+
+                </div>
+              </div>
+              <div> <!--Поля значения цены-->
+                <input type="text" name="min-price" value="0"></input>
+                <input type="text" name="max-price" value="30000"></input>
+              </div>
+            </div>
           </fieldset>
-          <button type="submit">Показать</button>
-        </form>
+
+          <fieldset>
+            <legend>Производители:</legend>
+            <ul>
+              <li>
+                <input type="checkbox" name="BOSCH" id="BOSCH" checked>
+                <label for="BOSCH">BOSCH</label>
+              </li>
+              <li>
+                <input type="checkbox" id="Интерскол" name="Интерскол">
+                <label for="Интерскол">Интерскол</label>
+              </li>
+              <li>
+                <input type="checkbox" name="Makita" id="Makita" checked>
+                <label for="Makita">Makita</label>
+              </li>
+              <li>
+                <input type="checkbox" name="De-Walt" id="De-Walt">
+                <label for="De-Walt">De-Walt</label>
+              </li>
+              <li>
+                <input type="checkbox" name="Hitachi" id="Hitachi">
+                <label for="Hitachi">Hitachi</label>
+              </li>
+            </ul>
+          </fieldset>
+
+          <fieldset>
+            <legend>Питание:</legend>
+            <ul>
+              <li>
+                <input type="radio" name="power-type" id="Аккумуляторные" checked>
+                <label for="Аккумуляторные">Аккумуляторные</label>
+              </li>
+              <li>
+                <input type="radio" name="Сетевые" id="Сетевые">
+                <label for="Сетевые">Сетевые</label>
+              </li>
+            </ul>
+          </fieldset>
+        <button type="submit">Показать</button>
+      </form>
       </section>
       <div> <!--Контейнер-->
         <section> <!--Блок сортировки-->
