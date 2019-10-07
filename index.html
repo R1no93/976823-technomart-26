@@ -14,7 +14,7 @@
           <a>
             <img src="img/logo.svg" alt="Логотип магазина" width="220" height="42">
           </a>
-          <span>Поиск</span>
+          <input type="search" name="search" placeholder="Поиск"></input>
           <a href="#">Закладки</a>
           <a href="#">Корзина</a>
           <a href="#">Оформить заказ</a>
@@ -30,8 +30,8 @@
               +7 (812) 555-05-55
               г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8
             </p>
-            <a>Войти</a>
-            <a>Регистрация</a>
+            <a href="login.html">Войти</a>
+            <a href="registration.html">Регистрация</a>
           </div>
           <nav>
             <ul>
@@ -247,7 +247,27 @@
           <a>
             <img src="img/found_us.png" alt="Расположение офиса компании" width="300" height="158">
           </a>
-          <a href="#">Заблудились? Напишите нам!</a>
+          <a href="whrite_us.html">Заблудились? Напишите нам!</a>
+        </div>
+        <div class="pop-up-whrite-us"> <!--Попап напишите нам-->
+          <p>
+            <img src="" alt="Наш офис находится по адресу г. Санкт-Петербург, ул. Б. Конюшенная, д.19/8">
+          </p>
+          <form action="" method="POST">
+            <p>
+              <label for="firs-last-name">Ваше имя:</label>
+              <input type="text" id="firs-last-name" name="firs-last-name" placeholder="Имя Фамилия">
+            </p>
+            <p>
+              <label for="your-email">Ваш e-mail:</label>
+              <input type="text" id="your-email" name="your-email" placeholder="email@example.com">
+            </p>
+            <p>
+              <label>Текст письма:</label>
+              <input type="text" id="letter" name="letter" placeholder="В свободной форме">
+            </p>
+          </form>
+          <button type="submit">Отправить</button>
         </div>
       </section>
 

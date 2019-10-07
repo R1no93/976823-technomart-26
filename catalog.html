@@ -12,7 +12,7 @@
           <a>
             <img src="img/logo.svg" alt="Логотип магазина" width="220" height="47">
           </a>
-          <span>Поиск</span>
+          <input type="search" name="search" placeholder="Поиск"></input>
           <a href="#">Закладки</a>
           <a href="#">Корзина: 10</a>
           <a href="#">Оформить заказ</a>
@@ -64,21 +64,47 @@
 
       <section> <!--Блок фильтров товара-->
         <h3>Фильтр</h3>
-        <ul>
-          <li>
-            <h3>Цена:</h3>
+        <h3>Цена:</h3>
             <!--Форма выбора диапазона цены товара-->
-          </li>
-          <li>
-            <h3>Производители:</h3>
-            <!--Форма выбора производителя-->
-          </li>
-          <li>
-            <h3>Питание</h3>
-            <!--Форма выбора типа питания-->
-          </li>
-        </ul>
-        <button>Показать</button>
+
+            <fieldset>
+              <legend>Производители:</legend>
+              <input type="checkbox" name="BOSCH" id="BOSCH" checked>
+              <label for="BOSCH">BOSCH</label>
+            </li>
+            <li>
+              <input type="checkbox" id="Интерскол" name="Интерскол">
+              <label for="Интерскол">Интерскол</label>
+            </li>
+            <li>
+              <input type="checkbox" name="Makita" id="Makita" checked>
+              <label for="Makita">Makita</label>
+            </li>
+            <li>
+              <input type="checkbox" name="De-Walt" id="De-Walt">
+              <label for="De-Walt">De-Walt</label>
+            </li>
+            <li>
+              <input type="checkbox" name="Hitachi" id="Hitachi">
+              <label for="Hitachi">Hitachi</label>
+            </li>
+          </ul>
+        </fieldset>
+
+        <fieldset>
+          <legend>Питание:</legend>
+          <ul>
+            <li>
+              <input type="radio" name="power-type" id="Аккумуляторные" checked>
+              <label for="Аккумуляторные">Аккумуляторные</label>
+            </li>
+            <li>
+              <input type="radio" name="Сетевые" id="Сетевые">
+              <label for="Сетевые">Сетевые</label>
+            </li>
+          </ul>
+        </fieldset>
+        <button type="submit">Показать</button>
       </section>
       <div> <!--Контейнер-->
         <section> <!--Блок сортировки-->
@@ -93,6 +119,12 @@
         </section>
 
         <section>
+          <div class="pop-up-add-to-cart"> <!--Попап товар добавлен в корзину-->
+            <img src="" alt="Логотип галочка">
+            <p>Товар добавлен в корзину!</p>
+            <button type="submit">Оформить заказ</button>
+            <button type="button">Продолжить покупки</button>
+          </div>
           <ul>
             <li>
               <h4>Перфоратор BOSCH BFG 3000</h4>
