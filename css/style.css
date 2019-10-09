@@ -1,0 +1,321 @@
+body {
+    margin: 0;
+    padding: 0;
+
+    font-family: "Cuprum", sans-serif;
+
+    background-color: white;
+    background-repeat: no-repeat;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+body h1 {
+    display: none;
+}
+
+/* Стилизация верхней части хедера */
+.header-top,
+.search {
+    background-color: #293449;
+    color: white;
+    font-size: 17px;
+    line-height: 18px;
+    text-align: left;
+}
+.header-logo {
+    width: 220px;
+    height: 47px;
+    background-color: #EE3643;
+    box-shadow: inset 0px -5px 0 0 rgba(0, 0, 0, 0.24);
+}
+.header-logo:hover {
+    background-color: #ca2c37;
+}
+.header-logo:focus {
+    background-color: #ba2732;
+}
+.header-order-button {
+    width: 150px;
+    height: 42ps;
+    background-color: #63a63e;
+}
+.header-order-button:hover {
+    background-color: #5fbb2d;
+}
+.header-order-button:focus {
+    background-color: #518534;
+    color: rgba(255, 255, 255, 0.5);
+}
+.search:focus {
+    background-color: white;
+    color: black;
+    font-size: 17px;
+    line-height: 18px;
+    text-align: left;
+}
+/* Стилизация средней части хедера*/
+.header-middle a{
+    color: black;
+    font-size: 21px;
+    line-height: 21px;
+}
+.header-middle a:hover {
+    color: #EE3643;
+}
+.header-middle a:focus {
+    color:rgba(0, 0, 0, 0.3);
+}
+.header-description {
+    color: #EE3643;
+    font-size: 16px;
+    line-height: 23px;
+    font-style: italic;
+    text-align: left;
+}
+.header-phone-number {
+    color: #EE3643;
+    font-size: 21px;
+    line-height: 21px;
+    text-align: left;
+}
+.header-adress {
+    color: #32425c;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+}
+
+/*Стилизация навигационного меню*/
+.header-nav {
+    list-style: none;
+    background-color: #32425c;
+    font-size: 17px;
+    line-height: 17px;
+    text-align: left;
+}
+.header-nav a:hover {
+    background-color: #293449;
+}
+.header-nav a:focus {
+    background-color: #1d2739;
+    color: rgba(255, 255, 255, 0.5);
+}
+/*Стилизация блока описания компании*/
+.main-description {
+    color: black;
+    text-align: left;
+}
+.main-description h2 {
+    font-size: 30px;
+    text-transform: uppercase;
+    line-height: 30px;
+}
+.main-description p {
+    font-family: "PT Sans" sans-serif;
+    font-size: 13px;
+    line-height: 24px;
+}
+.main-description li {
+    font-size: 18px;
+    line-height: 20px;
+}
+.main-button {
+    color: white;
+    background-color: #EE3643;
+    font-size: 14px;
+    text-align: center;
+    line-height: 18px;
+}
+
+/*Стилизация футера*/
+.footer-logo {
+    width: 220px;
+    height: 68px;
+    box-shadow: inset 0px -5px 0 0 rgba(0, 0, 0, 0.24);
+    background-color: #ee3643;
+}
+.footer-top,
+.footer-middle {
+    color: #f1f5f7;
+    background-color: #32425c;
+    font-size: 18px;
+    text-align: left;
+    line-height: 24px;
+}
+.footer-top a:hover,
+.footer-middle a:hover,
+.footer-bottom p a:hover {
+    text-decoration: underline;
+}
+.footer-top a:focus {
+    color: rgba(241, 245, 247, 0.5);
+}
+.footer-middle a:focus {
+    color:rgba(255, 209, 128, 0.5);
+}
+.footer-bottom p a:focus {
+    color: #ee3643;
+}
+.footer-top li,
+.footer-middle li {
+    list-style: none;
+}
+.footer-middle a {
+    color: #ffd180;
+}
+.footer-bottom {
+    color: white;
+    background-color: #293449;
+    font-size: 16px;
+    text-align: left;
+    line-height: 18px;
+}
+.footer-bottom li {
+    list-style: none;
+}
+.footer-bottom a {
+    color: #ffd180;
+}
+/*Стилизация каталога*/
+/*Стилизация верхней части хедера*/
+.header-cart-button {
+    background-color: #EE3643;
+}
+.login-order,
+.login-cabinet {
+    color: #32425c;
+    font-size: 16px;
+    line-height: 18px;
+    text-align: left;
+    text-decoration: underline;
+}
+
+/*Стилизация Breadcrumbs*/
+.breadcrumbs {
+    font-family: "PT Sans", sans-serif;
+    font-size: 13px;
+    line-height: 18px;
+    text-align: left;
+    color: black;
+}
+.breadcrumbs ul {
+    list-style: none;
+}
+
+/*Стилизация заголовка каталога*/
+.catalog-title {
+    color: #32425c;
+    font-size: 30px;
+    line-height: 30px;
+    background-color: #f2f6f8;
+    text-transform: uppercase;
+}
+
+/*Стилизация фильтра товаров*/
+.filter-developer {
+    font-family: "PT Sans", sans-serif;
+    text-transform: uppercase;
+    color: black;
+    font-size: 15px;
+    line-height: 20px;
+    text-align: left;
+}
+.filter-developer ul {
+    list-style: none;
+}
+.filter-developer legend {
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 30px;
+    text-align: left;
+}
+.filter-power {
+    font-family: "PT Sans", sans-serif;
+    text-transform: uppercase;
+    color: black;
+    font-size: 15px;
+    line-height: 20px;
+    text-align: left;
+}
+.filter-power ul {
+    list-style: none;
+}
+.filter-power legend {
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 30px;
+    text-align: left;
+}
+.filter button {
+    width: 140px;
+    height: 38px;
+    background-color: white;
+    border: 1px solid #e5e5e5;
+}
+
+/*Стилизация каталога товаров*/
+.catalog-items h4 {
+    font-family: "PT Sans", sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 20px;
+    color: black;
+    text-align: center;
+}
+.catalog-items p {
+    font-family: "PT Sans", sans-serif;
+    font-size: 17px;
+    font-weight: bold;
+    line-height: 18px;
+}
+.catalog-items p:first-of-type {
+    color: #999999;
+    text-decoration: line-through;
+}
+.catalog-items p:last-of-type {
+    color: white;
+    background-color: red;
+}
+.catalog-button {
+    display: none;
+}
+.buy-button {
+    width: 135px;
+    height: 38px;
+    box-shadow: inset 0px -3px 0 0 #367315;
+    background-color: #63a63e;
+    color: white;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.buy-button:hover {
+    background-color: #5fbb2d;
+}
+.buy-button:focus{
+    background-color: #518534;
+}
+.cart-button {
+    width: 135px;
+    height: 38px;
+    border: solid 3px #63a63e;
+    background-color: white;
+    color: #32425c;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.cart-button:hover {
+    border: solid 3px #32425c;
+}
+.cart-button:focus {
+    color: rgba(50, 66, 92, 0.3);
+    opacity: 0.3;
+    border: solid 3px #32425c;
+}
