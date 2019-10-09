@@ -129,6 +129,7 @@ body h1 {
     font-size: 14px;
     text-align: center;
     line-height: 18px;
+    text-transform: uppercase;
 }
 
 /*Стилизация футера*/
@@ -185,24 +186,41 @@ body h1 {
 .header-cart-button {
     background-color: #EE3643;
 }
+.login-user {
+    font-size: 21px;
+    line-height: 21px;
+    color: black;
+    text-align: left;
+}
 .login-order,
 .login-cabinet {
-    color: #32425c;
     font-size: 16px;
     line-height: 18px;
+    color: #32425c;
     text-align: left;
     text-decoration: underline;
 }
+.login-cabinet:hover,
+.login-order:hover {
+    color: #ee3643;
+}
+.login-user:focus {
+    color: rgba(0, 0, 0, 0.3);
+}
+.login-order:focus,
+.login-cabinet:focus {
+    color: rgba(50, 66, 92, 0.3);
+}
 
-/*Стилизация Breadcrumbs*/
-.breadcrumbs {
+/*Стилизация */
+.block1 a {
     font-family: "PT Sans", sans-serif;
     font-size: 13px;
     line-height: 18px;
     text-align: left;
     color: black;
 }
-.breadcrumbs ul {
+.block1 li {
     list-style: none;
 }
 
