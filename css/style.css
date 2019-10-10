@@ -3,7 +3,7 @@ body {
     padding: 0;
 
     font-family: "Cuprum", sans-serif;
-
+    font-weight: normal;
     background-color: white;
     background-repeat: no-repeat;
 }
@@ -42,6 +42,7 @@ body h1 {
     width: 150px;
     height: 42ps;
     background-color: #63a63e;
+    color: white;
 }
 .header-order-button:hover {
     background-color: #5fbb2d;
@@ -104,6 +105,92 @@ body h1 {
     background-color: #1d2739;
     color: rgba(255, 255, 255, 0.5);
 }
+/*Стилизация блоков и слайдера*/
+.main-blocks {
+    list-style: none;
+}
+.material {
+    background-color: #ffbf47;
+    color: white;
+}
+.material h3 {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+}
+.material a {
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: normal;
+    text-transform: uppercase;
+    background-color: rgba(0, 0, 0, 0.1)
+}
+.instrument {
+    background-color: #3bbce3;
+    color: white;
+}
+.instrument h3 {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+}
+.instrument a {
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: normal;
+    text-transform: uppercase;
+    background-color: rgba(0, 0, 0, 0.1)
+}
+.technic {
+    background-color: #dc91d8;
+    color: white;
+}
+.technic h3 {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+}
+.technic a {
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: normal;
+    text-transform: uppercase;
+    background-color: rgba(0, 0, 0, 0.1)
+}
+.sale {
+    background-color: #8ed78f;
+    color: white;
+}
+.sale h3 {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+}
+.sale a {
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: normal;
+    text-transform: uppercase;
+    background-color: rgba(0, 0, 0, 0.1)
+}
+.delivery{
+    background-color: #ffc047;
+    color: white;
+}
+.delivery h3 {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+}
+.delivery a {
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: normal;
+    text-transform: uppercase;
+    background-color: rgba(0, 0, 0, 0.1)
+}
+
+
 /*Стилизация блока описания компании*/
 .main-description {
     color: black;
@@ -231,9 +318,26 @@ body h1 {
     line-height: 30px;
     background-color: #f2f6f8;
     text-transform: uppercase;
+    font-weight: normal;
 }
 
 /*Стилизация фильтра товаров*/
+.price {
+    font-family: "PT Sans", sans-serif;
+    font-size: 17px;
+    line-height: 18px;
+    color: black;
+    background-color: #f7f3ec;
+
+}
+.filter-title {
+    font-family: "PT Sans", sans-serif;
+    font-size: 13px;
+    line-height: 18px;
+    color: black;
+    font-weight: normal;
+    background-color: #f7f3ec;
+}
 .filter-developer {
     font-family: "PT Sans", sans-serif;
     text-transform: uppercase;
@@ -275,6 +379,37 @@ body h1 {
     border: 1px solid #e5e5e5;
 }
 
+/*Стилизация сортировки товара*/
+.catalog-sort {
+    background-color: #f7f3ec;
+}
+.catalog-sort h3 {
+    font-family: "PT Sans", sans-serif;
+    font-size: 13px;
+    line-height: 18px;
+    color: black;
+    font-weight: normal;
+}
+.catalog-sort ul {
+    list-style: none;
+}
+.catalog-sort a {
+    font-family: "PT Sans", sans-serif;
+    font-size: 13px;
+    line-height: 18px;
+    font-weight: normal;
+}
+.sort-on-price {
+    color: red;
+}
+.sort-on-type,
+.sort-on-func,
+.sort-down {
+    color:rgba(0, 0, 0, 0.3);
+}
+.pop-up {
+    display: none;
+}
 /*Стилизация каталога товаров*/
 .catalog-items h4 {
     font-family: "PT Sans", sans-serif;
@@ -283,6 +418,9 @@ body h1 {
     line-height: 20px;
     color: black;
     text-align: center;
+}
+.catalog-items ul {
+    list-style: none;
 }
 .catalog-items p {
     font-family: "PT Sans", sans-serif;
@@ -336,4 +474,109 @@ body h1 {
     color: rgba(50, 66, 92, 0.3);
     opacity: 0.3;
     border: solid 3px #32425c;
+}
+.popular-product {
+    background-color: #f9f5f0;
+}
+.popular-product h2 {
+    font-size: 30px;
+    line-height: 30px;
+    color: #32425c;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+.popular-product a {
+    font-size: 14px;
+    line-height: 18px;
+    color: white;
+    font-weight: normal;
+    background-color: #ee3643;
+    text-transform: uppercase;
+}
+.developers ul {
+    list-style: none;
+}
+.slider-bot {
+    background-color: #f4f7f9;
+}
+.slider-bot h2 {
+    font-size: 30px;
+    line-height: 30px;
+    color: black;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+.slider-bot p {
+    font-family: "PT Sans", sans-serif;
+    font-size: 13px;
+    line-height: 24px;
+    color: black;
+    font-weight: normal;
+}
+.slider-bot-button ul {
+    list-style: none;
+}
+.slider-bot-button button {
+    font-size: 21px;
+    line-height: 30px;
+    font-weight: bold;
+    background-color: #32425c;
+    color: white;
+}
+.slider-bot-button button:hover {
+    background-color: white;
+    color: #32425c;
+}
+.slider-bot-slides h3 {
+    font-size: 36px;
+    line-height: 36px;
+    color:#32425c;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+.slider-bot-slides p {
+    font-family: "PT Sans", sans-serif;
+    font-size: 13px;
+    line-height: 24px;
+    color: black;
+    font-weight: normal;
+}
+.pages {
+    font-family: "PT Sans", sans-serif;
+    font-size: 13px;
+    line-height: 18px;
+    text-align: left;
+    font-weight: normal;
+}
+.pages ul{
+    list-style: none;
+}
+.page-1 {
+    background-color: #ee3643;
+    color: white;
+}
+.page-2,
+.page-3,
+.next {
+    background-color: white;
+    color: black;
+}
+
+/*Стилизация информационного блока*/
+.about-product {
+    background-color: #f4f7f9;
+}
+.about-product h2 {
+    font-size: 30px;
+    font-weight:normal;
+    line-height: 30px;
+    color: black;
+    text-transform: uppercase;
+}
+.about-product p {
+    font-family: "PT Sans", sans-serif;
+    font-size: 13px;
+    line-height: 24px;
+    color: black;
+    font-weight: normal;
 }

@@ -68,18 +68,18 @@
         <div> <!--Центровщик-->
           <div> <!--Контейнер общий-->
             <div> <!--Контейнер для удобства расположения флексбоксов-->
-              <ul>
-                <li>
+              <ul class="main-blocks">
+                <li class="material">
                   <h3>Материалы</h3>
                   <img src="img/materials.jpg" alt="Материалы">
                   <a href="#">На любой вкус</a>
                 </li>
-                <li>
+                <li class="instrument">
                   <h3>Инструменты</h3>
                   <img src="img/tools.jpg" alt="Инструменты">
                   <a href="#">На все случаи</a>
                 </li>
-                <li>
+                <li class="technic">
                   <h3>Техника</h3>
                   <img src="img/techniks.jpg" alt="Техника">
                   <a href="#">Для стройки</a>
@@ -90,30 +90,30 @@
               <div> <!--Сайлдер контроль-->
               </div>
               <ul> <!--Список слайдов-->
-                <li>  <!--Первый слайд, который на макете-->
+                <li class="slider-top-1">  <!--Первый слайд, который на макете-->
                   <h3>Дрели</h3>
                   <p>Соседям на радость</p>
-                  <img src="img/slaider_back1.jpg">
+                  <img src="img/slaider_back1.jpg" alt=" Первая картинка слайдера" width="620" height="266">
                   <button type="button">Следующий слайд</button>
                   <button type="button">Предыдущий слайд</button>
                 </li> 
-                <li>
+                <li class="pop-up"> <!--Второй слайд-->
                   <h3>Перфораторы</h3>
                   <p>Настоящие мужские игрушки</p>
                   <img src="img/slider_back2.jpg">
                   <button type="button">Следующий слайд</button>
                   <button type="button">Предыдущий слайд</button>
-                </li> <!--Второй слайд-->
+                </li> 
               </ul>
               <a href="#">Открыть каталог</a>
             </div>
             <div> <!--Контейнер для удобства расположения флексбоксов-->
-              <div>
+              <div class="sale">
                 <h3>Скидка 50%</h3>
                 <img src="img/sale.jpg">
                 <a href="#">На 350 товаров</a>
               </div>
-              <div>
+              <div class="delivery">
                 <h3>Доставка</h3>
                 <img src="img/delivery.jpg">
                 <a href="#">Бесплатно</a>
@@ -124,16 +124,17 @@
       </section>
 
       <section>
-        <div> <!--Центровщик-->
-          <header>
+        <div class="catalog-items"> <!--Центровщик-->
+          <header class="popular-product">
             <h2>Популярные товары:</h2>
             <a href="">Все Популярные товары</a>
           </header>
-          <ul>
-            <li>
+          <div>
+            <ul>
+             <li>
               <div>
                 <img src="img/bosch_bfg_9000.jpg" alt="Перфоратор BOSCH BFG 9000" width="184" height="164">
-                <div>
+                <div class="catalog-button">
                   <button type="button">Купить</button>
                   <button type="button">В закладки</button>
                 </div>
@@ -145,7 +146,7 @@
             <li>
               <div>
                 <img src="img/bosch_bfg_3000.jpg" alt="Перфоратор BOSCH BFG 3000" width="127" height="112">
-                <div>
+                <div class="catalog-button">
                   <button type="button">Купить</button>
                   <button type="button">В закладки</button>
                 </div>
@@ -157,7 +158,7 @@
             <li>
               <div>
                 <img src="img/bosch_bfg_6000.jpg" alt="Перфоратор BOSCH BFG 6000" width="144" height="128">
-                <div>
+                <div class="catalog-button">
                   <button type="button">Купить</button>
                   <button type="button">В закладки</button>
                 </div>
@@ -169,7 +170,7 @@
             <li>
               <div>
                 <img src="img/bosch_bfg_2000.png" alt="Перфоратор BOSCH BFG 2000" width="127" height="112">
-                <div>
+                <div class="catalog-button">
                   <button type="button">Купить</button>
                   <button type="button">В закладки</button>
                 </div>
@@ -179,11 +180,12 @@
             </li>
           </ul>
           </div>
+          </div>
         </section>
 
       <section>
-        <div> <!--Центровщик-->
-          <header>
+        <div class="developers"> <!--Центровщик-->
+          <header class="popular-product">
             <h2>Популярные производители</h2>
             <a href="#">Все производители</a>
           </header>
@@ -232,21 +234,21 @@
         </div>
       </section>
 
-      <section>
+      <section class="slider-bot">
         <h2>Сервисы</h2>
         <p>
           Хороший интернет магазин отличается от плохого не только ценами!
           Мы стараемся изо всех сил, чтобы сделать ваши покупки приятными.
         </p>
         <div> <!--Центровщик-->
-          <div> <!--Слайдер-->
+          <div class="slider-bot-button"> <!--Слайдер-->
             <ul> <!--Список слайдов-->
-              <li><button type="button">Доставка</button></li>
+              <li><button class="active-button" type="button">Доставка</button></li>
               <li><button type="button">Гарантия</button></li>
               <li><button type="button">Кредит</button></li>
             </ul>
           </div>
-          <div>
+          <div class="slider-bot-slides">
             <h3>Доставка</h3>
             <p> 
               Мы с удовольствием доставим ваш товар прямо
@@ -256,7 +258,7 @@
             </p>
             <img src="img/srv_slider_delivery.png" width="468" height="261">
           </div>
-          <div>
+          <div class="pop-up">
             <h3>Гарантия</h3>
             <p>
               Если купленный у нас товар сломается или заискрит,
@@ -268,7 +270,7 @@
             </p>
             <img src="img/srv_slider_guarantee.png" width="389" height="283">
           </div> 
-          <div>
+          <div class="pop-up">
             <h3>Кредит</h3>
             <p>
               Залезть в долговую яму стало проще!
@@ -314,7 +316,7 @@
           </a>
           <a class="main-button" href="whrite_us.html">Заблудились? Напишите нам!</a>
         </div>
-        <div class="popup-whrite-us"> <!--Попап напишите нам-->
+        <div class="pop-up"> <!--Попап напишите нам-->
           <p>
             <img src="img/map_popup.jpg" alt="Наш офис находится по адресу г. Санкт-Петербург, ул. Б. Конюшенная, д.19/8">
           </p>

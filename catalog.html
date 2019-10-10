@@ -72,12 +72,12 @@
 
       <h2 class="catalog-title">Перфораторы</h2>
 
-      <section> <!--Блок фильтров товара-->
-        <h2>Фильтр</h2> 
+      <section class="filter"> <!--Блок фильтров товара-->
+        <h2 class="filter-title">Фильтр</h2> 
         <form class="filter" action="https://echo.htmlacademy.ru" method="POST">
           <fieldset>
             <legend>Цена:</legend>
-            <div> <!--Контейнер фильтра товаров по цене-->
+            <div class="price"> <!--Контейнер фильтра товаров по цене-->
               <div> <!--Ползунок-->
                 <div> <!--Ширина шкалы-->
                   <div> <!--Выбраный диапозон-->
@@ -141,19 +141,19 @@
       </form>
       </section>
       <div> <!--Контейнер-->
-        <section> <!--Блок сортировки-->
+        <section class="catalog-sort"> <!--Блок сортировки-->
           <h3>Сортировка:</h3>
           <ul>
-            <li><a href="#">По цене</a></li>
-            <li><a href="#">По типу</a></li>
-            <li><a href="#">По функционалу</a></li>
-            <li><a href="#">Сортировка по возрастанию</a></li>
-            <li><a href="#">Сортировка по убываню</a</li>
+            <li><a class="sort-on-price" href="#">По цене</a></li>
+            <li><a class="sort-on-type" href="#">По типу</a></li>
+            <li><a class="sort-on-func" href="#">По функционалу</a></li>
+            <li><a class="sort-on-price" href="#">Сортировка по возрастанию</a></li>
+            <li><a class="sort-down" href="#">Сортировка по убываню</a</li>
           </ul>
         </section>
 
         <section>
-          <div class="pop-up-add-to-cart"> <!--Попап товар добавлен в корзину-->
+          <div class="pop-up"> <!--Попап товар добавлен в корзину-->
             <img src="" alt="Логотип галочка">
             <p>Товар добавлен в корзину!</p>
             <a href="#">Оформить заказ</a>
@@ -164,7 +164,7 @@
             <li>
               <div>
                 <img src="img/bosch_bfg_3000.jpg" alt="Перфоратор BOSCH BFG 3000" width="127" height="112">
-                <div>
+                <div class="catalog-button">
                   <button class="buy-button" type="button">Купить</button>
                   <button class="cart-button" type="button">В закладки</button>
                 </div>
@@ -262,15 +262,19 @@
             </li>
           </ul>
           </div>
-          <ul>
-            <li><a href="#">1</a></li>
-            <li><a href="#">2</a></li>
-            <li><a href="#">3</a></li>
-            <li><a href="#">Следующая</a></li>
+        </section>
+        <section>
+          <div class="pages">
+            <ul>
+              <li class="page-1"><a href="#">1</a></li>
+              <li><a class="page-2" href="#">2</a></li>
+              <li><a class="page-3" href="#">3</a></li>
+              <li><a class="next" href="#">Следующая</a></li>
           </ul>
+          </div>
         </section>
       </div>
-      <section>
+      <section class="about-product">
         <div> <!--Центровщик-->
           <h2>Пара слов о перфораторах</h2>
           <p>
