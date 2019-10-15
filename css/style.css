@@ -18,6 +18,9 @@ body h1 {
 }
 
 /* Стилизация верхней части хедера */
+.header-top {
+    background-color: #f4f7f9;
+}
 .header-top,
 .search {
     background-color: #293449;
@@ -26,11 +29,21 @@ body h1 {
     line-height: 18px;
     text-align: left;
 }
+.header-top-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 80%;
+}
 .header-logo {
     width: 220px;
     height: 47px;
     background-color: #EE3643;
-    box-shadow: inset 0px -5px 0 0 rgba(0, 0, 0, 0.24);
+    box-shadow:  0px 5px 0 0 rgba(170, 50, 46, 1);
+}
+.logo-header {
+    padding-top: 12px;
+    margin-left: 55px;
 }
 .header-logo:hover {
     background-color: #ca2c37;
@@ -43,6 +56,9 @@ body h1 {
     height: 42ps;
     background-color: #63a63e;
     color: white;
+}
+.header-order-button p {
+    margin-left: 22px;
 }
 .header-order-button:hover {
     background-color: #5fbb2d;
@@ -59,6 +75,16 @@ body h1 {
     text-align: left;
 }
 /* Стилизация средней части хедера*/
+
+.header-middle {
+    background-color: #f4f7f9;
+}
+.middle-container {
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    width: 80%;
+}
 .header-middle a{
     color: black;
     font-size: 21px;
@@ -97,6 +123,13 @@ body h1 {
     font-size: 17px;
     line-height: 17px;
     text-align: left;
+    display: flex;
+    margin: 0 auto;
+    width: 80%;
+    justify-content: space-between;
+}
+.header-nav a {
+    color: white;
 }
 .header-nav a:hover {
     background-color: #293449;
@@ -108,6 +141,16 @@ body h1 {
 /*Стилизация блоков и слайдера*/
 .main-blocks {
     list-style: none;
+    display: flex;
+    margin: 0 auto;
+    width: 80%;
+    justify-content: space-between;
+}
+.main-blocks-container {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    justify-content: space-between;
 }
 .material {
     background-color: #ffbf47;
@@ -193,6 +236,10 @@ body h1 {
 
 /*Стилизация блока описания компании*/
 .main-description {
+    display: flex;
+    margin: 0 auto;
+    width: 80%;
+    justify-content: space-between;
     color: black;
     text-align: left;
 }
@@ -226,7 +273,29 @@ body h1 {
     box-shadow: inset 0px -5px 0 0 rgba(0, 0, 0, 0.24);
     background-color: #ee3643;
 }
-.footer-top,
+.footer-logo img {
+    padding-top: 20px;
+    margin-left: 44px;
+}
+.footer-bot-container {
+    display: flex;
+    margin: 0 auto;
+    width: 80%;
+    justify-content: space-between;
+}
+.footer-bot-navigation {
+    display: flex;
+    padding: 0;
+    width: 80%;
+    justify-content: space-around;
+}
+.footer-middle-container {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+}
+.footer-bot,
 .footer-middle {
     color: #f1f5f7;
     background-color: #32425c;
@@ -234,12 +303,12 @@ body h1 {
     text-align: left;
     line-height: 24px;
 }
-.footer-top a:hover,
+.footer-bot a:hover,
 .footer-middle a:hover,
 .footer-bottom p a:hover {
     text-decoration: underline;
 }
-.footer-top a:focus {
+.footer-bot a:focus {
     color: rgba(241, 245, 247, 0.5);
 }
 .footer-middle a:focus {
@@ -248,12 +317,22 @@ body h1 {
 .footer-bottom p a:focus {
     color: #ee3643;
 }
-.footer-top li,
+.footer-bot li,
 .footer-middle li {
     list-style: none;
 }
 .footer-middle a {
     color: #ffd180;
+}
+.footer-bottom-container {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+.footer-bottom-container p {
+    padding-top: 37px;
+    margin: 0;
 }
 .footer-bottom {
     color: white;
@@ -267,6 +346,13 @@ body h1 {
 }
 .footer-bottom a {
     color: #ffd180;
+}
+.social-container {
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    width: 30%;
+    padding-top: 34px;
 }
 /*Стилизация каталога*/
 /*Стилизация верхней части хедера*/
@@ -300,6 +386,12 @@ body h1 {
 }
 
 /*Стилизация */
+.block1 {
+    width: 80%;
+    display: flex;
+    justify-content: flex-start;
+    margin: auto;
+}
 .block1 a {
     font-family: "PT Sans", sans-serif;
     font-size: 13px;
@@ -319,6 +411,9 @@ body h1 {
     background-color: #f2f6f8;
     text-transform: uppercase;
     font-weight: normal;
+    display: flex;
+    margin: 0 auto;
+    width: 80%;
 }
 
 /*Стилизация фильтра товаров*/
@@ -477,6 +572,10 @@ body h1 {
 }
 .popular-product {
     background-color: #f9f5f0;
+    display: flex;
+    margin: 0 auto;
+    width: 80%;
+    justify-content: space-between;
 }
 .popular-product h2 {
     font-size: 30px;
@@ -493,8 +592,26 @@ body h1 {
     background-color: #ee3643;
     text-transform: uppercase;
 }
+.popular-product-container {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
 .developers ul {
     list-style: none;
+}
+.slider-bot-container1 {
+    width: 80%;
+    margin: 0 auto;
+}
+.slider-container {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    justify-content: space-between;
 }
 .slider-bot {
     background-color: #f4f7f9;
@@ -512,6 +629,12 @@ body h1 {
     line-height: 24px;
     color: black;
     font-weight: normal;
+}
+.slider-bot-slides {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    justify-content: space-between;
 }
 .slider-bot-button ul {
     list-style: none;
@@ -566,6 +689,10 @@ body h1 {
 .about-product {
     background-color: #f4f7f9;
 }
+.about-product-container {
+    width: 80%;
+    margin: 0 auto;
+}
 .about-product h2 {
     font-size: 30px;
     font-weight:normal;
@@ -580,3 +707,5 @@ body h1 {
     color: black;
     font-weight: normal;
 }
+
+

@@ -12,23 +12,30 @@
     <h1>Каталог товаров</h1>
     <header>
       <div class="header-top">
-        <div class="header-logo">
-          <a href="">
-            <img src="img/logo.svg" alt="Логотип компании «Техномарт»" width="109" height="19">
+        <div class="header-top-container">
+          <a class="header-logo">
+            <img class="logo-header" src="img/logo.svg" alt="Логотип компании «Техномарт»" width="109" height="19">
+          </a>
+          <form action="https://echo.htmlacademy.ru" method="POST">
+            <label for="search">Поиск:</label>
+            <input class="search" type="search" name="search" id="search"></input>
+          </form>
+          <a href="#">
+            Закладки
+          </a>
+          <a href="#">
+            Корзина: 10
+          </a>
+          <a class="header-order-button" href="#">
+            Оформить заказ
           </a>
         </div>
-        <form action="https://echo.htmlacademy.ru" method="POST">
-          <label for="search">Поиск:</label>
-          <input class="search" type="search" name="search" id="search"></input>
-        </form>
-        <a href="#">Закладки</a>
-        <a class="header-cart-button" href="#">Корзина: 10</a>
-        <a class="header-order-button" href="#">Оформить заказ</a>
-        </div>
-          <div class="header-middle">
-            <p class="header-description">
-              Интернет магазин 
-              строительных материалов
+      </div>
+      <div class="header-middle">
+        <div class="middle-container">
+        <p class="header-description">
+              Интернет магазин <br>
+              строительных материалов <br>
               и инструментов для ремонта
             </p>
             <div class="header-phone-number">
@@ -39,12 +46,12 @@
                 г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8
               </p>
             </div>
-          </div>
             <div class="login-menu">
               <a class="login-user" href="#">Равшан Джамшутович</a>
               <a class="login-order" href="#">Мои заказы</a>
               <a class="login-cabinet" href="#">Личный кабинет</a>
             </div>
+          </div>
           <nav>
             <ul class="header-nav">
               <li><a href="index.html">Главная</a></li>
@@ -61,7 +68,7 @@
     </header>
 
     <main>
-      <div> <!--Блок "Хлебные крошки"-->
+      <div class="block1-container"> <!--Блок "Хлебные крошки"-->
         <ul class="block1">
           <li><a href="index.html">Главная</a></li>
           <li><a href="catalog">Каталог</a></li>
@@ -275,7 +282,7 @@
         </section>
       </div>
       <section class="about-product">
-        <div> <!--Центровщик-->
+        <div class="about-product-container"> <!--Центровщик-->
           <h2>Пара слов о перфораторах</h2>
           <p>
             Перфоратор — универсальный строительный инструмент. Предназначен для сверления и долбления отверстий в кирпиче, бетоне и камне.
@@ -286,27 +293,26 @@
       </section>
     </main>
     <footer>
-        <div class="footer-top"> <!--Блок footer-top-->
-          <div>  <!--1 линия флексбоксов-->
-            <div class="footer-logo"> 
-              <a>
-                <img src="img/logo.svg" alt="Логотип магазина" width="138" height="23">
-              </a>
-            </div>
-            <ul>
-              <li><a href="#">Компания</a></li>
-              <li><a href="#">Новости</a></li>
-              <li><a href="catalog.html">Каталог</a></li>
-              <li><a href="#">Доставка</a></li>
-              <li><a href="#">Контакты</a></li>
-            </ul>
+        <div class="footer-bot"> <!--Блок footer-top-->
+          <div class="footer-bot-container">
+          <a class="footer-logo">
+            <img src="img/logo.svg" alt="Логотип магазина" width="138" height="23">
+          </a>
+          <ul class="footer-bot-navigation">
+            <li><a href="#">Компания</a></li>
+            <li><a href="#">Новости</a></li>
+            <li><a href="catalog.html">Каталог</a></li>
+            <li><a href="#">Доставка</a></li>
+            <li><a href="#">Контакты</a></li>
+          </ul>
           </div>
           <div class="footer-middle"> <!--Вторая линия флексбоксов-->
+            <div class="footer-middle-container">
             <p>
-              г. Санкт-Петербург, ул. Б. Конюшенная, д.19/8
+              г. Санкт-Петербург, ул. Б. Конюшенная, д.19/8<br>
               +7 (812) 555-05-55
             </p>
-            <ul>
+            <ul class="footer-bot-navigation">
               <li><a href="#">Материалы</a></li>
               <li><a href="#">Техника</a></li>
               <li><a href="#">Инструменты</a></li>
@@ -315,23 +321,26 @@
           </div>
         </div>
         <div class="footer-bottom"> <!--Блок footer-bot-->
+          <div class="footer-bottom-container">
           <p>
-            © 2010–2019 Компания «Техномарт»
+            © 2010–2019 Компания<br>
+             «Техномарт»<br>
             Все права защищены
           </p>
-          <ul>
+          <ul class="social-container">
             <li><a href="#">Вконтакте</a></li>
             <li><a href="#">Фэйсбук</a></li>
             <li><a href="#">Инстаграм</a></li>
           </ul>
           <p>
-            Обратная связь:
+            Обратная связь:<br>
             <a href="#">mail@htmlacademy.ru</a>
           </p>
           <p>
-            Разработано - 
+            Разработано - <br>
             <a href="http://htmlacademy.ru">htmlacademy.ru</a>
           </p>
+          </div>
         </div>
       </footer>
   </body>

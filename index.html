@@ -14,26 +14,30 @@
 
     <header>
         <div class="header-top">
-          <div class="header-logo">
-            <a href="">
-              <img src="img/logo.svg" alt="Логотип компании «Техномарт»" width="109" height="19">
+          <div class="header-top-container">
+            <a class="header-logo">
+              <img class="logo-header" src="img/logo.svg" alt="Логотип компании «Техномарт»" width="109" height="19">
+            </a>
+            <form action="https://echo.htmlacademy.ru" method="POST">
+              <label for="search">Поиск:</label>
+              <input class="search" type="search" name="search" id="search"></input>
+            </form>
+            <a href="#">
+              Закладки
+            </a>
+            <a href="#">
+              Корзина
+            </a>
+            <a class="header-order-button" href="#">
+              Оформить заказ
             </a>
           </div>
-          <form action="https://echo.htmlacademy.ru" method="POST">
-            <label for="search">Поиск:</label>
-            <input class="search" type="search" name="search" id="search"></input>
-          </form>
-          <a href="#">Закладки</a>
-          <a href="#">Корзина</a>
-          <div class="header-order-button">
-            <a href="#">Оформить заказ</a>
-          </div>
         </div>
-        <div>
-          <div class="header-middle">
+        <div class="header-middle">
+          <div class="middle-container">
             <p class="header-description">
-              Интернет магазин 
-              строительных материалов
+              Интернет магазин<br> 
+              строительных материалов<br>
               и инструментов для ремонта
             </p>
             <div>
@@ -86,6 +90,7 @@
                 </li>
               </ul>
             </div>
+            <div class="main-blocks-container">
             <div> <!--Слайдер-->
               <div> <!--Сайлдер контроль-->
               </div>
@@ -130,7 +135,7 @@
             <a href="">Все Популярные товары</a>
           </header>
           <div>
-            <ul>
+            <ul class="popular-product-container">
              <li>
               <div>
                 <img src="img/bosch_bfg_9000.jpg" alt="Перфоратор BOSCH BFG 9000" width="184" height="164">
@@ -189,7 +194,7 @@
             <h2>Популярные производители</h2>
             <a href="#">Все производители</a>
           </header>
-          <ul>
+          <ul class="popular-product-container">
             <li>
               <a href="#"> 
                 <img src="img/bosch.jpg" alt="Логотип компании Bosch" width="126" height="37">
@@ -235,20 +240,22 @@
       </section>
 
       <section class="slider-bot">
-        <h2>Сервисы</h2>
-        <p>
+        <div class="slider-bot-container1">
+          <h2>Сервисы</h2>
+          <p>
           Хороший интернет магазин отличается от плохого не только ценами!
           Мы стараемся изо всех сил, чтобы сделать ваши покупки приятными.
-        </p>
-        <div> <!--Центровщик-->
-          <div class="slider-bot-button"> <!--Слайдер-->
-            <ul> <!--Список слайдов-->
-              <li><button class="active-button" type="button">Доставка</button></li>
-              <li><button type="button">Гарантия</button></li>
-              <li><button type="button">Кредит</button></li>
-            </ul>
-          </div>
-          <div class="slider-bot-slides">
+          </p>
+        </div class="slider-container">
+          <div class="slider-container"> <!--Центровщик-->
+            <div class="slider-bot-button"> <!--Слайдер-->
+              <ul> <!--Список слайдов-->
+                <li><button class="active-button" type="button">Доставка</button></li>
+                <li><button type="button">Гарантия</button></li>
+                <li><button type="button">Кредит</button></li>
+              </ul>
+            </div>
+            <div class="slider-bot-slides">
             <h3>Доставка</h3>
             <p> 
               Мы с удовольствием доставим ваш товар прямо
@@ -257,6 +264,7 @@
               Поднимая его на ваш этаж!
             </p>
             <img src="img/srv_slider_delivery.png" width="468" height="261">
+          </div>
           </div>
           <div class="pop-up">
             <h3>Гарантия</h3>
@@ -281,7 +289,7 @@
               Отправить заявку
             </a>
           </div>
-        </div>
+          </div>
       </section>
 
       <section class="main-description">
@@ -342,26 +350,26 @@
 
     </main>
     <footer>
-      <div class="footer-top"> <!--Блок footer-top-->
-        <div class="footer-logo">  <!--1 линия флексбоксов-->
-          <a>
-            <img src="img/logo.svg" alt="Логотип магазина" width="138" height="23">
-          </a>
-        </div>
-          <ul>
-            <li><a href="#">Компания</a></li>
-            <li><a href="#">Новости</a></li>
-            <li><a href="catalog.html">Каталог</a></li>
-            <li><a href="#">Доставка</a></li>
-            <li><a href="#">Контакты</a></li>
-          </ul>
+      <div class="footer-bot"> <!--Блок footer-top-->
+        <div class="footer-bot-container">
+        <a class="footer-logo">
+          <img src="img/logo.svg" alt="Логотип магазина" width="138" height="23">
+        </a>
+        <ul class="footer-bot-navigation">
+          <li><a href="#">Компания</a></li>
+          <li><a href="#">Новости</a></li>
+          <li><a href="catalog.html">Каталог</a></li>
+          <li><a href="#">Доставка</a></li>
+          <li><a href="#">Контакты</a></li>
+        </ul>
         </div>
         <div class="footer-middle"> <!--Вторая линия флексбоксов-->
+          <div class="footer-middle-container">
           <p>
-            г. Санкт-Петербург, ул. Б. Конюшенная, д.19/8
+            г. Санкт-Петербург, ул. Б. Конюшенная, д.19/8<br>
             +7 (812) 555-05-55
           </p>
-          <ul>
+          <ul class="footer-bot-navigation">
             <li><a href="#">Материалы</a></li>
             <li><a href="#">Техника</a></li>
             <li><a href="#">Инструменты</a></li>
@@ -370,23 +378,26 @@
         </div>
       </div>
       <div class="footer-bottom"> <!--Блок footer-bot-->
+        <div class="footer-bottom-container">
         <p>
-          © 2010–2019 Компания «Техномарт»
+          © 2010–2019 Компания<br>
+           «Техномарт»<br>
           Все права защищены
         </p>
-        <ul>
+        <ul class="social-container">
           <li><a href="#">Вконтакте</a></li>
           <li><a href="#">Фэйсбук</a></li>
           <li><a href="#">Инстаграм</a></li>
         </ul>
         <p>
-          Обратная связь:
+          Обратная связь:<br>
           <a href="#">mail@htmlacademy.ru</a>
         </p>
         <p>
-          Разработано - 
+          Разработано - <br>
           <a href="http://htmlacademy.ru">htmlacademy.ru</a>
         </p>
+        </div>
       </div>
     </footer>
   </body>
