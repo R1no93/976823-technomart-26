@@ -29,11 +29,20 @@ body h1 {
     line-height: 18px;
     text-align: left;
 }
-.header-top-container {
+.container {
     display: flex;
     justify-content: space-between;
     margin: 0 auto;
-    width: 80%;
+    width: 940px;
+    padding: 0;
+}
+.container1 {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 940px;
+    padding: 0;
+    flex-wrap: wrap;
 }
 .header-logo {
     width: 220px;
@@ -79,12 +88,6 @@ body h1 {
 .header-middle {
     background-color: #f4f7f9;
 }
-.middle-container {
-    display: flex;
-    margin: 0 auto;
-    justify-content: space-between;
-    width: 80%;
-}
 .header-middle a{
     color: black;
     font-size: 21px;
@@ -125,8 +128,9 @@ body h1 {
     text-align: left;
     display: flex;
     margin: 0 auto;
-    width: 80%;
+    width: 940px;
     justify-content: space-between;
+    padding: 0;
 }
 .header-nav a {
     color: white;
@@ -142,9 +146,10 @@ body h1 {
 .main-blocks {
     list-style: none;
     display: flex;
+    padding: 0;
     margin: 0 auto;
-    width: 80%;
     justify-content: space-between;
+    width: 940px;
 }
 .main-blocks-container {
     display: flex;
@@ -236,10 +241,6 @@ body h1 {
 
 /*Стилизация блока описания компании*/
 .main-description {
-    display: flex;
-    margin: 0 auto;
-    width: 80%;
-    justify-content: space-between;
     color: black;
     text-align: left;
 }
@@ -347,13 +348,6 @@ body h1 {
 .footer-bottom a {
     color: #ffd180;
 }
-.social-container {
-    display: flex;
-    margin: 0 auto;
-    justify-content: space-between;
-    width: 30%;
-    padding-top: 34px;
-}
 /*Стилизация каталога*/
 /*Стилизация верхней части хедера*/
 .header-cart-button {
@@ -386,12 +380,6 @@ body h1 {
 }
 
 /*Стилизация */
-.block1 {
-    width: 80%;
-    display: flex;
-    justify-content: flex-start;
-    margin: auto;
-}
 .block1 a {
     font-family: "PT Sans", sans-serif;
     font-size: 13px;
@@ -411,9 +399,6 @@ body h1 {
     background-color: #f2f6f8;
     text-transform: uppercase;
     font-weight: normal;
-    display: flex;
-    margin: 0 auto;
-    width: 80%;
 }
 
 /*Стилизация фильтра товаров*/
@@ -572,10 +557,6 @@ body h1 {
 }
 .popular-product {
     background-color: #f9f5f0;
-    display: flex;
-    margin: 0 auto;
-    width: 80%;
-    justify-content: space-between;
 }
 .popular-product h2 {
     font-size: 30px;
@@ -592,14 +573,6 @@ body h1 {
     background-color: #ee3643;
     text-transform: uppercase;
 }
-.popular-product-container {
-    display: flex;
-    width: 80%;
-    margin: 0 auto;
-    justify-content: space-between;
-    flex-wrap: wrap;
-}
-
 .developers ul {
     list-style: none;
 }
@@ -631,10 +604,7 @@ body h1 {
     font-weight: normal;
 }
 .slider-bot-slides {
-    display: flex;
-    width: 80%;
-    margin: 0 auto;
-    justify-content: space-between;
+
 }
 .slider-bot-button ul {
     list-style: none;
@@ -688,10 +658,6 @@ body h1 {
 /*Стилизация информационного блока*/
 .about-product {
     background-color: #f4f7f9;
-}
-.about-product-container {
-    width: 80%;
-    margin: 0 auto;
 }
 .about-product h2 {
     font-size: 30px;
