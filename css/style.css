@@ -19,8 +19,11 @@ body h1 {
 
 /* Стилизация верхней части хедера */
 .header-top {
-    background-color: #f4f7f9;
+    background-color: #293449;
+    color: white;
+    height: 42px;
 }
+
 .header-top,
 .search {
     background-color: #293449;
@@ -28,13 +31,42 @@ body h1 {
     font-size: 17px;
     line-height: 18px;
     text-align: left;
+    
+}
+.search-form {
+    display: flex;
+    width: 240px;
+}
+.icon-search {
+    padding-top: 12px;
+    padding-left: 17px;
+}
+.search-field {
+    padding-top: 8px;
+    padding-left: 15px;
+}
+.bookmark {
+    display: flex;
+    padding-top: 12px;
+    padding-left: 17px;
+}
+.bookmark-quantity {
+    padding-left: 13px;
+}
+.cart {
+    display: flex;
+    padding-top: 12px;
+    padding-left: 18px;
+}
+.cart-quantity {
+    padding-left: 17px;
 }
 .container {
     display: flex;
-    justify-content: space-between;
     margin: 0 auto;
     width: 940px;
     padding: 0;
+    justify-content: space-between;
 }
 .container1 {
     display: flex;
@@ -62,9 +94,13 @@ body h1 {
 }
 .header-order-button {
     width: 150px;
-    height: 42ps;
+    height: 42px;
     background-color: #63a63e;
     color: white;
+}
+.order {
+    padding-top: 12px;
+    padding-left: 20px;
 }
 .header-order-button p {
     margin-left: 22px;
@@ -105,18 +141,37 @@ body h1 {
     line-height: 23px;
     font-style: italic;
     text-align: left;
+    padding-left: 52px;
+    padding-top: 49px;
+    padding-bottom: 44px;
+    margin: 0;
 }
 .header-phone-number {
     color: #EE3643;
     font-size: 21px;
     line-height: 21px;
     text-align: left;
+    display: flex;
+    border: 5px solid white;
+    height: 45px;
+    margin-top: 45px;
+}
+.phone-icon {
+    padding-top: 13px;
+    padding-left: 15px;
+    padding-right: 20px;
+}
+.phone-number {
+    margin: 0;
+    padding-top: 13px;
 }
 .header-adress {
     color: #32425c;
     font-size: 14px;
     line-height: 24px;
     text-align: center;
+    margin: 0;
+    padding-top: 10px;
 }
 
 /*Стилизация навигационного меню*/

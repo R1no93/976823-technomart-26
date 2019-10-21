@@ -18,19 +18,84 @@
             <a class="header-logo">
               <img class="logo-header" src="img/logo.svg" alt="Логотип компании «Техномарт»" width="109" height="19">
             </a>
-            <form action="https://echo.htmlacademy.ru" method="POST">
-              <label for="search">Поиск:</label>
-              <input class="search" type="search" name="search" id="search"></input>
+            <form class="search-form" action="https://echo.htmlacademy.ru" method="POST">
+              <div class="icon-search">
+                <svg width="17px" height="17px" viewBox="0 0 17 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                  <!-- Generator: Sketch 58 (84663) - https://sketch.com -->
+                  <title>icon-search</title>
+                  <desc>Created with Sketch.</desc>
+                  <g id="Pages" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.3">
+                      <g id="Index" transform="translate(-367.000000, -12.000000)" fill="#FFFFFF">
+                          <g id="top-menu" transform="translate(-40.000000, 0.000000)">
+                              <g id="icon-search" transform="translate(407.000000, 12.000000)">
+                                  <g id="Shape">
+                                      <path d="M17,15.586 L13.458,12.044 C14.4580739,10.7403117 15.0000882,9.14309188 15,7.5 C15,3.35786438 11.6421356,0 7.5,0 C3.35786438,0 0,3.35786438 0,7.5 C0,11.6421356 3.35786438,15 7.5,15 C9.21,15 10.782,14.421 12.044,13.458 L15.586,17 L17,15.586 Z M2,7.5 C2,4.467 4.467,2 7.5,2 C10.532,2 13,4.467 13,7.5 C13,10.532 10.532,13 7.5,13 C4.46380465,12.9966932 2.0033068,10.5361953 2,7.5 Z" fill-rule="nonzero"></path>
+                                  </g>
+                              </g>
+                          </g>
+                      </g>
+                  </g>
+              </svg>
+              </div>
+              <div class="search-field">
+                <input class="search" type="search" name="search" id="search" placeholder="Поиск:"></input>
+              </div>
             </form>
-            <a href="#">
-              Закладки
+            <a class="bookmark" href="#">
+              <div class="icon-bookmark">
+                <svg width="14px" height="16px" viewBox="0 0 14 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                  <!-- Generator: Sketch 58 (84663) - https://sketch.com -->
+                  <title>icon-bookmark</title>
+                  <desc>Created with Sketch.</desc>
+                  <g id="Pages" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.3">
+                      <g id="Index" transform="translate(-637.000000, -12.000000)" fill="#FFFFFF">
+                          <g id="top-menu" transform="translate(-40.000000, 0.000000)">
+                              <g id="icon-bookmark" transform="translate(677.000000, 12.000000)">
+                                  <g id="Shape">
+                                      <path d="M14,15 C14,15.55 13.632,15.741 13.182,15.426 L7.819,11.661 C7.369,11.346 6.632,11.346 6.182,11.661 L0.818,15.426 C0.368,15.741 0,15.55 0,15 L0,1 C0,0.45 0.45,0 1,0 L13,0 C13.55,0 14,0.45 14,1 L14,15 Z" fill-rule="nonzero"></path>
+                                  </g>
+                              </g>
+                          </g>
+                      </g>
+                  </g>
+              </svg>
+            </div>
+            <div class="bookmark-quantity">
+              Закладки: 0
+            </div>
             </a>
-            <a href="#">
-              Корзина
+            <a class="cart" href="#">
+              <div calss="cart-icon">
+                  <svg width="15px" height="15px" viewBox="0 0 15 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <!-- Generator: Sketch 58 (84663) - https://sketch.com -->
+                    <title>icon-cart</title>
+                    <desc>Created with Sketch.</desc>
+                    <g id="Pages" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.3">
+                        <g id="Index" transform="translate(-788.000000, -12.000000)" fill="#FFFFFF">
+                            <g id="top-menu" transform="translate(-40.000000, 0.000000)">
+                                <g id="icon-cart" transform="translate(828.000000, 12.000000)">
+                                    <g>
+                                        <circle id="Oval" fill-rule="nonzero" cx="4.5" cy="13.5" r="1.5"></circle>
+                                        <circle id="Oval" fill-rule="nonzero" cx="12.5" cy="13.5" r="1.5"></circle>
+                                        <polygon id="Shape" fill-rule="nonzero" points="15 2 4.07 2 3.648 0 0 0 0 2 2.031 2 4.016 11 15 11 15 9 9.441 9 15 6.951"></polygon>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </svg>
+              </div>
+              <div class="cart-quantity">
+                Корзина: 0
+              </div>
             </a>
-            <a class="header-order-button" href="#">
-              Оформить заказ
-            </a>
+            <div class="header-order-button">
+              <div class="order">
+                <a href="#">
+                  Оформить заказ
+                </a>
+              </div>
+            </div>
           </div>
         </div>
         <div class="header-middle">
@@ -41,9 +106,29 @@
               и инструментов для ремонта
             </p>
             <div>
-              <p class="header-phone-number">
-                +7 (812) 555-05-55
-              </p>
+              <div class="header-phone-number">
+                <div class="phone-icon">
+                    <svg width="19px" height="19px" viewBox="0 0 19 19" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                      <!-- Generator: Sketch 58 (84663) - https://sketch.com -->
+                      <title>icon-phone</title>
+                      <desc>Created with Sketch.</desc>
+                      <g id="Pages" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                          <g id="Index" transform="translate(-465.000000, -101.000000)" fill="#B7BFC8">
+                              <g id="top-menu" transform="translate(-40.000000, 0.000000)">
+                                  <g id="icon-phone" transform="translate(505.000000, 101.000000)">
+                                      <g id="Shape">
+                                          <path d="M15.572,18.985 L14.631,18.985 C10.502,18.497 7.474,16.577 5.272,14.121 C3.062,11.66 1.318,8.492 0.978,4.228 L0.978,3.084 C1.056,2.31 1.437,1.78 1.876,1.327 C2.425,0.766 3.25,0.044 4.002,0.019 C4.556,0.001 5.502,0.399 5.881,0.918 C6.21,1.364 6.385,2.257 6.537,2.921 C6.691,3.592 7.042,4.564 6.945,5.21 C6.797,6.217 5.458,6.644 5.066,7.376 C6.373,10.511 8.509,12.815 11.359,14.407 C12.074,14.015 12.705,12.835 13.691,12.812 C14.05,12.803 14.509,12.99 14.875,13.098 C15.277,13.219 15.625,13.373 15.979,13.506 C16.575,13.73 17.627,14.027 17.983,14.527 C18.348,15.04 18.553,15.883 18.473,16.406 C18.309,17.447 16.594,18.603 15.572,18.985 Z" fill-rule="nonzero"></path>
+                                      </g>
+                                  </g>
+                              </g>
+                          </g>
+                      </g>
+                  </svg>
+                </div>
+                <p class="phone-number">
+                  +7 (812) 555-05-55
+                </p>
+              </div>
               <p class="header-adress">
                 г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8
               </p>
