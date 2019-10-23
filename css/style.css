@@ -29,7 +29,7 @@ body h1 {
     background-color: #293449;
     color: white;
     font-size: 17px;
-    line-height: 18px;
+    line-height: 1.06;
     text-align: left;
     
 }
@@ -51,7 +51,7 @@ body h1 {
 .search {
     border: none;
     height: 42px;
-    width: 240px;
+    width: 270px;
 }
 .bookmark {
     display: flex;
@@ -125,7 +125,7 @@ body h1 {
     background-color: white;
     color: black;
     font-size: 17px;
-    line-height: 18px;
+    line-height: 1.06;
     text-align: left;
 }
 /* Стилизация средней части хедера*/
@@ -136,7 +136,7 @@ body h1 {
 .header-middle a{
     color: black;
     font-size: 21px;
-    line-height: 21px;
+    line-height: 1;
 }
 .header-middle a:hover {
     color: #EE3643;
@@ -147,10 +147,10 @@ body h1 {
 .header-description {
     color: #EE3643;
     font-size: 16px;
-    line-height: 23px;
+    line-height: 1.44;
     font-style: italic;
     text-align: left;
-    padding-left: 53px;
+    padding-left: 52px;
     padding-top: 49px;
     padding-bottom: 44px;
     padding-right: 71px;
@@ -169,7 +169,7 @@ body h1 {
 .header-phone-number {
     color: #EE3643;
     font-size: 21px;
-    line-height: 21px;
+    line-height: 1;
     text-align: left;
     display: flex;
     border: 3px solid white;
@@ -186,30 +186,57 @@ body h1 {
 .header-adress {
     color: #32425c;
     font-size: 14px;
-    line-height: 13px;
+    line-height: 1;
     text-align: center;
     margin: 0;
     padding-top: 10px;
 }
-
+.login {
+    display: flex;
+    width: 121px;
+    height: 45px;
+    background-color: white;
+    margin-top: 46px;
+    margin-left: 69px;
+}
 .login-button {
-
+    padding: 14px 27px 15px 41px;
+}
+.register {
+    display: flex;
+    width: 150px;
+    height: 45px;
+    background-color: white;
+    margin-top: 46px;
+    margin-left: 10px;
+}
+.register-button {
+    padding: 14px 25px 11px 25px;
 }
 /*Стилизация навигационного меню*/
+nav ul {
+    padding: 0;
+    margin: 0;
+}
 .header-nav {
+    display: flex;
     list-style: none;
     background-color: #32425c;
     font-size: 17px;
-    line-height: 17px;
+    line-height: 1;
+    font-weight: normal;
     text-align: left;
-    display: flex;
-    margin: 0 auto;
-    width: 940px;
-    justify-content: space-between;
+    height: 60px;
     padding: 0;
+    margin: 0;
+    width: 940px;
 }
 .header-nav a {
     color: white;
+    font-size: 17px;;
+}
+.header-nav li {
+    padding-top: 22px
 }
 .header-nav a:hover {
     background-color: #293449;
@@ -217,6 +244,28 @@ body h1 {
 .header-nav a:focus {
     background-color: #1d2739;
     color: rgba(255, 255, 255, 0.5);
+}
+.nav-items:first-child {
+    padding-left: 52px;
+}
+.nav-items:nth-child(2) {
+    padding-left: 65px;
+}
+.nav-items:nth-child(3) {
+    padding-left: 60px;
+}
+.nav-items:nth-child(4) {
+    padding-left: 60px;
+}
+.nav-items:nth-child(5) {
+    padding-left: 59px;
+}
+.nav-items:nth-child(6) {
+    padding-left: 62px;
+}
+.nav-items:nth-child(7) {
+    padding-left: 64px;
+    padding-right: 55px;
 }
 /*Стилизация блоков и слайдера*/
 .main-blocks {
@@ -636,10 +685,13 @@ body h1 {
 }
 .popular-product h2 {
     font-size: 30px;
-    line-height: 30px;
+    line-height: 1;
     color: #32425c;
     font-weight: normal;
     text-transform: uppercase;
+    margin-top: 33px;
+    margin-left: 30px;
+    margin-right: 373px;
 }
 .popular-product a {
     font-size: 14px;
