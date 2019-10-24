@@ -18,6 +18,10 @@ body h1 {
 }
 
 /* Стилизация верхней части хедера */
+.header {
+    height: 320px;
+    background-color: #f4f7f9;
+}
 .header-top {
     background-color: #293449;
     color: white;
@@ -213,6 +217,51 @@ body h1 {
 .register-button {
     padding: 14px 25px 11px 25px;
 }
+/*Стилизация блока популярные продукты*/
+.main-top {
+    display: flex;
+    margin: 0 auto;
+    width: 940px;
+    margin-top: 59px;
+}
+.main-blocks {
+    display: flex;
+    flex-wrap: wrap;
+}
+.material {
+    background-color: #ffbf47;
+    color: white;
+    width: 300px;
+    height: 123px;
+}
+.material h3 {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+}
+.material a {
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: normal;
+    text-transform: uppercase;
+    background-color: rgba(0, 0, 0, 0.1)
+}
+.slider-list {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.popular-product-button {
+    width: 253px;
+    height: 38px;
+    background-color: #ee3643;
+    margin-top: 25px;
+    margin-left: 373px;
+}
+.popular-product-item {
+    margin-top: 14px;
+    margin-left: 55px;
+}
 /*Стилизация навигационного меню*/
 nav ul {
     padding: 0;
@@ -268,40 +317,23 @@ nav ul {
     padding-right: 55px;
 }
 /*Стилизация блоков и слайдера*/
-.main-blocks {
-    list-style: none;
-    display: flex;
-    padding: 0;
-    margin: 0 auto;
-    justify-content: space-between;
-    width: 940px;
-}
+
 .main-blocks-container {
     display: flex;
     width: 80%;
     margin: 0 auto;
     justify-content: space-between;
 }
-.material {
-    background-color: #ffbf47;
-    color: white;
-}
-.material h3 {
-    font-weight: bold;
-    font-size: 24px;
-    line-height: 30px;
-}
-.material a {
-    font-size: 14px;
-    line-height: 18px;
-    font-weight: normal;
-    text-transform: uppercase;
-    background-color: rgba(0, 0, 0, 0.1)
-}
+
 .instrument {
     background-color: #3bbce3;
     color: white;
+    width: 300px;
+    height: 123px;
+    margin-right: 20px;
+    margin-left: 20px;
 }
+
 .instrument h3 {
     font-weight: bold;
     font-size: 24px;
@@ -314,9 +346,18 @@ nav ul {
     text-transform: uppercase;
     background-color: rgba(0, 0, 0, 0.1)
 }
+.main-top-slider {
+    margin-top: 20px;
+}
+.main-right-blocks {
+    display: flex;
+    flex-direction: column;
+}
 .technic {
     background-color: #dc91d8;
     color: white;
+    width: 300px;
+    height: 123px;
 }
 .technic h3 {
     font-weight: bold;
@@ -333,6 +374,10 @@ nav ul {
 .sale {
     background-color: #8ed78f;
     color: white;
+    width: 300px;
+    height: 123px;
+    margin-top: 20px;
+
 }
 .sale h3 {
     font-weight: bold;
@@ -349,6 +394,9 @@ nav ul {
 .delivery{
     background-color: #ffc047;
     color: white;
+    width: 300px;
+    height: 123px;
+    margin-top: 20px;
 }
 .delivery h3 {
     font-weight: bold;
@@ -363,7 +411,30 @@ nav ul {
     background-color: rgba(0, 0, 0, 0.1)
 }
 
-
+/*Стилизация каталога популярных товаров*/
+.popular-catalog {
+    padding: 0;
+    display: flex;
+    width: 940px;
+    margin: 0 auto;
+    margin-top: 21px;
+}
+.popular-catalog-items {
+    display: flex;
+    flex-direction: column;
+    width: 220px;
+    height: 318px;
+    border: solid 1px #eaeaea;
+    background-color: white;
+}
+li:not(:first-child) {
+    margin-left: 22px;
+}
+.first-popular-item {
+    width: 218px;
+  height: 170px;
+  object-fit: contain;
+}
 /*Стилизация блока описания компании*/
 .main-description {
     color: black;
@@ -691,7 +762,6 @@ nav ul {
     text-transform: uppercase;
     margin-top: 33px;
     margin-left: 30px;
-    margin-right: 373px;
 }
 .popular-product a {
     font-size: 14px;
@@ -700,6 +770,33 @@ nav ul {
     font-weight: normal;
     background-color: #ee3643;
     text-transform: uppercase;
+}
+.popular-product-button {
+    width: 253px;
+    height: 38px;
+    background-color: #ee3643;
+    margin-top: 25px
+}
+.popular-product-item {
+  font-family: Cuprum;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1.29;
+}
+.popular-developer-button {
+    width: 253px;
+    height: 38px;
+    background-color: #ee3643;
+    margin-top: 25px;
+    margin-left: 269px;
+}   
+.popular-developer-item {
+    font-family: Cuprum;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1.29;
+  margin-left: 70px;
+  margin-top: 13px;
 }
 .developers ul {
     list-style: none;
@@ -730,9 +827,6 @@ nav ul {
     line-height: 24px;
     color: black;
     font-weight: normal;
-}
-.slider-bot-slides {
-
 }
 .slider-bot-button ul {
     list-style: none;

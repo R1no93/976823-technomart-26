@@ -12,7 +12,7 @@
 
     <h1>Техномарт</h1>
 
-    <header>
+    <header class="header">
         <div class="header-top">
           <div class="container">
             <a class="header-logo">
@@ -144,52 +144,45 @@
 
     <main>
 
-      <section>
-        <div> <!--Центровщик-->
-          <div> <!--Контейнер общий-->
-            <div> <!--Контейнер для удобства расположения флексбоксов-->
-              <ul class="main-blocks">
-                <li class="material">
+      <section class="main-top">
+              <div class="main-blocks">
+                <div class="material">
                   <h3>Материалы</h3>
                   <img src="img/materials.jpg" alt="Материалы">
                   <a href="#">На любой вкус</a>
-                </li>
-                <li class="instrument">
+                </div>
+                <div class="instrument">
                   <h3>Инструменты</h3>
                   <img src="img/tools.jpg" alt="Инструменты">
                   <a href="#">На все случаи</a>
-                </li>
-                <li class="technic">
-                  <h3>Техника</h3>
-                  <img src="img/techniks.jpg" alt="Техника">
-                  <a href="#">Для стройки</a>
-                </li>
-              </ul>
-            </div>
-            <div class="container">
-            <div> <!--Слайдер-->
-              <div> <!--Сайлдер контроль-->
+                </div>
+                <div class="main-top-slider"> <!--Слайдер-->
+                  <div class="slider-control"> <!--Сайлдер контроль-->
+                  </div>
+                  <ul class="slider-list"> <!--Список слайдов-->
+                    <li class="slider-top-1">  <!--Первый слайд, который на макете-->
+                      <img src="img/slaider_back1.jpg" alt=" Первая картинка слайдера" width="620" height="266">
+                      <button type="button">Следующий слайд</button>
+                      <button type="button">Предыдущий слайд</button>
+                    </li> 
+                    <li class="pop-up"> <!--Второй слайд-->
+                      <h3>Перфораторы</h3>
+                      <p>Настоящие мужские игрушки</p>
+                      <img src="img/slider_back2.jpg">
+                      <button type="button">Следующий слайд</button>
+                      <button type="button">Предыдущий слайд</button>
+                    </li> 
+                  </ul>
+                  <a href="#">Открыть каталог</a>
+                </div>
               </div>
-              <ul> <!--Список слайдов-->
-                <li class="slider-top-1">  <!--Первый слайд, который на макете-->
-                  <h3>Дрели</h3>
-                  <p>Соседям на радость</p>
-                  <img src="img/slaider_back1.jpg" alt=" Первая картинка слайдера" width="620" height="266">
-                  <button type="button">Следующий слайд</button>
-                  <button type="button">Предыдущий слайд</button>
-                </li> 
-                <li class="pop-up"> <!--Второй слайд-->
-                  <h3>Перфораторы</h3>
-                  <p>Настоящие мужские игрушки</p>
-                  <img src="img/slider_back2.jpg">
-                  <button type="button">Следующий слайд</button>
-                  <button type="button">Предыдущий слайд</button>
-                </li> 
-              </ul>
-              <a href="#">Открыть каталог</a>
-            </div>
-            <div> <!--Контейнер для удобства расположения флексбоксов-->
-              <div class="sale">
+            <div class="main-right-blocks">
+              <div class="technic">
+                <h3>Техника</h3>
+                <img src="img/techniks.jpg" alt="Техника">
+                <a href="#">Для стройки</a>
+              </div>
+               <div class="sale">
                 <h3>Скидка 50%</h3>
                 <img src="img/sale.jpg">
                 <a href="#">На 350 товаров</a>
@@ -200,21 +193,23 @@
                 <a href="#">Бесплатно</a>
               </div>
             </div>
-          </div>
-        </div>
       </section>
 
       <section>
         <div class="catalog-items"> <!--Центровщик-->
           <header class="popular-product container">
             <h2>Популярные товары:</h2>
-            <a href=""><p>Все Популярные товары</p></a>
+            <div class="popular-product-button">
+              <div class="popular-product-item">
+                <a href="">Все Популярные товары</a>
+              </div>
+            </div>
           </header>
-          <div>
-            <ul class="container">
-             <li>
-              <div>
-                <img src="img/bosch_bfg_9000.jpg" alt="Перфоратор BOSCH BFG 9000" width="184" height="164">
+          <div class="container">
+            <ul class="popular-catalog">
+             <li class="popular-catalog-items">
+              <div class="first-popular-items">
+                <img src="img/bosch_bfg_9000.jpg" alt="Перфоратор BOSCH BFG 9000">
                 <div class="catalog-button">
                   <button type="button">Купить</button>
                   <button type="button">В закладки</button>
@@ -224,7 +219,7 @@
               <p>32500 P.</p>
               <p>25500 P.</p>
             </li>
-            <li>
+            <li class="popular-catalog-items">
               <div>
                 <img src="img/bosch_bfg_3000.jpg" alt="Перфоратор BOSCH BFG 3000" width="127" height="112">
                 <div class="catalog-button">
@@ -236,7 +231,7 @@
               <p>22500 Р.</p>
               <p>15500 Р.</p>
             </li>
-            <li>
+            <li class="popular-catalog-items">
               <div>
                 <img src="img/bosch_bfg_6000.jpg" alt="Перфоратор BOSCH BFG 6000" width="144" height="128">
                 <div class="catalog-button">
@@ -248,7 +243,7 @@
               <p>30500 Р.</p>
               <p>25500 P.</p>
             </li>
-            <li>
+            <li class="popular-catalog-items">
               <div>
                 <img src="img/bosch_bfg_2000.png" alt="Перфоратор BOSCH BFG 2000" width="127" height="112">
                 <div class="catalog-button">
@@ -267,8 +262,12 @@
       <section>
         <div class="developers"> <!--Центровщик-->
           <header class="popular-product container">
-            <h2>Популярные производители</h2>
-            <a href="#">Все производители</a>
+            <h2>Популярные производители:</h2>
+            <div class="popular-developer-button">
+              <div class="popular-developer-item">
+                <a href="">Все производители</a>
+              </div>
+            </div>
           </header>
           <ul class="container1">
             <li>
