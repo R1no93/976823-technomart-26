@@ -431,7 +431,7 @@ li:not(:first-child) {
     margin-left: 22px;
 }
 .first-popular-item {
-    width: 218px;
+  width: 218px;
   height: 170px;
   object-fit: contain;
 }
