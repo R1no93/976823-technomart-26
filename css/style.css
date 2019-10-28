@@ -427,8 +427,8 @@ nav ul {
     border: solid 1px #eaeaea;
     background-color: white;
 }
-li:not(:first-child) {
-    margin-left: 22px;
+.not-first-items {
+    margin-left: 20px;
 }
 .first-popular-item {
   width: 218px;
@@ -439,18 +439,35 @@ li:not(:first-child) {
 .main-description {
     color: black;
     text-align: left;
+    margin-top: 84px;
 }
-.main-description h2 {
+.left-side-description {
+    width: 519px;
+
+}
+.description-haeader {
     font-size: 30px;
     text-transform: uppercase;
     line-height: 30px;
+    margin: 0;
 }
-.main-description p {
+.description-article-first {
     font-family: "PT Sans" sans-serif;
     font-size: 13px;
     line-height: 24px;
+    width: 519px;
+    margin: 0;
+    margin-top: 38px;
 }
-.main-description li {
+.description-article-second {
+    font-family: "PT Sans" sans-serif;
+    font-size: 13px;
+    line-height: 24px;
+    margin: 0;
+    margin-top: 36px;
+}
+.delivery-list {
+    list-style: none;
     font-size: 18px;
     line-height: 20px;
 }
@@ -694,27 +711,37 @@ li:not(:first-child) {
     line-height: 20px;
     color: black;
     text-align: center;
+    margin-top: 12px;
+    margin-bottom: 0;
 }
 .catalog-items ul {
     list-style: none;
 }
-.catalog-items p {
+
+.catalog-button {
+    display: none;
+}
+.popular-tiems-old-price {
     font-family: "PT Sans", sans-serif;
     font-size: 17px;
     font-weight: bold;
     line-height: 18px;
-}
-.catalog-items p:first-of-type {
     color: #999999;
     text-decoration: line-through;
+    padding-left: 78px;
+    padding-top: 18px;
+    margin: 0;
 }
-.catalog-items p:last-of-type {
+.popular-items-price {
     color: white;
-    background-color: red;
+    background-image: url('/img/item-button.svg');
+    font-family: "PT Sans", sans-serif;
+    font-size: 17px;
+    font-weight: bold;
+    line-height: 18px;
+    margin: 0;
 }
-.catalog-button {
-    display: none;
-}
+
 .buy-button {
     width: 135px;
     height: 38px;
@@ -798,38 +825,100 @@ li:not(:first-child) {
   margin-left: 70px;
   margin-top: 13px;
 }
+.developers {
+    margin-top: 20px;
+}
+.developer-list {
+    margin-top: 20px;
+}
+.developer-list-items {
+    width: 220px;
+    height: 145px;
+    border: 1px solid #eaeaea;
+}
 .developers ul {
     list-style: none;
 }
-.slider-bot-container1 {
-    width: 80%;
-    margin: 0 auto;
+.bosch-logo {
+    padding-left: 47px;
+    padding-top: 53px;
 }
-.slider-container {
-    display: flex;
-    width: 80%;
-    margin: 0 auto;
-    justify-content: space-between;
+.makita-logo {
+    padding-left: 48px;
+    padding-top: 50px;
+}
+.dewalt-logo {
+    padding-left: 37px;
+    padding-top: 48px;
+}
+.interskol-logo {
+    padding-left: 9px;
+    padding-top: 21px;
+}
+.hitachi-logo {
+    padding-left: 28px;
+    padding-top: 58px;
+}
+.lg-logo {
+    padding-left: 48px;    
+    padding-top: 35px;
+}
+.aeg-logo {
+    padding-left: 35px;
+    padding-top: 23px;
+}
+.metabo-logo {
+    padding-left: 10px;
+    padding-top: 34px;
+}
+.developer-list li:nth-child(5) {
+    margin-top: 20px;
+}
+.developer-list li:nth-child(6) {
+    margin-top: 20px;
+}
+.developer-list li:nth-child(7) {
+    margin-top: 20px;
+}
+.developer-list li:nth-child(8) {
+    margin-top: 20px;
 }
 .slider-bot {
     background-color: #f4f7f9;
+    margin-top: 85px;
 }
-.slider-bot h2 {
+.slider-header {
+    display: flex;
+    flex-direction: column;
+}
+.slider-bot-header {
     font-size: 30px;
     line-height: 30px;
     color: black;
     font-weight: normal;
     text-transform: uppercase;
+    padding-top: 68px;
+    margin: 0;
 }
-.slider-bot p {
+
+.slider-bot-header-article {
     font-family: "PT Sans", sans-serif;
     font-size: 13px;
     line-height: 24px;
     color: black;
     font-weight: normal;
+    margin: 0;
+    margin-top: 38px;
 }
 .slider-bot-button ul {
     list-style: none;
+}
+.slider-bot-list {
+    margin: 0;
+    padding: 0;
+}
+.slider-bot-button {
+    margin-top: 74px;
 }
 .slider-bot-button button {
     font-size: 21px;
@@ -837,10 +926,23 @@ li:not(:first-child) {
     font-weight: bold;
     background-color: #32425c;
     color: white;
+    width: 240px;
+    height: 61px;
+    text-align: left;
 }
 .slider-bot-button button:hover {
     background-color: white;
     color: #32425c;
+}
+.slider-bot-slides {
+    display: flex;
+
+}
+.slide-bot-description {
+    margin: 0;
+    padding: 0;
+    padding-left: 80px;
+    padding-top: 76px;
 }
 .slider-bot-slides h3 {
     font-size: 36px;
@@ -848,6 +950,8 @@ li:not(:first-child) {
     color:#32425c;
     font-weight: normal;
     text-transform: uppercase;
+    padding: 0;
+    margin: 0;
 }
 .slider-bot-slides p {
     font-family: "PT Sans", sans-serif;
@@ -855,6 +959,12 @@ li:not(:first-child) {
     line-height: 24px;
     color: black;
     font-weight: normal;
+    width: 275px;
+    margin-top: 34px;
+}
+.slide-bot-image {
+    margin-top: 97px;
+    margin-left: -121px;
 }
 .pages {
     font-family: "PT Sans", sans-serif;

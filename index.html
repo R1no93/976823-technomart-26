@@ -219,7 +219,7 @@
               <p class="popular-tiems-old-price">32500 P.</p>
               <p class="popular-items-price">25500 P.</p>
             </li>
-            <li class="popular-catalog-items">
+            <li class="popular-catalog-items not-first-items">
               <div>
                 <img src="img/bosch_bfg_3000.jpg" alt="Перфоратор BOSCH BFG 3000" width="218" height="170">
                 <div class="catalog-button">
@@ -231,7 +231,7 @@
               <p class="popular-tiems-old-price">22500 Р.</p>
               <p class="popular-items-price">15500 Р.</p>
             </li>
-            <li class="popular-catalog-items">
+            <li class="popular-catalog-items not-first-items">
               <div>
                 <img src="img/bosch_bfg_6000.jpg" alt="Перфоратор BOSCH BFG 6000" width="218" height="170">
                 <div class="catalog-button">
@@ -243,7 +243,7 @@
               <p class="popular-tiems-old-price">30500 Р.</p>
               <p class="popular-items-price">25500 P.</p>
             </li>
-            <li class="popular-catalog-items">
+            <li class="popular-catalog-items not-first-items">
               <div>
                 <img src="img/bosch_bfg_2000.jpg" alt="Перфоратор BOSCH BFG 2000" width="218" height="170">
                 <div class="catalog-button">
@@ -269,45 +269,45 @@
               </div>
             </div>
           </header>
-          <ul class="container1">
-            <li>
+          <ul class="developer-list container1">
+            <li class="developer-list-items">
               <a href="#"> 
-                <img src="img/bosch.jpg" alt="Логотип компании Bosch" width="126" height="37">
+                <img class="bosch-logo" src="img/bosch.jpg" alt="Логотип компании Bosch" width="126" height="37">
               </a>
             </li>
-            <li>
+            <li class="developer-list-items">
               <a href="#">
-                <img src="img/makita.jpg" alt="Логотип компании Makita" width="123" height="40">
+                <img class="makita-logo" src="img/makita.jpg" alt="Логотип компании Makita" width="123" height="40">
               </a>
             </li>
-            <li>
+            <li class="developer-list-items">
               <a href="#">
-                <img src="img/dewalt.jpg" alt="Логотип компании DeWalt" width="148" height="44">
+                <img class="dewalt-logo" src="img/dewalt.jpg" alt="Логотип компании DeWalt" width="148" height="44">
               </a>
             </li>
-            <li>
+            <li class="developer-list-items">
               <a href="#">
-                <img src="img/interskol.jpg" alt="Логотип компании Интерскол" width="200" height="88">
+                <img class="interskol-logo" src="img/interskol.jpg" alt="Логотип компании Интерскол" width="200" height="88">
               </a>
             </li>
-            <li>
+            <li class="developer-list-items">
               <a href="#">
-                <img src="img/hitachi.jpg" alt="Логотип компании Hitachi" width="169" height="31">
+                <img class="hitachi-logo" src="img/hitachi.jpg" alt="Логотип компании Hitachi" width="169" height="31">
               </a>
             </li>
-            <li>
+            <li class="developer-list-items">
               <a href="#">
-                <img src="img/lg.jpg" alt="Логотип компании LG" width="121" height="73">
+                <img class="lg-logo" src="img/lg.jpg" alt="Логотип компании LG" width="121" height="73">
               </a>
             </li>
-            <li>
+            <li class="developer-list-items">
               <a href="#">
-                <img src="img/aeg.jpg" alt="Логотип компании AEG" width="151" height="96">
+                <img class="aeg-logo" src="img/aeg.jpg" alt="Логотип компании AEG" width="151" height="96">
               </a>
             </li>
-            <li>
+            <li class="developer-list-items">
               <a href="#">
-                <img src="img/metabo.jpg" alt="Логотип компании Metabo" width="204" height="69">
+                <img class="metabo-logo" src="img/metabo.jpg" alt="Логотип компании Metabo" width="204" height="69">
               </a>
             </li>
           </ul>
@@ -316,29 +316,31 @@
 
       <section class="slider-bot">
         <div class="container">
-          <h2>Сервисы</h2>
-          <p>
-          Хороший интернет магазин отличается от плохого не только ценами!
-          Мы стараемся изо всех сил, чтобы сделать ваши покупки приятными.
-          </p>
+          <div class="slider-header">
+            <h2 class="slider-bot-header">Сервисы</h2>
+            <p class="slider-bot-header-article">
+             Хороший интернет магазин отличается от плохого не только ценами!<br>
+             Мы стараемся изо всех сил, чтобы сделать ваши покупки приятными.
+            </p>
+          </div>
         </div>
           <div class="container"> <!--Центровщик-->
             <div class="slider-bot-button"> <!--Слайдер-->
-              <ul> <!--Список слайдов-->
+              <ul class="slider-bot-list"> <!--Список слайдов-->
                 <li><button class="active-button" type="button">Доставка</button></li>
                 <li><button type="button">Гарантия</button></li>
                 <li><button type="button">Кредит</button></li>
               </ul>
             </div>
             <div class="slider-bot-slides">
-            <h3>Доставка</h3>
-            <p> 
-              Мы с удовольствием доставим ваш товар прямо
-              к вашему подъезду совершенно бесплатно!
-              Ведь мы не плохо щаработаем,
-              Поднимая его на ваш этаж!
-            </p>
-            <img src="img/srv_slider_delivery.png" width="468" height="261">
+              <div class="slide-bot-description">
+                <h3>Доставка</h3>
+                <p>Мы с удовольствием доставим ваш товар прямо<br>
+                к вашему подъезду совершенно бесплатно!<br>
+                Ведь мы не плохо заработаем,<br>
+                Поднимая его на ваш этаж!</p>
+              </div>
+            <img class="slide-bot-image" src="img/srv_slider_delivery.png" width="468" height="261">
           </div>
           </div>
           <div class="pop-up">
@@ -368,18 +370,18 @@
       </section>
 
       <section class="main-description container">
-        <div>
-          <h2>Компания «Техномарт»</h2>
+        <div class="left-side-description">
+          <h2 class="description-haeader">Компания «Техномарт»</h2>
 
-          <p>
-            Настоящий мужской шопинг начинается здесь! Огромный выбор товаров для ремонта и 
+          <p class="description-article-first">
+            Настоящий мужской шопинг начинается здесь! Огромный выбор товаров для ремонта и<br>
             строительства не оставит равнодушным любителей сэкономить на гастарбайтерах.
           </p>
-          <p>
-            Мы можем доставить ваш товар в самые отдаленые точки России!
+          <p class="description-article-second">
+            Мы можем доставить ваш товар в самые отдаленые точки России!<br>
             Техномарт работает со многими транспортными компаниями:
           </p>
-          <ul> 
+          <ul class="devivery-list"> 
             <li>Деловые линии</li>
             <li>Автотрейдинг</li>
             <li>ЖэлДорЭкспедиция</li>
@@ -387,8 +389,8 @@
           <a class="main-button" href="#">Подробнее о компании</a>
         </div>
 
-        <div>
-          <h2>Контакты</h2>
+        <div class="right-side-description">
+          <h2 class="description-haeader">Контакты</h2>
 
           <p>
             Вы можете забрать товар сами,
