@@ -23,7 +23,6 @@ body h1 {
     background-color: #f4f7f9;
 }
 .header-top {
-    background-color: #293449;
     color: white;
     height: 42px;
 }
@@ -443,7 +442,7 @@ nav ul {
 }
 .left-side-description {
     width: 519px;
-
+    margin-right: 120px;
 }
 .description-haeader {
     font-size: 30px;
@@ -467,41 +466,85 @@ nav ul {
     margin-top: 36px;
 }
 .delivery-list {
-    list-style: none;
+    list-style-image: url('../img/list-style.png');
     font-size: 18px;
     line-height: 20px;
+    margin: 0;
+    margin-top: 21px;
+    padding-left: 34px;
 }
-.main-button {
+.delivery-list-item {
+    padding-left: 11px;
+    padding-top: 20px;
+}
+.delivery-list-item-first {
+    padding-left: 11px;
+}
+.left-side-description-button {
     color: white;
     background-color: #EE3643;
     font-size: 14px;
     text-align: center;
     line-height: 18px;
     text-transform: uppercase;
+    margin-top: 36px;
+    width: 220px;
+    height: 38px;
+    margin-bottom: 86px;
 }
-
+.left-side-description-button-article {
+    display: block;
+    padding-top: 12px;
+}
+.right-side-description-article {
+    font-family: "PT Sans" sans-serif;
+    font-size: 13px;
+    line-height: 24px;
+    margin: 0;
+    margin-top: 38px;
+    margin-bottom: 36px;
+}
+.right-side-description-button {
+    color: white;
+    background-color: #EE3643;
+    font-size: 14px;
+    text-align: center;
+    line-height: 18px;
+    text-transform: uppercase;
+    margin-top: 44px;
+    width: 300px;
+    height: 38px;
+    margin-bottom: 86px;
+}
+.right-side-description-button-article {
+    display: block;
+    padding-top: 12px;
+}
 /*Стилизация футера*/
 .footer-logo {
     width: 220px;
     height: 68px;
     box-shadow: inset 0px -5px 0 0 rgba(0, 0, 0, 0.24);
     background-color: #ee3643;
+    margin-right: 173px
 }
 .footer-logo img {
-    padding-top: 20px;
-    margin-left: 44px;
+    margin-top: 20px;
+    margin-left: 41px;
+    margin-right: 41px;
 }
 .footer-bot-container {
     display: flex;
     margin: 0 auto;
     width: 80%;
-    justify-content: space-between;
+
 }
 .footer-bot-navigation {
     display: flex;
     padding: 0;
-    width: 80%;
-    justify-content: space-around;
+    width: 940px;
+    justify-content: space-between;
+
 }
 .footer-middle-container {
     display: flex;
