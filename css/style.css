@@ -528,29 +528,31 @@ nav ul {
     background-color: #ee3643;
     margin-right: 173px
 }
-.footer-logo img {
+.footer-logo-text {
     margin-top: 20px;
     margin-left: 41px;
     margin-right: 41px;
 }
-.footer-bot-container {
-    display: flex;
-    margin: 0 auto;
-    width: 80%;
-
-}
 .footer-bot-navigation {
-    display: flex;
     padding: 0;
-    width: 940px;
-    justify-content: space-between;
-
-}
-.footer-middle-container {
+    margin: 0;
     display: flex;
+    width: 547px;
     justify-content: space-between;
-    width: 80%;
-    margin: 0 auto;
+    margin-top: 42px;
+}
+.footer-middle-adress {
+    width: 322px;
+    height: 40px;
+    margin-right: 91px;
+    margin-top: 45px;
+}
+.footer-middle-navigation {
+    padding: 0;
+    display: flex;
+    width: 527px;
+    justify-content: space-between;
+    margin-top: 45px;
 }
 .footer-bot,
 .footer-middle {
@@ -559,6 +561,43 @@ nav ul {
     font-size: 18px;
     text-align: left;
     line-height: 24px;
+}
+.footer-bottom-text {
+    width: 228px;
+    height: 33px;
+    margin-right: 161px;
+    margin-top: 39px;
+}
+.footer-bottom-social {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    margin-right: 119px;
+    margin-top: 35px;
+}
+.bg-icon {
+    width: 42px;
+    height: 42px;
+    background: #212a3a;
+    border-radius: 50%;
+}
+.vkontakte {
+    margin: 13px 8px 14px 8px;
+}
+.facebook {
+    margin: 10px 15px 10px 15px;
+}
+.instagram {
+    margin: 10px 11px 11px 10px;
+}
+.footer-bottom-feedback {
+    margin-top: 40px;
+    margin-bottom: 35px;
+    margin-right: 53px;
+}
+.footer-bottom-developer {
+    margin-top: 40px;
+    margin-bottom: 35px;
 }
 .footer-bot a:hover,
 .footer-middle a:hover,
@@ -604,6 +643,7 @@ nav ul {
 .footer-bottom a {
     color: #ffd180;
 }
+
 /*Стилизация каталога*/
 /*Стилизация верхней части хедера*/
 .header-cart-button {
@@ -777,12 +817,19 @@ nav ul {
 }
 .popular-items-price {
     color: white;
-    background-image: url('/img/item-button.svg');
+    width: 141px;
+    height: 38px;
+    background: url('../img/item-button.svg') no-repeat 0 0;
     font-family: "PT Sans", sans-serif;
     font-size: 17px;
     font-weight: bold;
-    line-height: 18px;
+    line-height: 1.06;
     margin: 0;
+    padding: 8px 42px 14px 38px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: -3px;
 }
 
 .buy-button {
