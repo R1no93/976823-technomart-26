@@ -359,6 +359,10 @@ a {
     margin-top: -15px;
     margin-left: 23px;
 }
+.flag-material {
+    position: absolute;
+    margin-left: 240px;
+}
 .popular-product-button {
     width: 253px;
     height: 38px;
