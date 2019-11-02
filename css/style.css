@@ -8,15 +8,13 @@ body {
     background-repeat: no-repeat;
 }
 
-a {
-    text-decoration: none;
-    color: white;
-}
-
 body h1 {
     display: none;
 }
-
+a {
+    color: white;
+    text-decoration: none;
+}
 /* Стилизация верхней части хедера */
 .header {
     height: 320px;
@@ -63,6 +61,8 @@ body h1 {
     margin-left: 17px;
 }
 .bookmark {
+    text-decoration: none;
+    color: white;
     display: flex;
     margin-top: 12px;
     margin-left: 17px;
@@ -444,25 +444,36 @@ nav ul {
     margin-left: 20px;
 }
 
-.instrument h3 {
+.instrument-header {
     font-weight: bold;
     font-size: 24px;
     line-height: 30px;
+    margin: 0;
+    padding: 0;
     margin-top: 23px;
     margin-left: 26px;
 }
 .instrument-icon {
     position: absolute;
     margin-left: 197px;
-    margin-top: 33px;
+    margin-top: 31px;
 }
-.instrument a {
+.instrument-link {
     font-size: 14px;
     line-height: 18px;
     font-weight: normal;
     text-transform: uppercase;
-    background-color: rgba(0, 0, 0, 0.1)
+    background-color: rgba(0, 0, 0, 0.1);
+    padding: 0;
+    margin: 0;
+    margin-top: 8px;
+    margin-left: 25px;
+    width: 111px;
+    height: 28px;
+    padding-top: 10px;
+    padding-left: 24px;
 }
+
 .main-top-slider {
     position: absolute;
     width: 620px;
@@ -580,24 +591,45 @@ nav ul {
     flex-direction: column;
 }
 .technic {
+    display: flex;
+    flex-direction: column;
     background-color: #dc91d8;
     color: white;
     width: 300px;
     height: 123px;
 }
-.technic h3 {
+.technic-header {
     font-weight: bold;
     font-size: 24px;
     line-height: 30px;
+    margin: 0;
+    padding: 0;
+    margin-top: 23px;
+    margin-left: 26px;
 }
-.technic a {
+.technic-icon {
+    position: absolute;
+    margin-left: 191px;
+    margin-top: 31px;
+}
+.technic-link {
     font-size: 14px;
     line-height: 18px;
     font-weight: normal;
     text-transform: uppercase;
-    background-color: rgba(0, 0, 0, 0.1)
+    background-color: rgba(0, 0, 0, 0.1);
+    padding: 0;
+    margin: 0;
+    margin-top: 8px;
+    margin-left: 25px;
+    width: 111px;
+    height: 28px;
+    padding-top: 10px;
+    padding-left: 24px;
 }
 .sale {
+    display: flex;
+    flex-direction: column;
     background-color: #8ed78f;
     color: white;
     width: 300px;
@@ -605,36 +637,73 @@ nav ul {
     margin-top: 20px;
 
 }
-.sale h3 {
+.sale-header {
     font-weight: bold;
     font-size: 24px;
     line-height: 30px;
+    margin: 0;
+    padding: 0;
+    margin-top: 23px;
+    margin-left: 26px;
 }
-.sale a {
+.sale-icon {
+    position: absolute;
+    margin-left: 196px;
+    margin-top: 26px;
+}
+.sale-link {
     font-size: 14px;
     line-height: 18px;
     font-weight: normal;
     text-transform: uppercase;
-    background-color: rgba(0, 0, 0, 0.1)
+    background-color: rgba(0, 0, 0, 0.1);
+    padding: 0;
+    margin: 0;
+    margin-top: 8px;
+    margin-left: 25px;
+    width: 111px;
+    height: 28px;
+    padding-top: 10px;
+    padding-left: 24px;
 }
 .delivery{
+    display: flex;
+    flex-direction: column;
     background-color: #ffc047;
     color: white;
     width: 300px;
     height: 123px;
     margin-top: 20px;
 }
-.delivery h3 {
+.delivery-header {
     font-weight: bold;
     font-size: 24px;
     line-height: 30px;
+    margin: 0;
+    padding: 0;
+    margin-top: 23px;
+    margin-left: 26px;
 }
-.delivery a {
+.delivery-icon {
+    position: absolute;
+    margin-left: 191px;
+    margin-top: 32px;
+}
+
+.delivery-link {
     font-size: 14px;
     line-height: 18px;
     font-weight: normal;
     text-transform: uppercase;
-    background-color: rgba(0, 0, 0, 0.1)
+    background-color: rgba(0, 0, 0, 0.1);
+    padding: 0;
+    margin: 0;
+    margin-top: 8px;
+    margin-left: 25px;
+    width: 111px;
+    height: 28px;
+    padding-top: 10px;
+    padding-left: 24px;
 }
 
 /*Стилизация каталога популярных товаров*/
@@ -650,18 +719,9 @@ nav ul {
     margin-top: 20px;
     border: solid 1px #eaeaea;
 }
-.popular-catalog-item .flag {
+.flag-catalog  {
     position: absolute;
-    width: 60px;
-    height: 60px;
-    top: -1px;
-    right: -1px;
-    text-indent: -1000px;
-    overflow: hidden;
-    z-index: 20;
-}
-.popular-catalog-item .flag-new {
-    background: url("..img/new-flag.png") no-repeat 0 0;
+    margin-left: 159px;
 }
 .popular-catalog-title {
     font-family: PTSans, sans-serif;
@@ -986,6 +1046,7 @@ nav ul {
     line-height: 18px;
     color: black;
     background-color: #f7f3ec;
+    border: none;
 }
 .filter {
     width: 220px;
@@ -997,8 +1058,11 @@ nav ul {
     color: black;
     font-weight: normal;
     background-color: #f7f3ec;
-    height: 38px;
+    height: 24px;
     margin-top: 20px;
+    padding-top: 14px;
+    padding-left: 18px;
+    text-transform: uppercase;
 }
 .filter-developer {
     font-family: "PT Sans", sans-serif;
@@ -1007,6 +1071,8 @@ nav ul {
     font-size: 15px;
     line-height: 20px;
     text-align: left;
+    border: none;
+    border-top: #f7f3ec;
 }
 .filter-developer ul {
     list-style: none;
@@ -1024,6 +1090,7 @@ nav ul {
     font-size: 15px;
     line-height: 20px;
     text-align: left;
+    border: none;
 }
 .filter-power ul {
     list-style: none;
@@ -1193,12 +1260,15 @@ nav ul {
     display: flex;
     height: 38px;
 }
-.catalog-sort h3 {
+.catalog-sort-header {
     font-family: "PT Sans", sans-serif;
     font-size: 13px;
     line-height: 18px;
     color: black;
     font-weight: normal;
+    margin-top: 14px;
+    margin-left: 19px;
+    text-transform: uppercase;
 }
 .catalog-sort a {
     font-family: "PT Sans", sans-serif;
@@ -1207,15 +1277,42 @@ nav ul {
     font-weight: normal;
 }
 .sort-on-price {
+    display: flex;
+    width: 58px;
     color: red;
+    margin-left: 139px;
+    text-transform: uppercase;
+    margin-top: 14px;
 }
-.sort-on-type,
-.sort-on-func,
-.sort-down {
+.sort-on-type {
+    display: flex;
+    width: 53px;
     color:rgba(0, 0, 0, 0.3);
+    margin-left: 71px;
+    text-transform: uppercase;
+    margin-top: 14px;
+    text-decoration-style: dotted;
+    text-decoration-color: #ee3643;
+   
 }
-.pop-up {
-    display: none;
+.sort-on-func {
+    display: flex;
+    width: 113px;
+    color:rgba(0, 0, 0, 0.3);
+    margin-left: 65px;
+    text-transform: uppercase;
+    margin-top: 14px;
+    text-decoration: none;
+    text-decoration-style: dotted;
+    text-decoration-color: #ee3643;
+}
+.sort-up {
+    margin-top: 14px;
+    margin-left: 46px;
+}
+.sort-down {
+    margin-top: 14px;
+    margin-left: 21px;
 }
 /*Стилизация каталога товаров*/
 .catalog-items-catalog {
@@ -1318,6 +1415,7 @@ nav ul {
     border: solid 3px #32425c;
 }
 .popular-product {
+    margin-top: 53px;
     background-color: #f9f5f0;
 }
 .popular-product h2 {
@@ -1526,6 +1624,11 @@ nav ul {
     height: 38px;
     border-radius: 5%;
 }
+.page-1 a {
+    margin-left: 16px;
+    margin-top: 11px;
+    display: block;
+}
 .page-2 {
     width: 38px;
     height: 38px;
@@ -1535,6 +1638,9 @@ nav ul {
 }
 .page-2 a {
     color: black;
+    margin-left: 16px;
+    margin-top: 11px;
+    display: block;
 }
 .page-3 {
     width: 38px;
@@ -1545,6 +1651,9 @@ nav ul {
 }
 .page-3 a {
     color: black;
+    margin-left: 16px;
+    margin-top: 11px;
+    display: block;
 }
 .next-page {
     width: 140px;
@@ -1556,14 +1665,21 @@ nav ul {
 .next-page a {
     color: black;
     text-transform: uppercase;
+    margin-left: 32px;
+    margin-top: 11px;
+    display: block;
 }
 .page-1,
 .page-2,
 .page-3 {
     margin-right: 20px;
 }
+.pop-up {
+    display: none;
+}
 /*Стилизация информационного блока*/
 .about-product {
+    margin-top: 61px;
     background-color: #f4f7f9;
     height: 261px;
 }

@@ -168,9 +168,9 @@
     <div class="container">
       <div class="catalof-left-column">
       <div class="filter">
-        <h2 class="filter-title">Фильтр</h2> 
+        <h2 class="filter-title">Фильтр:</h2> 
         <form class="filter" action="https://echo.htmlacademy.ru" method="POST">
-        <fieldset>
+        <fieldset class="price">
           <legend>Цена:</legend>
           <div class="price"> <!--Контейнер фильтра товаров по цене-->
             <div> <!--Ползунок-->
@@ -236,29 +236,31 @@
         </form>
       </div>
     </div>
-    <div class="pop-up"> <!--Попап товар добавлен в корзину-->
-      <img src="" alt="Логотип галочка">
-      <p>Товар добавлен в корзину!</p>
-      <a href="#">Оформить заказ</a>
-      <a href="#">Продолжить покупки</a>
-    </div>
     <div class="catalog-right-column">
         <div class="catalog-sort"> <!--Контейнер-->
 
-          <h3>Сортировка:</h3>
+          <h3 class="catalog-sort-header">Сортировка:</h3>
 
             <a class="sort-on-price" href="#">По цене</a>
             <a class="sort-on-type" href="#">По типу</a>
             <a class="sort-on-func" href="#">По функционалу</a>
-            <a class="sort-on-price" href="#">Сортировка по возрастанию</a>
-            <a class="sort-down" href="#">Сортировка по убываню</a>
+            <a class="sort-up" href="#">
+              <svg xmlns="http://www.w3.org/2000/svg" width="11" height="10" viewBox="0 0 11 10">
+                <path fill="#ee3643" d="M5.5 0L0 10h11z"/>
+              </svg>
+            </a>
+            <a class="sort-down" href="#">
+              <svg xmlns="http://www.w3.org/2000/svg" width="11" height="10" viewBox="0 0 11 10">
+              <path fill="#c5c5c5" d="M5.5 10L0 0h11"/>
+            </svg>
+            
+            </a>
 
 
         </div>
           <div class="popular-catalog">
               <div class="catalog-items">
               <div class="popular-catalog-item-catalog-page">
-                <div class="flag flag-new"></div>
                 <div class="popular-catalog-button">
                   <a class="popular-catalog-buy" href="#"></a>
                   <a class="popular-catalog-bookmark" href=""></a>
@@ -271,7 +273,6 @@
                 <div class="popular-catalog-new-price">15500 Р.</div>
               </div>
               <div class="popular-catalog-item-catalog-page">
-                <div class="flag flag-new"></div>
                 <div class="popular-catalog-button">
                   <a class="popular-catalog-buy" href="#"></a>
                   <a class="popular-catalog-bookmark" href=""></a>
@@ -284,7 +285,7 @@
                 <div class="popular-catalog-new-price">25500 Р.</div>
               </div>
               <div class="popular-catalog-item-last-of-list">
-                <div class="flag flag-new"></div>
+                <img class="flag-catalog" src="img/flag_new.png" width="60" height="60">
                 <div class="popular-catalog-button">
                   <a class="popular-catalog-buy" href="#"></a>
                   <a class="popular-catalog-bookmark" href=""></a>
@@ -297,7 +298,6 @@
                 <div class="popular-catalog-new-price">12500 Р.</div>
               </div>
               <div class="popular-catalog-item-catalog-page">
-                  <div class="flag flag-new"></div>
                   <div class="popular-catalog-button">
                     <a class="popular-catalog-buy" href="#"></a>
                     <a class="popular-catalog-bookmark" href=""></a>
@@ -310,7 +310,7 @@
                   <div class="popular-catalog-new-price">15500 Р.</div>
                 </div>
                 <div class="popular-catalog-item-catalog-page">
-                  <div class="flag flag-new"></div>
+                  <img class="flag-catalog" src="img/flag_new.png" width="60" height="60">
                   <div class="popular-catalog-button">
                     <a class="popular-catalog-buy" href="#"></a>
                     <a class="popular-catalog-bookmark" href=""></a>
@@ -323,7 +323,6 @@
                   <div class="popular-catalog-new-price">25500 Р.</div>
                 </div>
                 <div class="popular-catalog-item-last-of-list">
-                  <div class="flag flag-new"></div>
                   <div class="popular-catalog-button">
                     <a class="popular-catalog-buy" href="#"></a>
                     <a class="popular-catalog-bookmark" href=""></a>
@@ -336,7 +335,7 @@
                   <div class="popular-catalog-new-price">12500 Р.</div>
                 </div>
                 <div class="popular-catalog-item-catalog-page">
-                    <div class="flag flag-new"></div>
+                    <img class="flag-catalog" src="img/flag_new.png" width="60" height="60">
                     <div class="popular-catalog-button">
                       <a class="popular-catalog-buy" href="#"></a>
                       <a class="popular-catalog-bookmark" href=""></a>
@@ -349,7 +348,6 @@
                     <div class="popular-catalog-new-price">15500 Р.</div>
                   </div>
                   <div class="popular-catalog-item-catalog-page">
-                    <div class="flag flag-new"></div>
                     <div class="popular-catalog-button">
                       <a class="popular-catalog-buy" href="#"></a>
                       <a class="popular-catalog-bookmark" href=""></a>
@@ -362,7 +360,6 @@
                     <div class="popular-catalog-new-price">25500 Р.</div>
                   </div>
                   <div class="popular-catalog-item-last-of-list">
-                    <div class="flag flag-new"></div>
                     <div class="popular-catalog-button">
                       <a class="popular-catalog-buy" href="#"></a>
                       <a class="popular-catalog-bookmark" href=""></a>
