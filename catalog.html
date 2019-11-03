@@ -171,63 +171,65 @@
         <h2 class="filter-title">Фильтр:</h2> 
         <form class="filter" action="https://echo.htmlacademy.ru" method="POST">
         <fieldset class="price">
-          <legend>Цена:</legend>
-          <div class="price"> <!--Контейнер фильтра товаров по цене-->
-            <div> <!--Ползунок-->
-              <div> <!--Ширина шкалы-->
-                <div> <!--Выбраный диапозон-->
-      
+          <div class="range">
+            <div class="range-title">
+                Цена:
+            </div>
+            <div class="range-control">
+                <div class='scale'>
+                    <div class="bar">
+    
+                    </div>
+                    <div class="range-toggle toggle-min">
+    
+                    </div>
+                    <div class="range-toggle toggle-max">
+    
+                    </div>
                 </div>
-              </div>
-              <div> <!--Минимальное значение ползунка-->
-      
-              </div>
-              <div> <!--Максимальное значение ползунка-->
-      
-              </div>
             </div>
-            <div> <!--Поля значения цены-->
-              <input type="text" name="min-price" value="0"></input>
-              <input type="text" name="max-price" value="30000"></input>
+            <div class="price-control">
+                <input class="min-price" type="text" value="0">
+                <input class="max-price" type="text" value="30000">
             </div>
-          </div>
+        </div>
         </fieldset>
-      
+        <div class="devider devider-top"></div>
         <fieldset class="filter-developer">
           <legend>Производители:</legend>
-          <ul>
-            <li>
-              <input type="checkbox" name="BOSCH" id="BOSCH" checked>
+          <ul class="filter-developer-list">
+            <li class="filter-developer-items">
+              <input class="filter-developer-checkbox visually-hidden" type="checkbox" name="BOSCH" id="BOSCH" checked>
               <label for="BOSCH">BOSCH</label>
             </li>
-            <li>
-              <input type="checkbox" id="Интерскол" name="Интерскол">
+            <li class="filter-developer-items">
+              <input class="filter-developer-checkbox visually-hidden" type="checkbox" id="Интерскол" name="Интерскол">
               <label for="Интерскол">Интерскол</label>
             </li>
-            <li>
-              <input type="checkbox" name="Makita" id="Makita" checked>
+            <li class="filter-developer-items">
+              <input class="filter-developer-checkbox visually-hidden" type="checkbox" name="Makita" id="Makita" checked>
               <label for="Makita">Makita</label>
             </li>
-            <li>
-              <input type="checkbox" name="De-Walt" id="De-Walt">
+            <li class="filter-developer-items">
+              <input class="filter-developer-checkbox visually-hidden" type="checkbox" name="De-Walt" id="De-Walt">
               <label for="De-Walt">De-Walt</label>
             </li>
-            <li>
-              <input type="checkbox" name="Hitachi" id="Hitachi">
+            <li class="filter-developer-items">
+              <input class="filter-developer-checkbox visually-hidden" type="checkbox" name="Hitachi" id="Hitachi">
               <label for="Hitachi">Hitachi</label>
             </li>
           </ul>
         </fieldset>
-      
+        <div class="devider devider-bot"></div>
         <fieldset class="filter-power">
           <legend>Питание:</legend>
-          <ul>
-            <li>
-              <input type="radio" name="power-type" id="Аккумуляторные" checked>
+          <ul class="filter-power-list">
+            <li class="filter-power-items">
+              <input class="filter-power-radio visually-hidden" type="radio" name="power-type" id="Аккумуляторные" checked>
               <label for="Аккумуляторные">Аккумуляторные</label>
             </li>
-            <li>
-              <input type="radio" name="Сетевые" id="Сетевые">
+            <li class="filter-power-items">
+              <input class="filter-power-radio visually-hidden" type="radio" name="Сетевые" id="Сетевые">
               <label for="Сетевые">Сетевые</label>
             </li>
           </ul>
