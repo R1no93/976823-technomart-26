@@ -18,17 +18,18 @@
           <form class="search-form" action="https://echo.htmlacademy.ru" method="POST">
             <div class="search-field">
               <input class="search" type="search" name="search" id="search" placeholder="Поиск:">
+                <svg class="search-icon" xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17">
+                  <path fill="white" fill-opacity="0.3" d="M17 15.586l-3.542-3.542A7.465 7.465 0 0 0 15 7.5 7.5 7.5 0 1 0 7.5 15c1.71 0 3.282-.579 4.544-1.542L15.586 17 17 15.586zM2 7.5C2 4.467 4.467 2 7.5 2 10.532 2 13 4.467 13 7.5c0 3.032-2.468 5.5-5.5 5.5A5.506 5.506 0 0 1 2 7.5z"/>
+                </svg>
             </div>
           </form>
           <a class="bookmark-catalog" href="#">
-            <div class="icon-bookmark">
-              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="16" viewBox="0 0 14 16">
-                <path fill="white" fill-opacity="0.3" d="M14 15c0 .55-.368.741-.818.426l-5.363-3.765c-.45-.315-1.187-.315-1.637 0L.818 15.426C.368 15.741 0 15.55 0 15V1c0-.55.45-1 1-1h12c.55 0 1 .45 1 1v14z"/>
-              </svg>
-          </div>
-          <div class="bookmark-quantity">
-            Закладки: 0
-          </div>
+            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="16" viewBox="0 0 14 16">
+              <path fill="white" fill-opacity="0.3" d="M14 15c0 .55-.368.741-.818.426l-5.363-3.765c-.45-.315-1.187-.315-1.637 0L.818 15.426C.368 15.741 0 15.55 0 15V1c0-.55.45-1 1-1h12c.55 0 1 .45 1 1v14z"/>
+            </svg>
+            <div class="bookmark-quantity">
+              Закладки: 0
+            </div>
           </a>
           <a class="cart-catalog" href="#">
               <svg class="cart-catalog-icon" xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15" fill="white" fill-opacity="0.3">
@@ -54,7 +55,7 @@
           <div class="header-description">
             <p class="description">
               Интернет-магазин
-              строительных материалов
+              строительных материалов &#160;
               и инструментов для ремонта
             </p>
             </div>
@@ -81,7 +82,7 @@
               </svg>
               Равшан Джамшутович
             </a>
-            <a class="logout-user-icon" hred="#">
+            <a class="logout-user-icon" href="#">
               <svg xmlns="http://www.w3.org/2000/svg" width="21" height="17" viewBox="0 0 21 17">
                 <g fill="#c5c5c5">
                     <path d="M21 8.5L12.125 0v6h-6v5h6v6z"/>
@@ -112,36 +113,26 @@
 
 
     <main>
-      <ul class="container block1">
-        <li>
-          <a href="index.html">
-            <svg class="icon-home" xmlns="http://www.w3.org/2000/svg" width="15" height="12" viewBox="0 0 15 12">
+      <div class="container">
+        <ul class="breadcrumbs">
+          <li class="breadcrumbs-item">
+            <a href="index.html">
+              <svg class="home-icon" xmlns="http://www.w3.org/2000/svg" width="15" height="12">
               <g fill="#C1C6CE">
-                <path d="M3 8v4h4V8h2v4h4V8L8 3.516z"/>
-                <path d="M14.831 6.365L13 4.751V0h-2v2.987L8.332.635c-.02-.017-.043-.023-.064-.037a.465.465 0 0 0-.08-.047.551.551 0 0 0-.095-.024C8.062.521 8.032.515 8 .515c-.031 0-.061.006-.092.012a.46.46 0 0 0-.095.025c-.028.011-.053.029-.08.046-.021.014-.045.02-.064.037l-6.498 5.73a.501.501 0 0 0 .33.875.497.497 0 0 0 .331-.125L8 1.677l6.169 5.438a.501.501 0 0 0 .662-.75z"/>
+                <path d="M3 8v4h4V8h2v4h4V8L8 3.516z"></path>
+                <path
+                  d="M14.831 6.365L13 4.751V0h-2v2.987L8.332.635c-.02-.017-.043-.023-.064-.037a.465.465 0 0 0-.08-.047.551.551 0 0 0-.095-.024C8.062.521 8.032.515 8 .515c-.031 0-.061.006-.092.012a.46.46 0 0 0-.095.025c-.028.011-.053.029-.08.046-.021.014-.045.02-.064.037l-6.498 5.73a.501.501 0 0 0 .33.875.497.497 0 0 0 .331-.125L8 1.677l6.169 5.438a.501.501 0 0 0 .662-.75z">
+                </path>
               </g>
-            </svg>
-          </a>
-        </li>
-        <li class="icon-right-small">
-          <svg xmlns="http://www.w3.org/2000/svg" width="8" height="12" viewBox="0 0 8 12">
-            <path fill="#C1C6CE" d="M7.237 5.642L1.729.133a.506.506 0 1 0-.716.716L6.163 6l-5.151 5.15a.507.507 0 0 0 .716.717l5.509-5.509a.504.504 0 0 0 0-.716z"/>
-          </svg>
-        </li>
-        <li><a href="catalog">Каталог</a></li>
-        <li class="icon-right-small">
-          <svg xmlns="http://www.w3.org/2000/svg" width="8" height="12" viewBox="0 0 8 12">
-            <path fill="#C1C6CE" d="M7.237 5.642L1.729.133a.506.506 0 1 0-.716.716L6.163 6l-5.151 5.15a.507.507 0 0 0 .716.717l5.509-5.509a.504.504 0 0 0 0-.716z"/>
-          </svg>
-        </li>
-        <li><a href="">Инструменты</a></li>
-        <li class="icon-right-small">
-          <svg xmlns="http://www.w3.org/2000/svg" width="8" height="12" viewBox="0 0 8 12">
-            <path fill="#C1C6CE" d="M7.237 5.642L1.729.133a.506.506 0 1 0-.716.716L6.163 6l-5.151 5.15a.507.507 0 0 0 .716.717l5.509-5.509a.504.504 0 0 0 0-.716z"/>
-          </svg>
-        </li>
-        <li><a href="">Перфораторы</a></li>
-      </ul>
+                </svg>
+              <span class="display-none">Главная</span>
+            </a>
+          </li>
+          <li class="breadcrumbs-item"><a href="#">Каталог</a></li>
+          <li class="breadcrumbs-item"><a href="#">Инструмент</a></li>
+          <li class="breadcrumbs-item"><a>Перфораторы</a></li>
+        </ul>
+      </div>
 
     <header class="catalog-title container">
       <h2>Перфораторы</h2>
@@ -193,7 +184,7 @@
             </li>
             <li class="filter-developer-items">
               <input class="filter-developer-checkbox visually-hidden" type="checkbox" name="De-Walt" id="De-Walt">
-              <label for="De-Walt">De-Walt</label>
+              <label for="De-Walt">DeWalt</label>
             </li>
             <li class="filter-developer-items">
               <input class="filter-developer-checkbox visually-hidden" type="checkbox" name="Hitachi" id="Hitachi">
@@ -241,9 +232,8 @@
 
 
         </div>
-          <div class="popular-catalog">
               <div class="catalog-items">
-              <div class="popular-catalog-item-catalog-page">
+              <div class="popular-catalog-item">
                 <div class="popular-catalog-button">
                   <a class="popular-catalog-buy" href="#"></a>
                   <a class="popular-catalog-bookmark" href=""></a>
@@ -255,7 +245,7 @@
                 <div class="popular-catalog-old-price">22500 Р.</div>
                 <div class="popular-catalog-new-price">15500 Р.</div>
               </div>
-              <div class="popular-catalog-item-catalog-page">
+              <div class="popular-catalog-item">
                 <div class="popular-catalog-button">
                   <a class="popular-catalog-buy" href="#"></a>
                   <a class="popular-catalog-bookmark" href=""></a>
@@ -267,20 +257,33 @@
                 <div class="popular-catalog-old-price">30500 Р.</div>
                 <div class="popular-catalog-new-price">25500 Р.</div>
               </div>
-              <div class="popular-catalog-item-last-of-list">
+              <div class="popular-catalog-item">
                 <img class="flag-catalog" src="img/flag_new.png" width="60" height="60" alt="Флажок ноинки товаров">
-                <div class="popular-catalog-button">
-                  <a class="popular-catalog-buy" href="#"></a>
-                  <a class="popular-catalog-bookmark" href=""></a>
+                <div class="popular-catalog-button-active">
+                  <a class="popular-catalog-buy-active" href="#">
+                    <svg class="catalog-cart-icon" xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15" fill="white" fill-opacity="0.3">
+                      <circle cx="4.5" cy="13.5" r="1.5"/>
+                      <circle cx="12.5" cy="13.5" r="1.5"/>
+                      <path d="M15 2H4.07l-.422-2H0v2h2.031l1.985 9H15V9H9.441L15 6.951z"/>
+                    </svg>
+                    <div class="buy-active-article">
+                      Купить
+                    </div>
+                  </a>
+                  <a class="popular-catalog-bookmark-active" href="">
+                    <div class="bookmark-active-article">
+                      В закладки
+                    </div>
+                  </a>
                 </div>
-                <div class="popular-catalog-image">
+                <div class="popular-catalog-image display-none">
                   <img src="img/bosch_bfg_2000.jpg" width="218" height="170" alt="Перфоратор BOSCH BFG 9000">
                 </div>
                 <div class="popular-catalog-title">Перфоратор BOSCH BFG 2000</div>
                 <div class="popular-catalog-old-price hidden-price">30500 Р.</div>
                 <div class="popular-catalog-new-price">12500 Р.</div>
               </div>
-              <div class="popular-catalog-item-catalog-page">
+              <div class="popular-catalog-item">
                   <div class="popular-catalog-button">
                     <a class="popular-catalog-buy" href="#"></a>
                     <a class="popular-catalog-bookmark" href=""></a>
@@ -292,7 +295,7 @@
                   <div class="popular-catalog-old-price">22500 Р.</div>
                   <div class="popular-catalog-new-price">15500 Р.</div>
                 </div>
-                <div class="popular-catalog-item-catalog-page">
+                <div class="popular-catalog-item">
                   <img class="flag-catalog" src="img/flag_new.png" width="60" height="60" alt="Флажок ноинки товаров">
                   <div class="popular-catalog-button">
                     <a class="popular-catalog-buy" href="#"></a>
@@ -305,7 +308,7 @@
                   <div class="popular-catalog-old-price">30500 Р.</div>
                   <div class="popular-catalog-new-price">25500 Р.</div>
                 </div>
-                <div class="popular-catalog-item-last-of-list">
+                <div class="popular-catalog-item">
                   <div class="popular-catalog-button">
                     <a class="popular-catalog-buy" href="#"></a>
                     <a class="popular-catalog-bookmark" href=""></a>
@@ -317,7 +320,7 @@
                   <div class="popular-catalog-old-price hidden-price">30500 Р.</div>
                   <div class="popular-catalog-new-price">12500 Р.</div>
                 </div>
-                <div class="popular-catalog-item-catalog-page">
+                <div class="popular-catalog-item">
                     <img class="flag-catalog" src="img/flag_new.png" width="60" height="60" alt="Флажок ноинки товаров">
                     <div class="popular-catalog-button">
                       <a class="popular-catalog-buy" href="#"></a>
@@ -330,7 +333,7 @@
                     <div class="popular-catalog-old-price">22500 Р.</div>
                     <div class="popular-catalog-new-price">15500 Р.</div>
                   </div>
-                  <div class="popular-catalog-item-catalog-page">
+                  <div class="popular-catalog-item">
                     <div class="popular-catalog-button">
                       <a class="popular-catalog-buy" href="#"></a>
                       <a class="popular-catalog-bookmark" href=""></a>
@@ -342,7 +345,7 @@
                     <div class="popular-catalog-old-price">30500 Р.</div>
                     <div class="popular-catalog-new-price">25500 Р.</div>
                   </div>
-                  <div class="popular-catalog-item-last-of-list">
+                  <div class="popular-catalog-item">
                     <div class="popular-catalog-button">
                       <a class="popular-catalog-buy" href="#"></a>
                       <a class="popular-catalog-bookmark" href=""></a>
@@ -355,13 +358,12 @@
                     <div class="popular-catalog-new-price">12500 Р.</div>
                   </div>
             </div>
-          </div>
             <div class="pages container">
               <ul class="pages-list">
-                <li class="page-1"><a href="#">1</a></li>
-                <li class="page-2"><a href="#">2</a></li>
-                <li class="page-3"><a href="#">3</a></li>
-                <li class="next-page"><a href="#">Следующая</a></li>
+                <li><a class="page-1" href="#">1</a></li>
+                <li><a class="page-2" href="#">2</a></li>
+                <li><a class="page-3" href="#">3</a></li>
+                <li><a class="next-page" href="#">Следующая</a></li>
             </ul>
             </div>
         </div>
@@ -380,7 +382,7 @@
       </section>
     </main>
     <footer>
-        <div class="footer-bot"> <!--Блок footer-top-->
+        <div class="footer-bot-catalog"> <!--Блок footer-top-->
           <div class="container">
             <a class="footer-logo">
               <img class="footer-logo-text" src="img/logo.svg" alt="Логотип компании «Техномарт»" width="138" height="23">
@@ -396,13 +398,13 @@
           <div class="footer-middle"> <!--Вторая линия флексбоксов-->
             <div class="container">
             <p class="footer-middle-adress">
-              г. Санкт-Петербург, ул. Б. Конюшенная, д.19/8<br>
+              г. Санкт-Петербург, ул. Б. Конюшенная, д.19/8
               +7 (812) 555-05-55
             </p>
             <ul class="footer-middle-navigation">
               <li><a href="#">Материалы</a></li>
               <li><a href="#">Техника</a></li>
-              <li><a href="#">Инструменты</a></li>
+              <li><a href="#">Инструмент</a></li>
               <li><a href="#">Спецпредложения</a></li>
             </ul>
           </div>
@@ -437,11 +439,11 @@
           </p>
           <p class="footer-bottom-developer">
             Разработано - <br>
-            <a href="http://htmlacademy.ru">htmlacademy.ru</a>
+            <a href="https://htmlacademy.ru/intensive/htmlcss">htmlacademy.ru</a>
           </p>
           </div>
         </div>
-      </footer>
+    </footer>
       <div class="display-none">
         <div class="add-to-cart"> <!--Попап товар добавлен в корзину-->
           <div class="red-line"></div>

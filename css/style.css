@@ -15,11 +15,29 @@ a {
     color: white;
     text-decoration: none;
 }
-/* Стилизация верхней части хедера */
+
+/*Центровщики*/
+.container {
+    display: flex;
+    margin: 0 auto;
+    width: 940px;
+    padding: 0;
+}
+.container1 {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 940px;
+    padding: 0;
+    flex-wrap: wrap;
+}
+
+/* Стилизация хедера */
 .header {
     height: 320px;
     background-color: #f4f7f9;
 }
+/*Стилизация верхней части хэдера*/
 .header-top {
     color: white;
     height: 42px;
@@ -34,14 +52,26 @@ a {
     text-align: left;
     
 }
+.header-logo {
+    width: 220px;
+    height: 42px;
+    background-color: #EE3643;
+    box-shadow:  0px 5px 0 0 rgba(170, 50, 46, 1);
+}
+.header-logo:hover {
+    background-color: #ca2c37;
+}
+.header-logo:focus {
+    background-color: #ba2732;
+}
+.logo-header {
+    position: relative;
+    top: 13px;
+    left: 55px;
+}
 .search-form {
     display: flex;
     width: 270px;
-}
-.icon-search {
-    padding-top: 12px;
-    padding-left: 17px;
-    padding-right: 15px;
 }
 .search-field {
     display: flex;
@@ -49,11 +79,17 @@ a {
     height: 42px;
     padding: 0;
 }
+.icon-search {
+    padding-top: 12px;
+    padding-left: 17px;
+    padding-right: 15px;
+}
 .search {
     border: none;
     height: 42px;
     position: absolute;
-    margin-left: 49px;
+    margin-left: 47px;
+    top: -1px;
 }
 .search-icon {
     position: relative;
@@ -72,10 +108,12 @@ a {
     padding-left: 13px;
 }
 .bookmark-catalog {
+    text-decoration: none;
+    color: white;
     display: flex;
-    margin-top: 14px;
-    margin-left: 13px;
-    margin-right: 32px;
+    margin-top: 12px;
+    margin-left: 17px;
+    margin-right: 27px;
 }
 .cart {
     display: flex;
@@ -100,36 +138,6 @@ a {
     padding-top: 14px;
     padding-left: 17px;
 }
-.container {
-    display: flex;
-    margin: 0 auto;
-    width: 940px;
-    padding: 0;
-}
-.container1 {
-    display: flex;
-    justify-content: space-between;
-    margin: 0 auto;
-    width: 940px;
-    padding: 0;
-    flex-wrap: wrap;
-}
-.header-logo {
-    width: 220px;
-    height: 42px;
-    background-color: #EE3643;
-    box-shadow:  0px 5px 0 0 rgba(170, 50, 46, 1);
-}
-.logo-header {
-    padding-top: 12px;
-    margin-left: 55px;
-}
-.header-logo:hover {
-    background-color: #ca2c37;
-}
-.header-logo:focus {
-    background-color: #ba2732;
-}
 .header-order-button {
     width: 150px;
     height: 42px;
@@ -140,9 +148,7 @@ a {
     padding-top: 12px;
     padding-left: 20px;
 }
-.header-order-button p {
-    margin-left: 22px;
-}
+
 .header-order-button:hover {
     background-color: #5fbb2d;
 }
@@ -163,7 +169,7 @@ a {
     background-color: #f4f7f9;
 }
 .header-description {
-    width: 196px;
+    width: 197px;
     height: 60px;
     color: #EE3643;
     font-size: 16px;
@@ -197,11 +203,11 @@ a {
     margin-top: 46px;
 }
 .phone-icon {
-    padding: 13px 40px 13px 15px;
+    padding: 10px 39px 13px 13px;
 }
 .phone-number {
     margin: 0;
-    padding-top: 13px;
+    padding-top: 10px;
 }
 .header-adress {
     color: #32425c;
@@ -216,8 +222,8 @@ a {
     width: 121px;
     height: 45px;
     background-color: white;
-    margin-top: 46px;
-    margin-left: 69px;
+    margin-top: 45px;
+    margin-left: 68px;
 }
 .login a {
     color: black;
@@ -246,7 +252,7 @@ a {
     line-height: 1;
     height: 45px;
     background-color: white;
-    margin-top: 46px;
+    margin-top: 45px;
     margin-left: 10px;
 }
 .register a:hover {
@@ -277,8 +283,8 @@ a {
     font-size: 21px;
     line-height: 21px;
     background: white;
-    padding-top: 13px;
-    padding-left: 13px;
+    padding-top: 12px;
+    padding-left: 15px;
     margin-top: 46px;
     margin-left: 48px;
 }
@@ -288,12 +294,12 @@ a {
 .logout-user-icon {
     position: relative;
     top: -30px;
-    left: 317px;
+    left: 319px;
     
 }
 .login-cabinet-links-catalog {
     display: flex;
-    margin-top: 10px;
+    margin-top: -12px;
     margin-left: 68px;
 }
 .dot {
@@ -318,7 +324,8 @@ a {
     text-decoration: underline;
 }
 
-/*Стилизация блока популярные продукты*/
+/*Стилизация оснвной части*/
+/*Стилизация 1 блока*/
 .main-top {
     display: flex;
     margin: 0 auto;
@@ -342,7 +349,7 @@ a {
     font-size: 24px;
     line-height: 30px;
     margin-top: 21px;
-    margin-left: 23px;
+    margin-left: 22px;
 }
 .material-icon {
     position: absolute;
@@ -351,18 +358,18 @@ a {
 
 }
 .material-link {
+    position: relative;
+    left: 25px;
+    top: -14px;
     font-size: 14px;
     line-height: 18px;
     font-weight: normal;
     text-transform: uppercase;
     background-color: rgba(0, 0, 0, 0.1);
-    width: 111px;
+    text-align: center;
+    width: 135px;
     height: 25px;
-    display: block;
-    padding-top: 12px;
-    padding-left: 24px;
-    margin-top: -15px;
-    margin-left: 23px;
+    padding-top: 13px;
 }
 .flag-material {
     position: absolute;
@@ -376,8 +383,8 @@ a {
     margin-left: 373px;
 }
 .popular-product-item {
-    margin-top: 14px;
-    margin-left: 55px;
+    margin-top: 12px;
+    margin-left: 53px;
 }
 /*Стилизация навигационного меню*/
 nav ul {
@@ -396,6 +403,7 @@ nav ul {
     padding: 0;
     margin: 0;
     width: 940px;
+    margin-top: 4px;
 }
 .header-nav a {
     color: white;
@@ -415,10 +423,10 @@ nav ul {
     padding-left: 52px;
 }
 .nav-items:nth-child(2) {
-    padding-left: 65px;
+    padding-left: 63px;
 }
 .nav-items:nth-child(3) {
-    padding-left: 60px;
+    padding-left: 59px;
 }
 .nav-items:nth-child(4) {
     padding-left: 60px;
@@ -427,10 +435,10 @@ nav ul {
     padding-left: 59px;
 }
 .nav-items:nth-child(6) {
-    padding-left: 62px;
+    padding-left: 63px;
 }
 .nav-items:nth-child(7) {
-    padding-left: 64px;
+    padding-left: 62px;
     padding-right: 55px;
 }
 /*Стилизация блоков и слайдера*/
@@ -459,28 +467,27 @@ nav ul {
     line-height: 30px;
     margin: 0;
     padding: 0;
-    margin-top: 23px;
-    margin-left: 26px;
+    margin-top: 22px;
+    margin-left: 22px;
 }
 .instrument-icon {
     position: absolute;
-    margin-left: 197px;
-    margin-top: 31px;
+    margin-left: 198px;
+    margin-top: 33px;
 }
 .instrument-link {
+    position: relative;
+    left: 25px;
+    top: 9px;
     font-size: 14px;
     line-height: 18px;
     font-weight: normal;
     text-transform: uppercase;
     background-color: rgba(0, 0, 0, 0.1);
-    padding: 0;
-    margin: 0;
-    margin-top: 8px;
-    margin-left: 25px;
-    width: 111px;
-    height: 28px;
-    padding-top: 10px;
-    padding-left: 24px;
+    text-align: center;
+    width: 135px;
+    height: 25px;
+    padding-top: 13px;
 }
 
 .main-top-slider {
@@ -496,8 +503,8 @@ nav ul {
 }
 .slider-top-control {
     position: absolute;
-    left: 50%;
-    top: 232px;
+    left: 295px;
+    top: 216px;
 }
 .slider-top-item h4 {
     max-width: 620px;
@@ -515,8 +522,8 @@ nav ul {
     padding: 0;
     margin: 0;
     margin-bottom: 8px;
-    padding-top: 24px;
-    padding-left: 27px;
+    padding-top: 23px;
+    padding-left: 24px;
 }
 .slider-top-item p {
     max-width: 620px;
@@ -531,7 +538,7 @@ nav ul {
     text-align: left;
     color: white;
     margin: 0;
-    padding-top: 8px;
+    padding-top: 0px;
     padding-left: 25px;
 }
 .slider-top-item {
@@ -591,11 +598,11 @@ nav ul {
 }
 .slider-top-button {
     position: relative;
+    top: 128px;
+    left: 26px;
     width: 195px;
     height: 26px;
     background: #ee3643;
-    margin-top: 118px;
-    margin-left: 25px;
     display: block;
     padding-top: 12px;
     text-transform: uppercase;
@@ -610,15 +617,15 @@ nav ul {
 }
 .icon-left {
     position: absolute;
-    margin-top: -140px;
+    margin-top: -2px;
     margin-left: 25px;
     display: block;
 }
 .icon-right {
     display: block;
     position: absolute;
-    margin-left: 580px;
-    margin-top: -140px;
+    margin-left: 578px;
+    margin-top: -2px;
 }
 
 .slider-top-control i {
@@ -629,6 +636,7 @@ nav ul {
     border-radius: 50%;
     background: white;
     cursor: pointer;
+    margin-right: 5px;
 }
 .slider-top-control i::after {
     position: absolute;
@@ -667,8 +675,8 @@ nav ul {
     line-height: 30px;
     margin: 0;
     padding: 0;
-    margin-top: 23px;
-    margin-left: 26px;
+    margin-top: 21px;
+    margin-left: 23px;
 }
 .technic-icon {
     position: absolute;
@@ -676,19 +684,18 @@ nav ul {
     margin-top: 31px;
 }
 .technic-link {
+    position: relative;
+    left: 23px;
+    top: 10px;
     font-size: 14px;
     line-height: 18px;
     font-weight: normal;
     text-transform: uppercase;
     background-color: rgba(0, 0, 0, 0.1);
-    padding: 0;
-    margin: 0;
-    margin-top: 8px;
-    margin-left: 25px;
-    width: 111px;
-    height: 28px;
-    padding-top: 10px;
-    padding-left: 24px;
+    text-align: center;
+    width: 135px;
+    height: 25px;
+    padding-top: 13px;
 }
 .sale {
     display: flex;
@@ -706,8 +713,8 @@ nav ul {
     line-height: 30px;
     margin: 0;
     padding: 0;
-    margin-top: 23px;
-    margin-left: 26px;
+    margin-top: 21px;
+    margin-left: 22px;
 }
 .sale-icon {
     position: absolute;
@@ -715,19 +722,18 @@ nav ul {
     margin-top: 26px;
 }
 .sale-link {
+    position: relative;
+    left: 23px;
+    top: 10px;
     font-size: 14px;
     line-height: 18px;
     font-weight: normal;
     text-transform: uppercase;
     background-color: rgba(0, 0, 0, 0.1);
-    padding: 0;
-    margin: 0;
-    margin-top: 8px;
-    margin-left: 25px;
-    width: 111px;
-    height: 28px;
-    padding-top: 10px;
-    padding-left: 24px;
+    text-align: center;
+    width: 135px;
+    height: 25px;
+    padding-top: 13px;
 }
 .delivery{
     display: flex;
@@ -744,8 +750,8 @@ nav ul {
     line-height: 30px;
     margin: 0;
     padding: 0;
-    margin-top: 23px;
-    margin-left: 26px;
+    margin-top: 21px;
+    margin-left: 23px;
 }
 .delivery-icon {
     position: absolute;
@@ -754,31 +760,32 @@ nav ul {
 }
 
 .delivery-link {
+    position: relative;
+    left: 23px;
+    top: 10px;
     font-size: 14px;
     line-height: 18px;
     font-weight: normal;
     text-transform: uppercase;
     background-color: rgba(0, 0, 0, 0.1);
-    padding: 0;
-    margin: 0;
-    margin-top: 8px;
-    margin-left: 25px;
-    width: 111px;
-    height: 28px;
-    padding-top: 10px;
-    padding-left: 24px;
+    text-align: center;
+    width: 135px;
+    height: 25px;
+    padding-top: 13px;
 }
 
 /*Стилизация каталога популярных товаров*/
 .popular-catalog {
+    margin-top: 5px;
     display: flex;
 }
 
 .popular-catalog-item {
-    width: 220px;
+    width: 218px;
+    height: 316px;
     display: inline-block;
     position: relative;
-    margin-right: 17px;
+    margin-right: 20px;
     margin-top: 20px;
     border: solid 1px #eaeaea;
 }
@@ -796,6 +803,11 @@ nav ul {
     letter-spacing: normal;
     text-align: center;
     color: #000000;
+    width: 157px;
+    height: 33px;
+    margin-top: 7px;
+    margin-left: 30px;
+    
 }
 .popular-catalog-item .popular-catalog-old-price {
     font-family: "PT Sans", Arial, sans-serif;
@@ -808,6 +820,7 @@ nav ul {
     text-align: center;
     color: #a9a9a9;
     text-decoration: line-through;
+    margin-top: 18px;
 }
 .hidden-price {
     visibility: hidden;
@@ -835,14 +848,28 @@ nav ul {
     
     position: absolute;
     top: 0;
-    right: -20px;
+    right: -23px;
     
     width: 0;
     height: 0;
     
-    border: 20px solid white;
+    border: 19px solid white;
     border-left-color: #ee3643;
   }
+
+.popular-developer {
+    background-color: #f9f5f0;
+    height: 89px;
+}
+.popular-developer h2 {
+    font-size: 30px;
+    line-height: 30px;
+    color: #32425c;
+    font-weight: normal;
+    text-transform: uppercase;
+    margin-top: 30px;
+    margin-left: 28px;
+}
 /*Стилизация блока описания компании*/
 .main-description {
     color: black;
@@ -854,10 +881,17 @@ nav ul {
     margin-right: 120px;
 }
 .description-haeader {
+    font-family: "Cuprum", Arial, sans-serif;
     font-size: 30px;
-    text-transform: uppercase;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
     line-height: 30px;
-    margin: 0;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000000;
+    text-transform: uppercase;
+    margin-top: 6px;
 }
 .description-article-first {
     width: 519px;
@@ -867,7 +901,8 @@ nav ul {
     line-height: 24px;
     width: 519px;
     margin: 0;
-    margin-top: 38px;
+    margin-top: 26px;
+    text-align: justify;
 }
 .description-article-second {
     width: 386px;
@@ -878,19 +913,26 @@ nav ul {
     margin-top: 36px;
 }
 .delivery-list {
-    list-style-image: url("../img/list_style.png");
-    font-size: 18px;
-    line-height: 20px;
+    padding: 0;
     margin: 0;
-    margin-top: 21px;
-    padding-left: 34px;
+    list-style: none;
+    margin-top: 10px;
 }
 .delivery-list-item {
-    padding-left: 11px;
-    padding-top: 20px;
+    font-size: 18px;
+    line-height: 20px;
+    position: relative;
+    padding: 10px 50px 11px 36px;
+    color: #000000;
 }
-.delivery-list-item-first {
-    padding-left: 11px;
+.delivery-list-item::before {
+    position: absolute;
+    top: 19px;
+    left: 0;
+    width: 25px;
+    height: 2px;
+    content: '';
+    background-color: red;
 }
 .left-side-description-button {
     color: white;
@@ -899,22 +941,25 @@ nav ul {
     text-align: center;
     line-height: 18px;
     text-transform: uppercase;
-    margin-top: 36px;
+    margin-top: 24px;
     width: 220px;
     height: 38px;
-    margin-bottom: 86px;
 }
 .left-side-description-button-article {
     display: block;
     padding-top: 12px;
 }
 .right-side-description-article {
+    width: 179px;
     font-family: "PT Sans", Arial, sans-serif;
     font-size: 13px;
     line-height: 24px;
     margin: 0;
-    margin-top: 38px;
-    margin-bottom: 36px;
+    margin-top: 27px;
+
+}
+.right-side-description img {
+    margin-top: 30px;
 }
 .right-side-description-button {
     color: white;
@@ -923,14 +968,15 @@ nav ul {
     text-align: center;
     line-height: 18px;
     text-transform: uppercase;
-    margin-top: 44px;
+    margin-top: 36px;
     width: 300px;
     height: 38px;
-    margin-bottom: 86px;
+
 }
 .right-side-description-button-article {
     display: block;
     padding-top: 12px;
+    padding-left: 7px;
 }
 /*Стилизация футера*/
 .footer-logo {
@@ -945,28 +991,47 @@ nav ul {
     margin-left: 41px;
     margin-right: 41px;
 }
+.footer-bot {
+    color: #f1f5f7;
+    background-color: #32425c;
+    font-size: 18px;
+    text-align: left;
+    line-height: 24px;
+    margin-top: 86px;
+    height: 193px;
+}
+.footer-bot-catalog {
+    color: #f1f5f7;
+    background-color: #32425c;
+    font-size: 18px;
+    text-align: left;
+    line-height: 24px;
+    height: 193px;
+}
 .footer-bot-navigation {
     padding: 0;
     margin: 0;
     display: flex;
     width: 547px;
     justify-content: space-between;
-    margin-top: 42px;
+    margin-top: 38px;
+
 }
 .footer-middle-adress {
     width: 322px;
     height: 40px;
     margin-right: 91px;
-    margin-top: 45px;
+    margin-top: 28px;
+    margin-left: 3px;
 }
 .footer-middle-navigation {
     padding: 0;
     display: flex;
     width: 527px;
     justify-content: space-between;
-    margin-top: 45px;
+    margin-top: 29px;
+    margin-bottom: 53px;
 }
-.footer-bot,
 .footer-middle {
     color: #f1f5f7;
     background-color: #32425c;
@@ -984,7 +1049,7 @@ nav ul {
     display: flex;
     margin: 0;
     padding: 0;
-    margin-right: 119px;
+    margin-right: 118px;
     margin-top: 35px;
 }
 .bg-icon {
@@ -994,21 +1059,21 @@ nav ul {
     border-radius: 50%;
 }
 .vkontakte {
-    margin: 13px 8px 14px 8px;
+    margin: 13px 8px 14px 6px;
 }
 .facebook {
-    margin: 10px 15px 10px 15px;
+    margin: 10px 13px 10px 13px;
 }
 .instagram {
-    margin: 10px 11px 11px 10px;
+    margin: 10px 10px 4px 8px;
 }
 .footer-bottom-feedback {
-    margin-top: 40px;
-    margin-bottom: 35px;
-    margin-right: 53px;
+    margin-top: 37px;
+    margin-bottom: 39px;
+    margin-right: 51px;
 }
 .footer-bottom-developer {
-    margin-top: 40px;
+    margin-top: 37px;
     margin-bottom: 35px;
 }
 .footer-bot a:hover,
@@ -1051,6 +1116,7 @@ nav ul {
 }
 .footer-bottom li {
     list-style: none;
+    margin-left: 3px;
 }
 .footer-bottom a {
     color: #ffd180;
@@ -1060,26 +1126,40 @@ nav ul {
 
 
 /*Стилизация */
-.block1 a {
-    font-family: "PT Sans", Arial, sans-serif;
+.breadcrumbs {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    margin-top: 20px;
+    margin-left: -1px;
+  }
+  
+  .breadcrumbs a {
     font-size: 13px;
     line-height: 18px;
-    text-align: left;
-    color: black;
+    color: #000000;
+    font-family: 'PT Sans', Arial, sans-serif;
     text-transform: uppercase;
-}
-.block1 li {
-    list-style: none;
-    margin-top: 23px;
-}
-.icon-home {
-    margin-right: 15px;
-}
-.icon-right-small {
-    margin-top: 23px;
-    margin-right: 16px;
-    margin-left: 16px;
-}
+  }
+  .breadcrumbs-item {
+    position: relative;
+    padding-right: 41px;
+  }
+  
+  .breadcrumbs-item:last-child {
+    padding-right: 0;
+  }
+  
+  .breadcrumbs-item:not(:last-child)::after {
+    position: absolute;
+    top: 2px;
+    right: 16px;
+    width: 8px;
+    height: 12px;
+    content: '';
+    background: url('../img/icon-right-small.svg') no-repeat 0 0;
+  }
 /*Стилизация заголовка каталога*/
 .catalog-title {
     height: 89px;
@@ -1091,8 +1171,8 @@ nav ul {
 .catalog-title h2 {
     font-size: 30px;
     line-height: 30px;
-    margin-top: 32px;
-    margin-left: 30px;
+    margin-top: 25px;
+    margin-left: 28px;
     font-weight: normal;
 }
 .catalog-left-coolumn {
@@ -1102,7 +1182,7 @@ nav ul {
 .catalog-right-column {
     width: 700px;
     margin-left: 20px;
-    margin-top: 20px;
+    margin-top: 16px;
 }
 
 /*Стилизация фильтра товаров*/
@@ -1122,7 +1202,7 @@ nav ul {
   margin-left: 2px;
 }
 .devider-top {
-    margin-top: 41px;
+    margin-top: 31px;
 
 }
 .filter {
@@ -1135,10 +1215,10 @@ nav ul {
     color: black;
     font-weight: normal;
     background-color: #f7f3ec;
-    height: 24px;
-    margin-top: 20px;
-    padding-top: 14px;
-    padding-left: 18px;
+    height: 28px;
+    margin-top: 16px;
+    padding-top: 9px;
+    padding-left: 19px;
     text-transform: uppercase;
 }
 .filter-developer {
@@ -1152,18 +1232,21 @@ nav ul {
     border-top: #f7f3ec;
     margin: 0;
     padding: 0;
-    margin-top: 25px;
+    margin-top: 17px;
 }
 .filter-developer-list {
     list-style: none;
     padding: 0;
     margin: 0;
 }
+.filter-developer-list li:first-child {
+    margin-top: -6px;
+}
 .visually-hidden {
     visibility: hidden;
 }
 .filter-developer-items {
-    margin-bottom: 19px;
+    margin-bottom: 20px;
     user-select: none;
 }
 .filter-developer-items label {
@@ -1213,7 +1296,7 @@ nav ul {
     border: none;
     padding: 0;
     margin: 0;
-    margin-top: 25px;
+    margin-top: 19px;
 }
 .filter-power-list {
     padding: 0;
@@ -1258,14 +1341,15 @@ nav ul {
     font-size: 17px;
     line-height: 30px;
     text-align: left;
-    margin-bottom: 26px;
+    margin-top: -16px;
+    margin-bottom: 14px;
 }
 .filter button {
     width: 140px;
     height: 38px;
     background-color: white;
     border: 1px solid #e5e5e5;
-    margin-top: 75px;
+    margin-top: 60px;
     font-family: "PT Sans", Arial, sans-serif;
     font-size: 13px;
     font-weight: normal;
@@ -1280,12 +1364,14 @@ nav ul {
 /*Стилизация сортировки товара*/
 .popular-catalog-item-catalog-page {
     width: 220px;
+    height: 316px;
     display: inline-block;
     position: relative;
     margin-right: 13px;
     margin-top: 20px;
     border: solid 1px #eaeaea;
 }
+
 .popular-catalog-item-last-of-list {
     width: 220px;
     display: inline-block;
@@ -1317,6 +1403,10 @@ nav ul {
     letter-spacing: normal;
     text-align: center;
     color: #000000;
+}
+.popular-catalog-image.last-of-list {
+    margin-top: 2px;
+    margin-left: 7px;
 }
 .popular-catalog-item-catalog-page .popular-catalog-old-price {
     font-family: "PT Sans", Arial, sans-serif;
@@ -1435,7 +1525,7 @@ nav ul {
     line-height: 18px;
     color: black;
     font-weight: normal;
-    margin-top: 14px;
+    margin-top: 10px;
     margin-left: 19px;
     text-transform: uppercase;
 }
@@ -1451,15 +1541,15 @@ nav ul {
     color: red;
     margin-left: 139px;
     text-transform: uppercase;
-    margin-top: 14px;
+    margin-top: 10px;
 }
 .sort-on-type {
     display: flex;
     width: 53px;
     color:rgba(0, 0, 0, 0.3);
-    margin-left: 71px;
+    margin-left: 65px;
     text-transform: uppercase;
-    margin-top: 14px;
+    margin-top: 10px;
     text-decoration-style: dotted;
     text-decoration-color: #ee3643;
    
@@ -1470,39 +1560,79 @@ nav ul {
     color:rgba(0, 0, 0, 0.3);
     margin-left: 65px;
     text-transform: uppercase;
-    margin-top: 14px;
+    margin-top: 10px;
     text-decoration: none;
     text-decoration-style: dotted;
     text-decoration-color: #ee3643;
 }
 .sort-up {
-    margin-top: 14px;
-    margin-left: 46px;
+    margin-top: 10px;
+    margin-left: 47px;
 }
 .sort-down {
-    margin-top: 14px;
+    margin-top: 10px;
     margin-left: 21px;
 }
 /*Стилизация каталога товаров*/
-.catalog-items-catalog {
-    margin-left: 20px;
-}
-.catalog-items-catalog h4 {
-    font-family: "PT Sans", Arial, sans-serif;
-    font-size: 18px;
-    font-weight: bold;
-    line-height: 20px;
-    color: black;
-    text-align: center;
-    margin-top: 12px;
-    margin-bottom: 0;
-}
-.catalog-items-catalog ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    width: 700px;
+.catalog-items {
+    display: flex;
     flex-wrap: wrap;
+    width: 720px;
+}
+.popular-catalog-button-active {
+    width: 217px;
+    height: 170px;
+    background-color: white;
+}
+.popular-catalog-buy-active {
+    display: flex;
+    width: 135px;
+    height: 38px;
+    box-shadow: inset 0px -3px 0 0 #367315;
+    background-color: #63a63e;
+    position: relative;
+    top: 42px;
+    left: 40px;
+}
+.buy-active-article {
+    font-family: "Cuprum", Arial, sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 18px;
+    letter-spacing: normal;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 11px;
+    padding-left: 20px;
+}
+.catalog-cart-icon {
+    padding-top: 11px;
+    padding-left: 15px;
+}
+.bookmark-active-article {
+    font-family: "Cuprum", Arial, sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 18px;
+  letter-spacing: normal;
+  text-align: center;
+  color: #32425c;
+  text-transform: uppercase;
+  padding-top: 6px;
+  padding-left: 34px;
+}
+.popular-catalog-bookmark-active {
+    display: flex;
+    width: 129px;
+  height: 32px;
+  border: solid 3px #63a63e;
+  position: relative;
+  left: 40px;
+  top:  52px;
 }
 .popular-catalog-items-catalog {
     display: flex;
@@ -1586,6 +1716,7 @@ nav ul {
 .popular-product {
     margin-top: 53px;
     background-color: #f9f5f0;
+    height: 84px;
 }
 .popular-product h2 {
     font-size: 30px;
@@ -1593,8 +1724,8 @@ nav ul {
     color: #32425c;
     font-weight: normal;
     text-transform: uppercase;
-    margin-top: 33px;
-    margin-left: 30px;
+    margin-top: 30px;
+    margin-left: 28px;
 }
 .popular-product a {
     font-size: 14px;
@@ -1606,24 +1737,25 @@ nav ul {
 }
 .popular-product-button {
     width: 253px;
-    height: 38px;
+    height: 41px;
     background-color: #ee3643;
-    margin-top: 25px
+    margin-top: 24px
 }
 .popular-developer-button {
     width: 253px;
     height: 38px;
     background-color: #ee3643;
-    margin-top: 25px;
+    margin-top: 27px;
     margin-left: 269px;
 }   
 .popular-developer-item {
     font-family: "Cuprum", Arial, sans-serif;
   font-size: 14px;
   font-weight: normal;
-  line-height: 1.29;
-  margin-left: 70px;
-  margin-top: 13px;
+  line-height: 18px;
+  margin-left: 68px;
+  margin-top: 11px;
+  text-transform: uppercase;
 }
 .developers {
     margin-top: 20px;
@@ -1684,6 +1816,7 @@ nav ul {
     margin-top: 20px;
 }
 .slider-bot {
+    height: 507px;
     background-color: #f4f7f9;
     margin-top: 85px;
 }
@@ -1697,7 +1830,7 @@ nav ul {
     color: black;
     font-weight: normal;
     text-transform: uppercase;
-    padding-top: 68px;
+    padding-top: 64px;
     margin: 0;
 }
 
@@ -1707,10 +1840,11 @@ nav ul {
     font-family: "PT Sans", Arial, sans-serif;
     font-size: 13px;
     line-height: 24px;
+    text-align: justify;
     color: black;
     font-weight: normal;
     margin: 0;
-    margin-top: 38px;
+    margin-top: 25px;
 }
 .slider-bot-button ul {
     list-style: none;
@@ -1722,15 +1856,35 @@ nav ul {
 .slider-bot-button {
     margin-top: 74px;
 }
+.shadow {
+    position: relative;
+    top: -220px;
+    left: 230px;
+}
 .slider-bot-button button {
     font-size: 21px;
     line-height: 30px;
     font-weight: bold;
     background-color: #32425c;
     color: white;
+    text-align: left;
     width: 240px;
     height: 61px;
-    text-align: left;
+    box-shadow: 0px 1px 0 0 #293449, inset 0px 1px 0 0 #405069;
+    background-color: #32425c;
+    border: none;
+    padding-top: 0px;
+    padding-left: 22px;
+}
+.slider-bot-button button.active-button {
+    color: #32425c;
+    border: none;
+    width: 240px;
+    height: 67px;
+    box-shadow: 0px 1px 0 0 white, inset 0px 1px 0 0 white;
+    background-color: white;
+    padding-top: 5px;
+    padding-left: 22px;
 }
 .slider-bot-button button:hover {
     background-color: white;
@@ -1748,6 +1902,14 @@ nav ul {
     padding-left: 80px;
     padding-top: 76px;
 }
+.slider-description-first-article {
+    margin: 0;
+    margin-top: 25px;
+}
+.slider-bot-description.slider-description-second-article {
+    margin: 0;
+    width: 200px;
+}
 .slider-bot-slides h3 {
     font-size: 36px;
     line-height: 36px;
@@ -1764,11 +1926,15 @@ nav ul {
     color: black;
     font-weight: normal;
     width: 275px;
-    margin-top: 34px;
+    margin-top: 26px;
+}
+p.slider-description-second-article {
+    margin-top: 0;
+    width: 200px;
 }
 .slide-bot-image {
-    margin-top: 97px;
-    margin-left: -121px;
+    margin-top: 103px;
+    margin-left: -124px;
 }
 .pages {
     font-family: "PT Sans", Arial, sans-serif;
@@ -1785,61 +1951,54 @@ nav ul {
     margin-top: 52px;
 }
 .page-1 {
+    display: block;
     background-color: #ee3643;
     color: white;
-    width: 38px;
-    height: 38px;
+    padding-top: 9px;
+    padding-left: 15px;
+    width: 23px;
+    height: 26px;
     border-radius: 5%;
-}
-.page-1 a {
-    margin-left: 16px;
-    margin-top: 11px;
-    display: block;
 }
 .page-2 {
-    width: 38px;
-    height: 38px;
+    display: block;
+    padding-top: 9px;
+    padding-left: 15px;
+    width: 20px;
+    height: 26px;
     border: solid 1px #e5e5e5;
     border-radius: 5%;
     background-color: white;
-}
-.page-2 a {
     color: black;
-    margin-left: 16px;
-    margin-top: 11px;
-    display: block;
 }
+
 .page-3 {
-    width: 38px;
-    height: 38px;
+    display: block;
+    padding-top: 9px;
+    padding-left: 15px;
+    width: 23px;
+    height: 26px;
     border: solid 1px #e5e5e5;
     background-color: white;
     border-radius: 5%;
-}
-.page-3 a {
     color: black;
-    margin-left: 16px;
-    margin-top: 11px;
-    display: block;
 }
 .next-page {
-    width: 140px;
-    height: 38px;
+    display: block;
+    width: 107px;
+    height: 26px;
     border: solid 1px #e5e5e5;
     background-color: white;
     border-radius: 5%;
-}
-.next-page a {
     color: black;
+    padding-top: 9px;
+    padding-left: 30px;
     text-transform: uppercase;
-    margin-left: 32px;
-    margin-top: 11px;
-    display: block;
 }
 .page-1,
 .page-2,
 .page-3 {
-    margin-right: 20px;
+    margin-right: 10px;
 }
 .pop-up {
     display: none;
@@ -1849,6 +2008,7 @@ nav ul {
     margin-top: 61px;
     background-color: #f4f7f9;
     height: 261px;
+    margin-bottom: 0;
 }
 .about-product h2 {
     font-size: 30px;
@@ -1973,11 +2133,12 @@ nav ul {
     font-weight: bold;
     font-stretch: normal;
     font-style: normal;
-    line-height: 1.76;
+    line-height: 30px;
     letter-spacing: normal;
     text-align: left;
     text-transform: uppercase;
-    margin-top: 20px;
+    margin-top: 0px;
+    margin-left: -2px;
 }
 .price-control {
     display: flex;
@@ -2006,18 +2167,19 @@ nav ul {
 .range-control {
     position: relative;
     width: 200px;
-    height: 41px;
+    height: 48px;
   background-color: #f7f3ec;
-  margin-top: 21px;
+  margin-top: 13px;
   margin-bottom: 9px;
-  padding-top: 39px;
-    padding-left: 20px;
+  padding-top: 31px;
+    padding-left: 18px;
 }
 
 .range-control .scale {
     width: 180px;
   height: 2px;
   background-color: #d7dcde;
+  margin-top: 7px;
 
 }
 .range-control .bar {
@@ -2034,7 +2196,7 @@ nav ul {
     top: 29px;
 }
 .range-toggle.toggle-max {
-    left: 160px;
+    left: 158px;
 }
 
 .pop-up-map {
