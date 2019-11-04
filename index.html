@@ -3,8 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>«Техномарт» - магазин строительных материалов</title>
-    <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&display=swap&subset=cyrillic" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Cuprum:400,400i,700,700i&display=swap&subset=cyrillic" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Cuprum:400,400i,700,700i/PT+Sans:400,400i,700,700i&display=swap&subset=cyrillic" rel="stylesheet">
     <link href="css/normalize.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
   </head>
@@ -15,7 +14,7 @@
     <header class="header">
       <div class="header-top">
         <div class="container">
-          <a class="header-logo">
+          <a href="index.html" class="header-logo">
             <img class="logo-header" src="img/logo.svg" alt="Логотип компании «Техномарт»" width="109" height="19">
           </a>
           <form class="search-form" action="https://echo.htmlacademy.ru" method="POST">
@@ -141,7 +140,7 @@
                     <li class="slider-top-item">  <!--Первый слайд, который на макете-->
                     <h4>Дрели</h4>
                       <p>Соседям на радость!</p>
-                      <a class="slider-top-button" href="#">Открыть каталог</a>
+                      <a class="slider-top-button" href="catalog.html">Открыть каталог</a>
                       <svg class="icon-left" xmlns="http://www.w3.org/2000/svg" width="22" height="40" viewBox="0 0 22 40">
                         <path fill="#FFF" d="M19.83-.035l2.089 2.099L4.13 19.947l17.847 17.939-2.09 2.099L-.048 19.947z"/>
                       </svg>
@@ -149,7 +148,7 @@
                         <path fill="#FFF" d="M2.098-.035L.009 2.064l17.789 17.883L-.048 37.886l2.089 2.099 19.935-20.038z"/>
                       </svg>
                     </li> 
-                    <li class="slider-top-item-second">  <!--Второй  слайд, -->
+                    <li class="slider-top-item-second display-none">  <!--Второй  слайд, -->
                       <h4>Дрели</h4>
                       <p>Соседям на радость!</p>
                       <a class="slider-top-button" href="#">Открыть каталог</a>
@@ -410,28 +409,6 @@
             <a class="right-side-description-button-article" href="#">Заблудились? Напишите нам!</a>
           </div>
         </div>
-        <div class="pop-up"> <!--Попап напишите нам-->
-          <p>
-            <img src="img/map_popup.jpg" alt="Наш офис находится по адресу г. Санкт-Петербург, ул. Б. Конюшенная, д.19/8">
-          </p>
-          <form action="https://echo.htmlacademy.ru" method="POST">
-            <p>
-              <label for="firs-last-name">Ваше имя:</label>
-              <input type="text" id="firs-last-name" name="firs-last-name" placeholder="Имя Фамилия">
-            </p>
-            <p>
-              <label for="your-email">Ваш e-mail:</label>
-              <input type="text" id="your-email" name="your-email" placeholder="email@example.com">
-            </p>
-            <p>
-              <label>Текст письма:</label>
-              <textarea name="Текс письма" placeholder="В свободной форме">
-
-              </textarea>
-            </p>
-          </form>
-          <button type="submit">Отправить</button>
-        </div>
       </section>
 
     </main>
@@ -498,21 +475,35 @@
         </div>
       </div>
     </footer>
-    <div class="visually-hidden add-to-cart">
-      <div class="red-line"></div>
-      <a class="add-to-cart-close" href="#">
-        <svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewBox="0 0 21 21">
-          <path fill="#EE3643" d="M13.273 10.5l7.422-7.422a1.003 1.003 0 0 0 0-1.414L19.336.305a1.003 1.003 0 0 0-1.414 0L10.5 7.727 3.078.305a1.003 1.003 0 0 0-1.414 0L.305 1.664a1.003 1.003 0 0 0 0 1.414L7.727 10.5.306 17.922a1.003 1.003 0 0 0 0 1.414l1.359 1.359a1.003 1.003 0 0 0 1.414 0l7.422-7.422 7.422 7.422a1.003 1.003 0 0 0 1.414 0l1.359-1.359a1.003 1.003 0 0 0 0-1.414L13.273 10.5z"/>
-        </svg>
-      </a>
-      <svg class="modal-icon-add-to-cart" xmlns="http://www.w3.org/2000/svg" width="66" height="66" viewBox="0 0 66 66">
-        <circle cx="33" cy="33" r="33" fill="#63A63E"/>
-        <path fill="#FFF" d="M49.641 21.066a1.003 1.003 0 0 0-1.414 0L29.788 39.504a1.003 1.003 0 0 1-1.414 0l-8.14-8.139a1.003 1.003 0 0 0-1.414 0L15.285 34.9a1.003 1.003 0 0 0 0 1.414l13.089 13.09a1.003 1.003 0 0 0 1.414 0l3.536-3.536 1.414-1.414 18.438-18.438a1.003 1.003 0 0 0 0-1.414l-3.535-3.536z"/>
-      </svg>
-      <p class="add-to-cart-article">Товар добвален в корзину!</p>
-      <div class="add-to-cart-button-back">
-        <a class="make-order" href="#">Оформить заказ</a>
-        <a class="continue-shopping" href="#">Продолжить покупки</a>
+    <div class="display-none">
+      <div class="pop-up-map">
+        <img src="img/map_popup.jpg" width="940" height="446" alt="Расположение нашего офиса на карте Юольшая Конюшенная улица дом 19">
+        <a class="close-map">
+          <svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewBox="0 0 21 21">
+            <path fill="#EE3643" d="M13.273 10.5l7.422-7.422a1.003 1.003 0 0 0 0-1.414L19.336.305a1.003 1.003 0 0 0-1.414 0L10.5 7.727 3.078.305a1.003 1.003 0 0 0-1.414 0L.305 1.664a1.003 1.003 0 0 0 0 1.414L7.727 10.5.306 17.922a1.003 1.003 0 0 0 0 1.414l1.359 1.359a1.003 1.003 0 0 0 1.414 0l7.422-7.422 7.422 7.422a1.003 1.003 0 0 0 1.414 0l1.359-1.359a1.003 1.003 0 0 0 0-1.414L13.273 10.5z"/>
+          </svg>
+        </a>
+      </div>
+    </div>
+    <div class="display-none">
+      <div class="whrite-us-pop-up">
+        <div class="whrite-us-red-line"></div>
+        <a class="whrite-us-close" href="#">
+          <svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewBox="0 0 21 21">
+            <path fill="#ee3643" d="M13.273 10.5l7.422-7.422a1.003 1.003 0 0 0 0-1.414L19.336.305a1.003 1.003 0 0 0-1.414 0L10.5 7.727 3.078.305a1.003 1.003 0 0 0-1.414 0L.305 1.664a1.003 1.003 0 0 0 0 1.414L7.727 10.5.306 17.922a1.003 1.003 0 0 0 0 1.414l1.359 1.359a1.003 1.003 0 0 0 1.414 0l7.422-7.422 7.422 7.422a1.003 1.003 0 0 0 1.414 0l1.359-1.359a1.003 1.003 0 0 0 0-1.414z"/>
+          </svg>
+        </a>
+        <form id="whrite-us" class="whrite-us" action="https://echo.htmlacademy.ru" method="POST">
+          <label class="name-label" for="name">Ваше имя:<input class="name" type="text" id="name" placeholder="Имя Фамилия"></label>
+          <label class="email-label" for="email">Ваш e-mail:<input class="email" type="email" id="email" placeholder="email@example.com"></label>
+          <label class="letter-label" for="letter">Текст письма:
+            <textarea form="whrite-us" class="letter" id="letter" placeholder="В свободной форме">
+            </textarea>
+          </label>
+        </form>
+        <div class="whrite-us-button-area">
+            <button class="whrite-us-button" type="button">Отправить</button>
+        </div>
       </div>
     </div>
   </body>
