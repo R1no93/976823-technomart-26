@@ -30,7 +30,7 @@ a {
     background-color: #293449;
     color: white;
     font-size: 17px;
-    line-height: 1.06;
+    line-height: 18px;
     text-align: left;
     
 }
@@ -154,7 +154,7 @@ a {
     background-color: white;
     color: black;
     font-size: 17px;
-    line-height: 1.06;
+    line-height: 18px;
     text-align: left;
 }
 /* Стилизация средней части хедера*/
@@ -163,9 +163,11 @@ a {
     background-color: #f4f7f9;
 }
 .header-description {
+    width: 196px;
+    height: 60px;
     color: #EE3643;
     font-size: 16px;
-    line-height: 1.44;
+    line-height: 23px;
     font-style: italic;
     text-align: left;
     padding-left: 52px;
@@ -187,7 +189,7 @@ a {
 .header-phone-number {
     color: #EE3643;
     font-size: 21px;
-    line-height: 1;
+    line-height: 21px;
     text-align: left;
     display: flex;
     border: 3px solid white;
@@ -204,7 +206,7 @@ a {
 .header-adress {
     color: #32425c;
     font-size: 14px;
-    line-height: 1;
+    line-height: 14px;
     text-align: center;
     margin: 0;
     padding-top: 10px;
@@ -220,7 +222,7 @@ a {
 .login a {
     color: black;
     font-size: 21px;
-    line-height: 1;
+    line-height: 21px;
 }
 .login a:hover {
     color: #EE3643;
@@ -256,7 +258,7 @@ a {
 .register a {
     color: black;
     font-size: 21px;
-    line-height: 1;
+    line-height: 21px;
 }
 .register-button {
     padding: 14px 25px 11px 25px;
@@ -265,7 +267,7 @@ a {
 .login-menu-catalog a {
     color: black;
     font-size: 21px;
-    line-height: 1;
+    line-height: 21px;
 }
 .login-user-catalog {
     display: flex;
@@ -273,7 +275,7 @@ a {
     height: 32px;
     color: black;
     font-size: 21px;
-    line-height: 1;
+    line-height: 21px;
     background: white;
     padding-top: 13px;
     padding-left: 13px;
@@ -302,13 +304,13 @@ a {
 }
 .login-order-catalog {
     font-size: 16px;
-    line-height: 1.13;
+    line-height: 18px;
     color: #32425c;
     text-decoration: underline;
 }
 .login-cabinet-catalog {
     font-size: 16px;
-    line-height: 1.13;
+    line-height: 18px;
     color: #32425c;
     text-decoration: underline;
 }
@@ -384,7 +386,7 @@ nav ul {
     list-style: none;
     background-color: #32425c;
     font-size: 17px;
-    line-height: 1;
+    line-height: 17px;
     font-weight: normal;
     text-align: left;
     height: 60px;
@@ -502,7 +504,7 @@ nav ul {
     font-weight: bold;
     font-stretch: normal;
     font-style: normal;
-    line-height: 1;
+    line-height: 36px;
     text-transform: uppercase;
     letter-spacing: normal;
     text-align: left;
@@ -521,7 +523,7 @@ nav ul {
     font-weight: normal;
     font-stretch: normal;
     font-style: normal;
-    line-height: 1.33;
+    line-height: 24px;
     letter-spacing: normal;
     text-align: left;
     color: white;
@@ -549,7 +551,7 @@ nav ul {
     font-weight: bold;
     font-stretch: normal;
     font-style: normal;
-    line-height: 1;
+    line-height: 36px;
     text-transform: uppercase;
     letter-spacing: normal;
     text-align: left;
@@ -568,7 +570,7 @@ nav ul {
     font-weight: normal;
     font-stretch: normal;
     font-style: normal;
-    line-height: 1.33;
+    line-height: 24px;
     letter-spacing: normal;
     text-align: left;
     color: white;
@@ -780,7 +782,7 @@ nav ul {
     font-weight: bold;
     font-stretch: normal;
     font-style: normal;
-    line-height: 1.11;
+    line-height: 20px;
     letter-spacing: normal;
     text-align: center;
     color: #000000;
@@ -791,7 +793,7 @@ nav ul {
     font-weight: bold;
     font-stretch: normal;
     font-style: normal;
-    line-height: 1.06;
+    line-height: 18px;
     letter-spacing: normal;
     text-align: center;
     color: #a9a9a9;
@@ -806,7 +808,7 @@ nav ul {
     font-weight: bold;
     font-stretch: normal;
     font-style: normal;
-    line-height: 1.06;
+    line-height: 18px;
     letter-spacing: normal;
     text-align: center;
     color: white;
@@ -848,6 +850,8 @@ nav ul {
     margin: 0;
 }
 .description-article-first {
+    width: 519px;
+    height: 37px;
     font-family: "PT Sans" sans-serif;
     font-size: 13px;
     line-height: 24px;
@@ -856,6 +860,7 @@ nav ul {
     margin-top: 38px;
 }
 .description-article-second {
+    width: 386px;
     font-family: "PT Sans" sans-serif;
     font-size: 13px;
     line-height: 24px;
@@ -1131,7 +1136,7 @@ nav ul {
     text-transform: uppercase;
     color: black;
     font-size: 15px;
-    line-height: 1.33;
+    line-height: 20px;
     text-align: left;
     border: none;
     border-top: #f7f3ec;
@@ -1289,7 +1294,7 @@ nav ul {
     font-weight: bold;
     font-stretch: normal;
     font-style: normal;
-    line-height: 1.11;
+    line-height: 20px;
     letter-spacing: normal;
     text-align: center;
     color: #000000;
@@ -1300,7 +1305,7 @@ nav ul {
     font-weight: bold;
     font-stretch: normal;
     font-style: normal;
-    line-height: 1.06;
+    line-height: 18px;
     letter-spacing: normal;
     text-align: center;
     color: #a9a9a9;
@@ -1315,7 +1320,7 @@ nav ul {
     font-weight: bold;
     font-stretch: normal;
     font-style: normal;
-    line-height: 1.06;
+    line-height: 18px;
     letter-spacing: normal;
     text-align: center;
     color: white;
@@ -1360,7 +1365,7 @@ nav ul {
     font-weight: bold;
     font-stretch: normal;
     font-style: normal;
-    line-height: 1.06;
+    line-height: 18px;
     letter-spacing: normal;
     text-align: center;
     color: #a9a9a9;
@@ -1375,7 +1380,7 @@ nav ul {
     font-weight: bold;
     font-stretch: normal;
     font-style: normal;
-    line-height: 1.06;
+    line-height: 18px;
     letter-spacing: normal;
     text-align: center;
     color: white;
@@ -1514,7 +1519,7 @@ nav ul {
     font-family: "PT Sans", sans-serif;
     font-size: 17px;
     font-weight: bold;
-    line-height: 1.06;
+    line-height: 18px;
     margin: 0;
     padding: 8px 42px 14px 38px;
     margin-top: 10px;
@@ -1565,7 +1570,7 @@ nav ul {
 }
 .popular-product h2 {
     font-size: 30px;
-    line-height: 1;
+    line-height: 30px;
     color: #32425c;
     font-weight: normal;
     text-transform: uppercase;
@@ -1585,12 +1590,6 @@ nav ul {
     height: 38px;
     background-color: #ee3643;
     margin-top: 25px
-}
-.popular-product-item {
-  font-family: Cuprum;
-  font-size: 14px;
-  font-weight: normal;
-  line-height: 1.29;
 }
 .popular-developer-button {
     width: 253px;
@@ -1684,6 +1683,8 @@ nav ul {
 }
 
 .slider-bot-header-article {
+    width: 398px;
+    height: 37px;
     font-family: "PT Sans", sans-serif;
     font-size: 13px;
     line-height: 24px;
@@ -1721,6 +1722,8 @@ nav ul {
 
 }
 .slide-bot-description {
+    width: 275px;
+    height: 83px;
     margin: 0;
     padding: 0;
     padding-left: 80px;
@@ -1845,14 +1848,91 @@ nav ul {
     font-weight: normal;
 }
 
-
-
-
-
-
-
-
-
+.add-to-cart {
+    display: flex;
+    flex-direction: column;
+    width: 620px;
+    height: 282px;
+    box-align: 0px 20px 40px 0 rgba(41, 52, 73, 0.75);
+    margin: 0 auto;
+}
+.red-line {
+    width: 620px;
+    height: 7px;
+    background-color: #ee3643;
+}
+.add-to-cart-close {
+    position: relative;
+    top: 9px;
+    left: 600px;
+}
+.modal-icon-add-to-cart {
+    position: relative;
+    top: 18px;
+    left: 81px;
+}
+.add-to-cart-article {
+    margin: 0;
+    padding: 0;
+    font-family: Cuprum;
+    font-size: 30px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 30px;
+    letter-spacing: normal;
+    text-align: center;
+    color: #000000;
+    position: relative;
+    top: -25px;
+    left: 32px;
+}
+.add-to-cart-button-back {
+    width: 620px;
+    height: 112px;
+    background-color: #f1f1f1;
+}
+.make-order {
+    display: flex;
+    position: relative;
+    width: 169px;
+    height: 24px;
+    background-color: #ee3643;
+    top: 37px;
+    left: 80px;
+    font-family: Cuprum;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 18px;
+    letter-spacing: normal;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 14px;
+    padding-left: 59px;
+}
+.continue-shopping {
+    width: 184px;
+    height: 24px;
+    display: flex;
+    position: relative;
+    background-color: white;
+    top: 0px;
+    left: 330px;
+    font-family: Cuprum;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 18px;
+    letter-spacing: normal;
+    text-align: center;
+    text-transform: uppercase;
+    color: black;
+    padding-top: 14px;
+    padding-left: 44px;
+}
 
 
 .range {
