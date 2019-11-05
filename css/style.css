@@ -1435,7 +1435,10 @@ nav ul {
 
 .filter-developer-items {
   margin-bottom: 20px;
-  user-select: none;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
 }
 
 .filter-developer-items label {
@@ -1495,7 +1498,10 @@ nav ul {
 
 .filter-power-items {
   margin-bottom: 19px;
-  user-select: none;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
 }
 
 .filter-power-items label {
@@ -1743,8 +1749,10 @@ nav ul {
   margin-left: 65px;
   text-transform: uppercase;
   margin-top: 10px;
-  text-decoration-style: dotted;
-  text-decoration-color: #ee3643;
+  -webkit-text-decoration-style: dotted;
+          text-decoration-style: dotted;
+  -webkit-text-decoration-color: #ee3643;
+          text-decoration-color: #ee3643;
 }
 
 .sort-on-func {
@@ -1755,8 +1763,10 @@ nav ul {
   text-transform: uppercase;
   margin-top: 10px;
   text-decoration: none;
-  text-decoration-style: dotted;
-  text-decoration-color: #ee3643;
+  -webkit-text-decoration-style: dotted;
+          text-decoration-style: dotted;
+  -webkit-text-decoration-color: #ee3643;
+          text-decoration-color: #ee3643;
 }
 
 .sort-up {
@@ -1778,13 +1788,13 @@ nav ul {
   width: 720px;
 }
 
-.popular-catalog-button-active {
+.popular-catalog-button {
   width: 217px;
   height: 170px;
   background-color: white;
 }
 
-.popular-catalog-buy-active {
+.popular-catalog-buy {
   display: flex;
   width: 135px;
   height: 38px;
@@ -1795,7 +1805,7 @@ nav ul {
   left: 40px;
 }
 
-.buy-active-article {
+.buy-article {
   font-family: "Cuprum", Arial, sans-serif;
   font-size: 14px;
   font-weight: normal;
@@ -1814,7 +1824,7 @@ nav ul {
   padding-left: 15px;
 }
 
-.bookmark-active-article {
+.bookmark-article {
   font-family: "Cuprum", Arial, sans-serif;
   font-size: 14px;
   font-weight: normal;
@@ -1829,7 +1839,7 @@ nav ul {
   padding-left: 34px;
 }
 
-.popular-catalog-bookmark-active {
+.popular-catalog-bookmark {
   display: flex;
   width: 129px;
   height: 32px;
@@ -2074,7 +2084,7 @@ nav ul {
 }
 
 .slider-bot-header-article {
-  width: 441px;
+  width: 414px;
   height: 37px;
   font-family: "PT Sans", Arial, sans-serif;
   font-size: 13px;
@@ -2473,7 +2483,7 @@ p.slider-description-second-article {
   position: absolute;
   width: 22px;
   height: 22px;
-  background: url("../img/filter_button.png") no-repeat 0 0;
+  background: url("../img/filter-button.svg") no-repeat 0 0;
   cursor: pointer;
   top: 29px;
 }
