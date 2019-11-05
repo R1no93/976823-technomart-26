@@ -910,17 +910,19 @@ nav ul {
   border: solid 1px #eaeaea;
   margin-right: 20px;
 }
-
+.popular-catalog-item.catalog-margin {
+  margin-top: 20px;
+}
 .flag-catalog {
   position: absolute;
   margin-left: 159px;
 }
 
 .popular-catalog-title {
-  width: 190px;
+  width: 184px;
   height: 33px;
   font-family: "PT Sans", Arial, sans-serif;
-  font-size: 16px;
+  font-size: 18px;
   font-weight: bold;
   font-stretch: normal;
   font-style: normal;
@@ -929,7 +931,7 @@ nav ul {
   text-align: center;
   color: #000000;
   margin-left: 17px;
-  margin-top: 3px;
+  margin-top: 7px;
 }
 
 .popular-catalog-old-price {
@@ -943,6 +945,7 @@ nav ul {
   text-align: center;
   color: #a9a9a9;
   text-decoration: line-through;
+  margin: 0;
 }
 
 .hidden-price {
@@ -961,7 +964,7 @@ nav ul {
   color: white;
   position: relative;
   width: 80px;
-  margin: 10px auto;
+  margin: 9px auto;
   margin-bottom: 20px;
   padding: 10px 30px;
   background: #ee3643;
@@ -1001,6 +1004,7 @@ nav ul {
   color: black;
   text-align: left;
   margin-top: 45px;
+  margin-bottom: 86px;
 }
 
 .left-side-description {
@@ -1139,7 +1143,6 @@ nav ul {
   font-size: 18px;
   text-align: left;
   line-height: 24px;
-  margin-top: 86px;
   height: 193px;
 }
 
@@ -2278,15 +2281,21 @@ p.slider-description-second-article {
   color: black;
   text-align: inherit;
   text-transform: uppercase;
-  margin-top: 67px;
+  margin-top: 64px;
 }
 
 .about-product p {
   font-family: "PT Sans", Arial, sans-serif;
   font-size: 13px;
-  line-height: 24px;
-  color: black;
   font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 24px;
+  letter-spacing: normal;
+  text-align: left;
+  color: #000000;
+  margin-top: 0;
+  width: 932px;
 }
 
 .add-to-cart {
