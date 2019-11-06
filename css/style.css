@@ -8,15 +8,6 @@ body {
   min-width: 960px;
 }
 
-body h1 {
-  display: none;
-}
-
-a {
-  color: white;
-  text-decoration: none;
-}
-
 
 /*Центровщики*/
 
@@ -148,6 +139,8 @@ a {
   display: flex;
   padding-top: 12px;
   padding-right: 29px;
+  color: white;
+  text-decoration: none;
 }
 
 .cart-quantity {
@@ -159,6 +152,8 @@ a {
   background: #ee3643;
   width: 150px;
   height: 42px;
+  color: white;
+  text-decoration: none;
 }
 
 .cart-catalog-icon {
@@ -181,6 +176,11 @@ a {
 .order {
   padding-top: 12px;
   padding-left: 20px;
+}
+
+.order a {
+  color: white;
+  text-decoration: none;
 }
 
 .header-order-button:hover {
@@ -273,6 +273,7 @@ a {
 }
 
 .login a {
+  text-decoration: none;
   color: black;
   font-size: 21px;
   line-height: 21px;
@@ -320,6 +321,7 @@ a {
   color: black;
   font-size: 21px;
   line-height: 21px;
+  text-decoration: none;
 }
 
 .register-button {
@@ -395,11 +397,6 @@ a {
 
 /*Стилизация навигационного меню*/
 
-nav ul {
-  padding: 0;
-  margin: 0;
-}
-
 .header-nav {
   display: flex;
   list-style: none;
@@ -418,7 +415,7 @@ nav ul {
 .header-nav a {
   color: white;
   font-size: 17px;
-  ;
+  text-decoration: none;
 }
 
 .header-nav li {
@@ -522,6 +519,8 @@ nav ul {
   width: 135px;
   height: 25px;
   padding-top: 13px;
+  color: white;
+  text-decoration: none;
 }
 
 .flag-material {
@@ -541,6 +540,11 @@ nav ul {
 .popular-product-item {
   margin-top: 12px;
   margin-left: 53px;
+}
+
+.popular-product-item a {
+  color: white;
+  text-decoration: none;
 }
 
 .instrument {
@@ -584,6 +588,8 @@ nav ul {
   width: 135px;
   height: 25px;
   padding-top: 13px;
+  color: white;
+  text-decoration: none;
 }
 
 .main-top-slider {
@@ -645,12 +651,12 @@ nav ul {
 .slider-top-item {
   height: 266px;
   display: none;
-  background: no-repeat url("../img/slaider_back1.jpg") 0 0;
+  background: #695c53 no-repeat url("../img/slaider_back1.jpg") 0 0;
 }
 
 .slider-top-item-second {
   display: none;
-  background: no-repeat url("../img/slaider_back2.jpg") 0 0;
+  background: #695c53 no-repeat url("../img/slaider_back2.jpg") 0 0;
 }
 
 .slider-top-item {
@@ -721,6 +727,8 @@ nav ul {
   line-height: 18px;
   letter-spacing: normal;
   text-align: center;
+  color: white;
+  text-decoration: none;
 }
 
 .icon-left {
@@ -814,6 +822,8 @@ nav ul {
   width: 135px;
   height: 25px;
   padding-top: 13px;
+  color: white;
+  text-decoration: none;
 }
 
 .sale {
@@ -856,6 +866,8 @@ nav ul {
   width: 135px;
   height: 25px;
   padding-top: 13px;
+  color: white;
+  text-decoration: none;
 }
 
 .delivery {
@@ -898,6 +910,8 @@ nav ul {
   width: 135px;
   height: 25px;
   padding-top: 13px;
+  color: white;
+  text-decoration: none;
 }
 
 
@@ -1105,6 +1119,8 @@ nav ul {
 .left-side-description-button-article {
   display: block;
   padding-top: 12px;
+  color: white;
+  text-decoration: none;
 }
 
 .right-side-description-article {
@@ -1136,6 +1152,8 @@ nav ul {
   display: block;
   padding-top: 12px;
   padding-left: 7px;
+  color: white;
+  text-decoration: none;
 }
 
 
@@ -1181,6 +1199,11 @@ nav ul {
   justify-content: space-between;
   margin-top: 38px;
   list-style: none;
+}
+
+.footer-bot-items a {
+  color: white;
+  text-decoration: none;
 }
 
 .footer-middle-adress {
@@ -1973,6 +1996,11 @@ nav ul {
   margin-left: 68px;
   margin-top: 11px;
   text-transform: uppercase;
+}
+
+.popular-developer-item a {
+  color: white;
+  text-decoration: none;
 }
 
 .developers {
