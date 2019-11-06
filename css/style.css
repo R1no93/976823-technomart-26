@@ -1390,18 +1390,9 @@ nav ul {
   color: black;
   border: none;
   padding: 0;
-  margin-bottom: 25px;
-}
-
-.devider {
-  width: 220px;
-  height: 1px;
-  background: #c5c5c5;
-  margin-left: 2px;
-}
-
-.devider-top {
-  margin-top: 31px;
+  margin-bottom: 16px;
+  border-bottom: 1px solid #c5c5c5;
+  padding-bottom: 33px;
 }
 
 .filter {
@@ -1434,6 +1425,7 @@ nav ul {
   margin: 0;
   padding: 0;
   margin-top: 17px;
+  border-bottom: 1px solid #c5c5c5;
 }
 
 .filter-developer-list {
