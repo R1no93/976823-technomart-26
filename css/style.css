@@ -586,10 +586,10 @@ nav ul {
 }
 
 .main-top-slider {
-  position: absolute;
+  position: relative;
   width: 620px;
   height: 266px;
-  margin-top: 143px;
+  top: 9px;
 }
 
 .slider-top-list {
