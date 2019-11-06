@@ -391,74 +391,6 @@ a {
 
 /*Стилизация 1 блока*/
 
-.main-top {
-  display: flex;
-  margin: 0 auto;
-  width: 940px;
-  margin-top: 59px;
-}
-
-.main-blocks {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.material {
-  display: flex;
-  flex-direction: column;
-  background-color: #ffbf47;
-  color: white;
-  width: 300px;
-  height: 123px;
-}
-
-.material-header {
-  font-weight: bold;
-  font-size: 24px;
-  line-height: 30px;
-  margin-top: 21px;
-  margin-left: 22px;
-}
-
-.material-icon {
-  position: absolute;
-  margin-left: 213px;
-  margin-top: 31px;
-}
-
-.material-link {
-  position: relative;
-  left: 25px;
-  top: -14px;
-  font-size: 14px;
-  line-height: 18px;
-  font-weight: normal;
-  text-transform: uppercase;
-  background-color: rgba(0, 0, 0, 0.1);
-  text-align: center;
-  width: 135px;
-  height: 25px;
-  padding-top: 13px;
-}
-
-.flag-material {
-  position: absolute;
-  margin-left: 240px;
-}
-
-.popular-product-button {
-  width: 253px;
-  height: 38px;
-  background-color: #ee3643;
-  margin-top: 25px;
-  margin-left: 372px;
-}
-
-.popular-product-item {
-  margin-top: 12px;
-  margin-left: 53px;
-}
-
 
 /*Стилизация навигационного меню*/
 
@@ -540,7 +472,78 @@ nav ul {
   justify-content: space-between;
 }
 
+.main-top {
+  display: flex;
+  margin: 0 auto;
+  width: 940px;
+  margin-top: 59px;
+}
+
+.main-blocks {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.material {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  background-color: #ffbf47;
+  color: white;
+  width: 300px;
+  height: 123px;
+}
+
+.material-header {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 30px;
+  margin-top: 21px;
+  margin-left: 22px;
+}
+
+.material-icon {
+  position: absolute;
+  top: 31px;
+  left: 212px;
+}
+
+.material-link {
+  position: relative;
+  left: 25px;
+  top: -14px;
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: normal;
+  text-transform: uppercase;
+  background-color: rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 135px;
+  height: 25px;
+  padding-top: 13px;
+}
+
+.flag-material {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.popular-product-button {
+  width: 253px;
+  height: 38px;
+  background-color: #ee3643;
+  margin-top: 25px;
+  margin-left: 372px;
+}
+
+.popular-product-item {
+  margin-top: 12px;
+  margin-left: 53px;
+}
+
 .instrument {
+  position: relative;
   display: flex;
   flex-direction: column;
   background-color: #3bbce3;
@@ -563,8 +566,8 @@ nav ul {
 
 .instrument-icon {
   position: absolute;
-  margin-left: 198px;
-  margin-top: 33px;
+  top: 34px;
+  left: 198px;
 }
 
 .instrument-link {
@@ -771,6 +774,7 @@ nav ul {
 }
 
 .technic {
+  position: relative;
   display: flex;
   flex-direction: column;
   background-color: #dc91d8;
@@ -791,8 +795,8 @@ nav ul {
 
 .technic-icon {
   position: absolute;
-  margin-left: 191px;
-  margin-top: 31px;
+  top: 30px;
+  left: 192px;
 }
 
 .technic-link {
@@ -811,6 +815,7 @@ nav ul {
 }
 
 .sale {
+  position: relative;
   display: flex;
   flex-direction: column;
   background-color: #8ed78f;
@@ -832,8 +837,8 @@ nav ul {
 
 .sale-icon {
   position: absolute;
-  margin-left: 196px;
-  margin-top: 26px;
+  top: 26px;
+  left: 196px;
 }
 
 .sale-link {
@@ -852,6 +857,7 @@ nav ul {
 }
 
 .delivery {
+  position: relative;
   display: flex;
   flex-direction: column;
   background-color: #ffc047;
@@ -873,8 +879,8 @@ nav ul {
 
 .delivery-icon {
   position: absolute;
-  margin-left: 191px;
-  margin-top: 32px;
+  top: 31px;
+  left: 190px;
 }
 
 .delivery-link {
