@@ -910,9 +910,11 @@ nav ul {
   border: solid 1px #eaeaea;
   margin-right: 20px;
 }
+
 .popular-catalog-item.catalog-margin {
   margin-top: 20px;
 }
+
 .flag-catalog {
   position: absolute;
   margin-left: 159px;
@@ -1068,7 +1070,7 @@ nav ul {
   left: 0;
   width: 25px;
   height: 2px;
-  content: '';
+  content: "";
   background-color: red;
 }
 
@@ -1310,7 +1312,7 @@ nav ul {
   font-size: 13px;
   line-height: 18px;
   color: #000000;
-  font-family: 'PT Sans', Arial, sans-serif;
+  font-family: "PT Sans", Arial, sans-serif;
   text-transform: uppercase;
 }
 
@@ -1329,8 +1331,8 @@ nav ul {
   right: 16px;
   width: 8px;
   height: 12px;
-  content: '';
-  background: url('../img/icon-right-small.svg') no-repeat 0 0;
+  content: "";
+  background: url("../img/icon-right-small.svg") no-repeat 0 0;
 }
 
 
@@ -1436,9 +1438,9 @@ nav ul {
 .filter-developer-items {
   margin-bottom: 20px;
   -webkit-user-select: none;
-     -moz-user-select: none;
-      -ms-user-select: none;
-          user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
 .filter-developer-items label {
@@ -1456,7 +1458,7 @@ nav ul {
   height: 23px;
   top: -3px;
   left: 0px;
-  background: url("../img/checkbox_off.png") no-repeat 0 0;
+  background: url("../img/checkbox-off.svg") no-repeat 0 0;
 }
 
 .filter-developer-checkbox:checked+label::after {
@@ -1466,7 +1468,7 @@ nav ul {
   height: 23px;
   top: -3px;
   left: 0px;
-  background: url("../img/checkbox_on.png") no-repeat 0 0;
+  background: url("../img/checkbox-on.svg") no-repeat 0 0;
 }
 
 .filter-developer legend {
@@ -1499,9 +1501,9 @@ nav ul {
 .filter-power-items {
   margin-bottom: 19px;
   -webkit-user-select: none;
-     -moz-user-select: none;
-      -ms-user-select: none;
-          user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
 .filter-power-items label {
@@ -1519,7 +1521,7 @@ nav ul {
   height: 25px;
   left: 0;
   top: -3px;
-  background: url("../img/radio_off.png") no-repeat 0 0;
+  background: url("../img/radio-off.svg") no-repeat 0 0;
 }
 
 .filter-power-radio:checked+label::before {
@@ -1529,7 +1531,7 @@ nav ul {
   height: 25px;
   left: 0;
   top: -3px;
-  background: url("../img/radio_on.png") no-repeat 0 0;
+  background: url("../img/radio-on.svg") no-repeat 0 0;
 }
 
 .filter-power legend {
@@ -1750,9 +1752,9 @@ nav ul {
   text-transform: uppercase;
   margin-top: 10px;
   -webkit-text-decoration-style: dotted;
-          text-decoration-style: dotted;
+  text-decoration-style: dotted;
   -webkit-text-decoration-color: #ee3643;
-          text-decoration-color: #ee3643;
+  text-decoration-color: #ee3643;
 }
 
 .sort-on-func {
@@ -1764,9 +1766,9 @@ nav ul {
   margin-top: 10px;
   text-decoration: none;
   -webkit-text-decoration-style: dotted;
-          text-decoration-style: dotted;
+  text-decoration-style: dotted;
   -webkit-text-decoration-color: #ee3643;
-          text-decoration-color: #ee3643;
+  text-decoration-color: #ee3643;
 }
 
 .sort-up {
@@ -2366,7 +2368,7 @@ p.slider-description-second-article {
   background-color: #ee3643;
   top: 37px;
   left: 80px;
-  font-family: 'Cuprum', Arial, sans-serif;
+  font-family: "Cuprum", Arial, sans-serif;
   font-size: 14px;
   font-weight: normal;
   font-stretch: normal;
@@ -2387,7 +2389,7 @@ p.slider-description-second-article {
   background-color: white;
   top: 0px;
   left: 330px;
-  font-family: 'Cuprum', Arial, sans-serif;
+  font-family: "Cuprum", Arial, sans-serif;
   font-size: 14px;
   font-weight: normal;
   font-stretch: normal;
@@ -2405,7 +2407,7 @@ p.slider-description-second-article {
   width: 220px;
   height: 163px;
   background: white;
-  font-family: 'PT Sans', Arial, sans-serif;
+  font-family: "PT Sans", Arial, sans-serif;
   font-size: 17px;
   font-weight: normal;
   font-stretch: normal;
@@ -2416,7 +2418,7 @@ p.slider-description-second-article {
 }
 
 .range-title {
-  font-family: 'PT Sans', Arial, sans-serif;
+  font-family: "PT Sans", Arial, sans-serif;
   font-size: 17px;
   font-weight: bold;
   font-stretch: normal;
@@ -2539,7 +2541,7 @@ p.slider-description-second-article {
 .whrite-us label {
   display: flex;
   flex-direction: column;
-  font-family: 'Cuprum', Arial, sans-serif;
+  font-family: "Cuprum", Arial, sans-serif;
   font-size: 18px;
   font-weight: normal;
   font-stretch: normal;
