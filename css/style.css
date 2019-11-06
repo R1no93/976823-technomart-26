@@ -5,6 +5,7 @@ body {
   font-weight: normal;
   background-color: white;
   background-repeat: no-repeat;
+  min-width: 960px;
 }
 
 body h1 {
@@ -589,7 +590,7 @@ nav ul {
   position: relative;
   width: 620px;
   height: 266px;
-  top: 9px;
+  margin-top: 17px;
 }
 
 .slider-top-list {
@@ -919,6 +920,14 @@ nav ul {
 
 .popular-catalog-item.catalog-margin {
   margin-top: 20px;
+}
+
+.catalog-margin:nth-child(3n) {
+  margin-right: 0;
+}
+
+.popular-catalog.popular-catalog-item:nth-child(4n) {
+  margin-right: 0;
 }
 
 .flag-catalog {
@@ -1743,7 +1752,6 @@ nav ul {
 
 .sort-on-price {
   display: flex;
-  width: 58px;
   color: red;
   margin-left: 139px;
   text-transform: uppercase;
@@ -1752,7 +1760,6 @@ nav ul {
 
 .sort-on-type {
   display: flex;
-  width: 53px;
   color: rgba(0, 0, 0, 0.3);
   margin-left: 65px;
   text-transform: uppercase;
@@ -1765,7 +1772,6 @@ nav ul {
 
 .sort-on-func {
   display: flex;
-  width: 113px;
   color: rgba(0, 0, 0, 0.3);
   margin-left: 65px;
   text-transform: uppercase;
@@ -1793,7 +1799,7 @@ nav ul {
 .catalog-items {
   display: flex;
   flex-wrap: wrap;
-  width: 720px;
+  width: 700px;
 }
 
 .popular-catalog-button {
