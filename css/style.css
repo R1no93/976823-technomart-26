@@ -740,6 +740,7 @@ nav ul {
 .slider-top-control i {
   position: relative;
   display: inline-block;
+  vertical-align: baseline;
   width: 10px;
   height: 10px;
   border-radius: 50%;
@@ -1252,9 +1253,18 @@ nav ul {
   margin-bottom: 35px;
 }
 
+.footer-bottom-feedback a:hover,
+.footer-bottom-developer a:hover {
+  text-decoration: underline;
+}
+
+.footer-bottom-feedback a:focus,
+.footer-bottom-developer a:focus {
+  color: #ee3643;
+}
+
 .footer-bot a:hover,
-.footer-middle a:hover,
-.footer-bottom p a:hover {
+.footer-middle a:hover {
   text-decoration: underline;
 }
 
@@ -1264,10 +1274,6 @@ nav ul {
 
 .footer-middle a:focus {
   color: rgba(255, 209, 128, 0.5);
-}
-
-.footer-bottom p a:focus {
-  color: #ee3643;
 }
 
 .footer-bot li,
@@ -1569,25 +1575,6 @@ nav ul {
 
 
 /*Стилизация сортировки товара*/
-
-.popular-catalog-item-catalog-page {
-  width: 220px;
-  height: 316px;
-  display: inline-block;
-  position: relative;
-  margin-right: 13px;
-  margin-top: 20px;
-  border: solid 1px #eaeaea;
-}
-
-.popular-catalog-item-last-of-list {
-  width: 220px;
-  display: inline-block;
-  position: relative;
-  margin-right: 0px;
-  margin-top: 20px;
-  border: solid 1px #eaeaea;
-}
 
 .popular-catalog-item-catalog-page .flag {
   position: absolute;
